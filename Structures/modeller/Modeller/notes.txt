@@ -1,0 +1,10 @@
+PTEN_Ptase2.pdb is the structure generated with Modeller (Fionas script for generation of both loops and helix)
+The structure is truncated to contain res 1-186 (only Ptase domain)
+Truncation done in PyMOL
+
+
+PTEN_FL2.pdb is the structure generated with Modeller (fionas script for generation of both loops and helix)
+The structure is truncated to contain res 1-352 (Full length, but without long C-terminal loop)
+Truncation done in PyMOL
+
+

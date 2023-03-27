@@ -1,0 +1,3969 @@
+; MARTINI (martini22) Coarse Grained topology file for "Protein_B"
+; Created by py version 2.6_3 
+; Using the following options:  -f SHIP2_Ptase_rot_cent.pdb -x SHIP2_Ptase_CG.pdb -o topol.top -v -ff martini22 -elastic -dssp dssp
+; Sequence:
+; EPDMISVFIGTWNMGSVPPPKNVTSWFTSKGLGKTLDEVTVTIPHDIYVFGTQENSVGDREWLDLLRGGLKELTDLDYRPIAMQSLWNIKVAVLVKPEHENRISHVSTSSVKTGIANTLGNKGAVGVSFMFNGTSFGFVNCHLTSGNEKTARRNQNYLDILRLLSLGDRQLNAFDISLRFTHLFWFGDLNYRLDMDIQEILNYISRKEFEPLLRVDQLNLEREKHKVFLRFSEEEISFPPTYRYERGSRDTYAWHKQKPTGVRTNVPSWCDRILWKSYPETHIICNSYGCTDDIVTSDHSPVFGTFEVGVTS
+; Secondary Structure:
+; CCSEEEEEEEEEECTTSCCCSCC3333TTCSEEECCTTCSSCCCCSEEEEEEESCCSC1111HHHHHHHH2222SSCCEEEEEEEETTEEEEEEECCCCCCCEEEEEEEEEECCSSTTCCSCEEEEEEEEETTEEEEEEEEECCCSTTC1111HHHHHH2222CCCCSSCCTTCC3333SSEEEEEEECCCCCSSC1111H2222TTCC3333TTC1113222TTSSSTTCCCCCCCSCCCCCCCTTCSSCCCCCSCCCTTCCCCCCCCCEEEEEEECTTCCEEEEEEEECSSCCSSSSCCEEEEEEEECCC
+
+[ moleculetype ]
+; Name         Exclusions
+Protein_B         1
+
+[ atoms ]
+    1    Qd     1   GLU    BB     1  1.0000 ; C
+    2    Qa     1   GLU   SC1     2 -1.0000 ; C
+    3    P4     2   PRO    BB     3  0.0000 ; C
+    4    C3     2   PRO   SC1     4  0.0000 ; C
+    5    P5     3   ASP    BB     5  0.0000 ; S
+    6    Qa     3   ASP   SC1     6 -1.0000 ; S
+    7   Nda     4   MET    BB     7  0.0000 ; E
+    8    C5     4   MET   SC1     8  0.0000 ; E
+    9   Nda     5   ILE    BB     9  0.0000 ; E
+   10   AC1     5   ILE   SC1    10  0.0000 ; E
+   11   Nda     6   SER    BB    11  0.0000 ; E
+   12    P1     6   SER   SC1    12  0.0000 ; E
+   13   Nda     7   VAL    BB    13  0.0000 ; E
+   14   AC2     7   VAL   SC1    14  0.0000 ; E
+   15   Nda     8   PHE    BB    15  0.0000 ; E
+   16   SC5     8   PHE   SC1    16  0.0000 ; E
+   17   SC5     8   PHE   SC2    17  0.0000 ; E
+   18   SC5     8   PHE   SC3    18  0.0000 ; E
+   19   Nda     9   ILE    BB    19  0.0000 ; E
+   20   AC1     9   ILE   SC1    20  0.0000 ; E
+   21   Nda    10   GLY    BB    21  0.0000 ; E
+   22   Nda    11   THR    BB    22  0.0000 ; E
+   23    P1    11   THR   SC1    23  0.0000 ; E
+   24   Nda    12   TRP    BB    24  0.0000 ; E
+   25   SC4    12   TRP   SC1    25  0.0000 ; E
+   26   SNd    12   TRP   SC2    26  0.0000 ; E
+   27   SC5    12   TRP   SC3    27  0.0000 ; E
+   28   SC5    12   TRP   SC4    28  0.0000 ; E
+   29   Nda    13   ASN    BB    29  0.0000 ; E
+   30    P5    13   ASN   SC1    30  0.0000 ; E
+   31    P5    14   MET    BB    31  0.0000 ; C
+   32    C5    14   MET   SC1    32  0.0000 ; C
+   33   Nda    15   GLY    BB    33  0.0000 ; T
+   34   Nda    16   SER    BB    34  0.0000 ; T
+   35    P1    16   SER   SC1    35  0.0000 ; T
+   36    P5    17   VAL    BB    36  0.0000 ; S
+   37   AC2    17   VAL   SC1    37  0.0000 ; S
+   38    P4    18   PRO    BB    38  0.0000 ; C
+   39    C3    18   PRO   SC1    39  0.0000 ; C
+   40    P4    19   PRO    BB    40  0.0000 ; C
+   41    C3    19   PRO   SC1    41  0.0000 ; C
+   42    P4    20   PRO    BB    42  0.0000 ; C
+   43    C3    20   PRO   SC1    43  0.0000 ; C
+   44    P5    21   LYS    BB    44  0.0000 ; S
+   45    C3    21   LYS   SC1    45  0.0000 ; S
+   46    Qd    21   LYS   SC2    46  1.0000 ; S
+   47    P5    22   ASN    BB    47  0.0000 ; C
+   48    P5    22   ASN   SC1    48  0.0000 ; C
+   49    P5    23   VAL    BB    49  0.0000 ; C
+   50   AC2    23   VAL   SC1    50  0.0000 ; C
+   51   Nda    24   THR    BB    51  0.0000 ; 3
+   52    P1    24   THR   SC1    52  0.0000 ; 3
+   53   Nda    25   SER    BB    53  0.0000 ; 3
+   54    P1    25   SER   SC1    54  0.0000 ; 3
+   55   Nda    26   TRP    BB    55  0.0000 ; 3
+   56   SC4    26   TRP   SC1    56  0.0000 ; 3
+   57   SNd    26   TRP   SC2    57  0.0000 ; 3
+   58   SC5    26   TRP   SC3    58  0.0000 ; 3
+   59   SC5    26   TRP   SC4    59  0.0000 ; 3
+   60   Nda    27   PHE    BB    60  0.0000 ; 3
+   61   SC5    27   PHE   SC1    61  0.0000 ; 3
+   62   SC5    27   PHE   SC2    62  0.0000 ; 3
+   63   SC5    27   PHE   SC3    63  0.0000 ; 3
+   64   Nda    28   THR    BB    64  0.0000 ; T
+   65    P1    28   THR   SC1    65  0.0000 ; T
+   66   Nda    29   SER    BB    66  0.0000 ; T
+   67    P1    29   SER   SC1    67  0.0000 ; T
+   68    P5    30   LYS    BB    68  0.0000 ; C
+   69    C3    30   LYS   SC1    69  0.0000 ; C
+   70    Qd    30   LYS   SC2    70  1.0000 ; C
+   71    P5    31   GLY    BB    71  0.0000 ; S
+   72   Nda    32   LEU    BB    72  0.0000 ; E
+   73   AC1    32   LEU   SC1    73  0.0000 ; E
+   74   Nda    33   GLY    BB    74  0.0000 ; E
+   75   Nda    34   LYS    BB    75  0.0000 ; E
+   76    C3    34   LYS   SC1    76  0.0000 ; E
+   77    Qd    34   LYS   SC2    77  1.0000 ; E
+   78    P5    35   THR    BB    78  0.0000 ; C
+   79    P1    35   THR   SC1    79  0.0000 ; C
+   80    P5    36   LEU    BB    80  0.0000 ; C
+   81   AC1    36   LEU   SC1    81  0.0000 ; C
+   82   Nda    37   ASP    BB    82  0.0000 ; T
+   83    Qa    37   ASP   SC1    83 -1.0000 ; T
+   84   Nda    38   GLU    BB    84  0.0000 ; T
+   85    Qa    38   GLU   SC1    85 -1.0000 ; T
+   86    P5    39   VAL    BB    86  0.0000 ; C
+   87   AC2    39   VAL   SC1    87  0.0000 ; C
+   88    P5    40   THR    BB    88  0.0000 ; S
+   89    P1    40   THR   SC1    89  0.0000 ; S
+   90    P5    41   VAL    BB    90  0.0000 ; S
+   91   AC2    41   VAL   SC1    91  0.0000 ; S
+   92    P5    42   THR    BB    92  0.0000 ; C
+   93    P1    42   THR   SC1    93  0.0000 ; C
+   94    P5    43   ILE    BB    94  0.0000 ; C
+   95   AC1    43   ILE   SC1    95  0.0000 ; C
+   96    P4    44   PRO    BB    96  0.0000 ; C
+   97    C3    44   PRO   SC1    97  0.0000 ; C
+   98    P5    45   HIS    BB    98  0.0000 ; C
+   99   SC4    45   HIS   SC1    99  0.0000 ; C
+  100   SP1    45   HIS   SC2   100  0.0000 ; C
+  101   SP1    45   HIS   SC3   101  0.0000 ; C
+  102    P5    46   ASP    BB   102  0.0000 ; S
+  103    Qa    46   ASP   SC1   103 -1.0000 ; S
+  104   Nda    47   ILE    BB   104  0.0000 ; E
+  105   AC1    47   ILE   SC1   105  0.0000 ; E
+  106   Nda    48   TYR    BB   106  0.0000 ; E
+  107   SC4    48   TYR   SC1   107  0.0000 ; E
+  108   SC4    48   TYR   SC2   108  0.0000 ; E
+  109   SP1    48   TYR   SC3   109  0.0000 ; E
+  110   Nda    49   VAL    BB   110  0.0000 ; E
+  111   AC2    49   VAL   SC1   111  0.0000 ; E
+  112   Nda    50   PHE    BB   112  0.0000 ; E
+  113   SC5    50   PHE   SC1   113  0.0000 ; E
+  114   SC5    50   PHE   SC2   114  0.0000 ; E
+  115   SC5    50   PHE   SC3   115  0.0000 ; E
+  116   Nda    51   GLY    BB   116  0.0000 ; E
+  117   Nda    52   THR    BB   117  0.0000 ; E
+  118    P1    52   THR   SC1   118  0.0000 ; E
+  119   Nda    53   GLN    BB   119  0.0000 ; E
+  120    P4    53   GLN   SC1   120  0.0000 ; E
+  121    P5    54   GLU    BB   121  0.0000 ; S
+  122    Qa    54   GLU   SC1   122 -1.0000 ; S
+  123    P5    55   ASN    BB   123  0.0000 ; C
+  124    P5    55   ASN   SC1   124  0.0000 ; C
+  125    P5    56   SER    BB   125  0.0000 ; C
+  126    P1    56   SER   SC1   126  0.0000 ; C
+  127    P5    57   VAL    BB   127  0.0000 ; S
+  128   AC2    57   VAL   SC1   128  0.0000 ; S
+  129    P5    58   GLY    BB   129  0.0000 ; C
+  130    Nd    59   ASP    BB   130  0.0000 ; 1
+  131    Qa    59   ASP   SC1   131 -1.0000 ; 1
+  132    Nd    60   ARG    BB   132  0.0000 ; 1
+  133    N0    60   ARG   SC1   133  0.0000 ; 1
+  134    Qd    60   ARG   SC2   134  1.0000 ; 1
+  135    Nd    61   GLU    BB   135  0.0000 ; 1
+  136    Qa    61   GLU   SC1   136 -1.0000 ; 1
+  137    Nd    62   TRP    BB   137  0.0000 ; 1
+  138   SC4    62   TRP   SC1   138  0.0000 ; 1
+  139   SNd    62   TRP   SC2   139  0.0000 ; 1
+  140   SC5    62   TRP   SC3   140  0.0000 ; 1
+  141   SC5    62   TRP   SC4   141  0.0000 ; 1
+  142    N0    63   LEU    BB   142  0.0000 ; H
+  143   AC1    63   LEU   SC1   143  0.0000 ; H
+  144    N0    64   ASP    BB   144  0.0000 ; H
+  145    Qa    64   ASP   SC1   145 -1.0000 ; H
+  146    N0    65   LEU    BB   146  0.0000 ; H
+  147   AC1    65   LEU   SC1   147  0.0000 ; H
+  148    N0    66   LEU    BB   148  0.0000 ; H
+  149   AC1    66   LEU   SC1   149  0.0000 ; H
+  150    N0    67   ARG    BB   150  0.0000 ; H
+  151    N0    67   ARG   SC1   151  0.0000 ; H
+  152    Qd    67   ARG   SC2   152  1.0000 ; H
+  153    N0    68   GLY    BB   153  0.0000 ; H
+  154    N0    69   GLY    BB   154  0.0000 ; H
+  155    N0    70   LEU    BB   155  0.0000 ; H
+  156   AC1    70   LEU   SC1   156  0.0000 ; H
+  157    Na    71   LYS    BB   157  0.0000 ; 2
+  158    C3    71   LYS   SC1   158  0.0000 ; 2
+  159    Qd    71   LYS   SC2   159  1.0000 ; 2
+  160    Na    72   GLU    BB   160  0.0000 ; 2
+  161    Qa    72   GLU   SC1   161 -1.0000 ; 2
+  162    Na    73   LEU    BB   162  0.0000 ; 2
+  163   AC1    73   LEU   SC1   163  0.0000 ; 2
+  164    Na    74   THR    BB   164  0.0000 ; 2
+  165    P1    74   THR   SC1   165  0.0000 ; 2
+  166    P5    75   ASP    BB   166  0.0000 ; S
+  167    Qa    75   ASP   SC1   167 -1.0000 ; S
+  168    P5    76   LEU    BB   168  0.0000 ; S
+  169   AC1    76   LEU   SC1   169  0.0000 ; S
+  170    P5    77   ASP    BB   170  0.0000 ; C
+  171    Qa    77   ASP   SC1   171 -1.0000 ; C
+  172    P5    78   TYR    BB   172  0.0000 ; C
+  173   SC4    78   TYR   SC1   173  0.0000 ; C
+  174   SC4    78   TYR   SC2   174  0.0000 ; C
+  175   SP1    78   TYR   SC3   175  0.0000 ; C
+  176   Nda    79   ARG    BB   176  0.0000 ; E
+  177    N0    79   ARG   SC1   177  0.0000 ; E
+  178    Qd    79   ARG   SC2   178  1.0000 ; E
+  179    N0    80   PRO    BB   179  0.0000 ; E
+  180    C3    80   PRO   SC1   180  0.0000 ; E
+  181   Nda    81   ILE    BB   181  0.0000 ; E
+  182   AC1    81   ILE   SC1   182  0.0000 ; E
+  183    N0    82   ALA    BB   183  0.0000 ; E
+  184   Nda    83   MET    BB   184  0.0000 ; E
+  185    C5    83   MET   SC1   185  0.0000 ; E
+  186   Nda    84   GLN    BB   186  0.0000 ; E
+  187    P4    84   GLN   SC1   187  0.0000 ; E
+  188   Nda    85   SER    BB   188  0.0000 ; E
+  189    P1    85   SER   SC1   189  0.0000 ; E
+  190   Nda    86   LEU    BB   190  0.0000 ; E
+  191   AC1    86   LEU   SC1   191  0.0000 ; E
+  192   Nda    87   TRP    BB   192  0.0000 ; T
+  193   SC4    87   TRP   SC1   193  0.0000 ; T
+  194   SNd    87   TRP   SC2   194  0.0000 ; T
+  195   SC5    87   TRP   SC3   195  0.0000 ; T
+  196   SC5    87   TRP   SC4   196  0.0000 ; T
+  197   Nda    88   ASN    BB   197  0.0000 ; T
+  198    P5    88   ASN   SC1   198  0.0000 ; T
+  199   Nda    89   ILE    BB   199  0.0000 ; E
+  200   AC1    89   ILE   SC1   200  0.0000 ; E
+  201   Nda    90   LYS    BB   201  0.0000 ; E
+  202    C3    90   LYS   SC1   202  0.0000 ; E
+  203    Qd    90   LYS   SC2   203  1.0000 ; E
+  204   Nda    91   VAL    BB   204  0.0000 ; E
+  205   AC2    91   VAL   SC1   205  0.0000 ; E
+  206    N0    92   ALA    BB   206  0.0000 ; E
+  207   Nda    93   VAL    BB   207  0.0000 ; E
+  208   AC2    93   VAL   SC1   208  0.0000 ; E
+  209   Nda    94   LEU    BB   209  0.0000 ; E
+  210   AC1    94   LEU   SC1   210  0.0000 ; E
+  211   Nda    95   VAL    BB   211  0.0000 ; E
+  212   AC2    95   VAL   SC1   212  0.0000 ; E
+  213    P5    96   LYS    BB   213  0.0000 ; C
+  214    C3    96   LYS   SC1   214  0.0000 ; C
+  215    Qd    96   LYS   SC2   215  1.0000 ; C
+  216    P4    97   PRO    BB   216  0.0000 ; C
+  217    C3    97   PRO   SC1   217  0.0000 ; C
+  218    P5    98   GLU    BB   218  0.0000 ; C
+  219    Qa    98   GLU   SC1   219 -1.0000 ; C
+  220    P5    99   HIS    BB   220  0.0000 ; C
+  221   SC4    99   HIS   SC1   221  0.0000 ; C
+  222   SP1    99   HIS   SC2   222  0.0000 ; C
+  223   SP1    99   HIS   SC3   223  0.0000 ; C
+  224    P5   100   GLU    BB   224  0.0000 ; C
+  225    Qa   100   GLU   SC1   225 -1.0000 ; C
+  226    P5   101   ASN    BB   226  0.0000 ; C
+  227    P5   101   ASN   SC1   227  0.0000 ; C
+  228    P5   102   ARG    BB   228  0.0000 ; C
+  229    N0   102   ARG   SC1   229  0.0000 ; C
+  230    Qd   102   ARG   SC2   230  1.0000 ; C
+  231   Nda   103   ILE    BB   231  0.0000 ; E
+  232   AC1   103   ILE   SC1   232  0.0000 ; E
+  233   Nda   104   SER    BB   233  0.0000 ; E
+  234    P1   104   SER   SC1   234  0.0000 ; E
+  235   Nda   105   HIS    BB   235  0.0000 ; E
+  236   SC4   105   HIS   SC1   236  0.0000 ; E
+  237   SP1   105   HIS   SC2   237  0.0000 ; E
+  238   SP1   105   HIS   SC3   238  0.0000 ; E
+  239   Nda   106   VAL    BB   239  0.0000 ; E
+  240   AC2   106   VAL   SC1   240  0.0000 ; E
+  241   Nda   107   SER    BB   241  0.0000 ; E
+  242    P1   107   SER   SC1   242  0.0000 ; E
+  243   Nda   108   THR    BB   243  0.0000 ; E
+  244    P1   108   THR   SC1   244  0.0000 ; E
+  245   Nda   109   SER    BB   245  0.0000 ; E
+  246    P1   109   SER   SC1   246  0.0000 ; E
+  247   Nda   110   SER    BB   247  0.0000 ; E
+  248    P1   110   SER   SC1   248  0.0000 ; E
+  249   Nda   111   VAL    BB   249  0.0000 ; E
+  250   AC2   111   VAL   SC1   250  0.0000 ; E
+  251   Nda   112   LYS    BB   251  0.0000 ; E
+  252    C3   112   LYS   SC1   252  0.0000 ; E
+  253    Qd   112   LYS   SC2   253  1.0000 ; E
+  254    P5   113   THR    BB   254  0.0000 ; C
+  255    P1   113   THR   SC1   255  0.0000 ; C
+  256    P5   114   GLY    BB   256  0.0000 ; C
+  257    P5   115   ILE    BB   257  0.0000 ; S
+  258   AC1   115   ILE   SC1   258  0.0000 ; S
+  259    P4   116   ALA    BB   259  0.0000 ; S
+  260   Nda   117   ASN    BB   260  0.0000 ; T
+  261    P5   117   ASN   SC1   261  0.0000 ; T
+  262   Nda   118   THR    BB   262  0.0000 ; T
+  263    P1   118   THR   SC1   263  0.0000 ; T
+  264    P5   119   LEU    BB   264  0.0000 ; C
+  265   AC1   119   LEU   SC1   265  0.0000 ; C
+  266    P5   120   GLY    BB   266  0.0000 ; C
+  267    P5   121   ASN    BB   267  0.0000 ; S
+  268    P5   121   ASN   SC1   268  0.0000 ; S
+  269    P5   122   LYS    BB   269  0.0000 ; C
+  270    C3   122   LYS   SC1   270  0.0000 ; C
+  271    Qd   122   LYS   SC2   271  1.0000 ; C
+  272   Nda   123   GLY    BB   272  0.0000 ; E
+  273    N0   124   ALA    BB   273  0.0000 ; E
+  274   Nda   125   VAL    BB   274  0.0000 ; E
+  275   AC2   125   VAL   SC1   275  0.0000 ; E
+  276   Nda   126   GLY    BB   276  0.0000 ; E
+  277   Nda   127   VAL    BB   277  0.0000 ; E
+  278   AC2   127   VAL   SC1   278  0.0000 ; E
+  279   Nda   128   SER    BB   279  0.0000 ; E
+  280    P1   128   SER   SC1   280  0.0000 ; E
+  281   Nda   129   PHE    BB   281  0.0000 ; E
+  282   SC5   129   PHE   SC1   282  0.0000 ; E
+  283   SC5   129   PHE   SC2   283  0.0000 ; E
+  284   SC5   129   PHE   SC3   284  0.0000 ; E
+  285   Nda   130   MET    BB   285  0.0000 ; E
+  286    C5   130   MET   SC1   286  0.0000 ; E
+  287   Nda   131   PHE    BB   287  0.0000 ; E
+  288   SC5   131   PHE   SC1   288  0.0000 ; E
+  289   SC5   131   PHE   SC2   289  0.0000 ; E
+  290   SC5   131   PHE   SC3   290  0.0000 ; E
+  291   Nda   132   ASN    BB   291  0.0000 ; T
+  292    P5   132   ASN   SC1   292  0.0000 ; T
+  293   Nda   133   GLY    BB   293  0.0000 ; T
+  294   Nda   134   THR    BB   294  0.0000 ; E
+  295    P1   134   THR   SC1   295  0.0000 ; E
+  296   Nda   135   SER    BB   296  0.0000 ; E
+  297    P1   135   SER   SC1   297  0.0000 ; E
+  298   Nda   136   PHE    BB   298  0.0000 ; E
+  299   SC5   136   PHE   SC1   299  0.0000 ; E
+  300   SC5   136   PHE   SC2   300  0.0000 ; E
+  301   SC5   136   PHE   SC3   301  0.0000 ; E
+  302   Nda   137   GLY    BB   302  0.0000 ; E
+  303   Nda   138   PHE    BB   303  0.0000 ; E
+  304   SC5   138   PHE   SC1   304  0.0000 ; E
+  305   SC5   138   PHE   SC2   305  0.0000 ; E
+  306   SC5   138   PHE   SC3   306  0.0000 ; E
+  307   Nda   139   VAL    BB   307  0.0000 ; E
+  308   AC2   139   VAL   SC1   308  0.0000 ; E
+  309   Nda   140   ASN    BB   309  0.0000 ; E
+  310    P5   140   ASN   SC1   310  0.0000 ; E
+  311   Nda   141   CYS    BB   311  0.0000 ; E
+  312    C5   141   CYS   SC1   312  0.0000 ; E
+  313   Nda   142   HIS    BB   313  0.0000 ; E
+  314   SC4   142   HIS   SC1   314  0.0000 ; E
+  315   SP1   142   HIS   SC2   315  0.0000 ; E
+  316   SP1   142   HIS   SC3   316  0.0000 ; E
+  317    P5   143   LEU    BB   317  0.0000 ; C
+  318   AC1   143   LEU   SC1   318  0.0000 ; C
+  319    P5   144   THR    BB   319  0.0000 ; C
+  320    P1   144   THR   SC1   320  0.0000 ; C
+  321    P5   145   SER    BB   321  0.0000 ; C
+  322    P1   145   SER   SC1   322  0.0000 ; C
+  323    P5   146   GLY    BB   323  0.0000 ; S
+  324   Nda   147   ASN    BB   324  0.0000 ; T
+  325    P5   147   ASN   SC1   325  0.0000 ; T
+  326   Nda   148   GLU    BB   326  0.0000 ; T
+  327    Qa   148   GLU   SC1   327 -1.0000 ; T
+  328    P5   149   LYS    BB   328  0.0000 ; C
+  329    C3   149   LYS   SC1   329  0.0000 ; C
+  330    Qd   149   LYS   SC2   330  1.0000 ; C
+  331    Nd   150   THR    BB   331  0.0000 ; 1
+  332    P1   150   THR   SC1   332  0.0000 ; 1
+  333    N0   151   ALA    BB   333  0.0000 ; 1
+  334    Nd   152   ARG    BB   334  0.0000 ; 1
+  335    N0   152   ARG   SC1   335  0.0000 ; 1
+  336    Qd   152   ARG   SC2   336  1.0000 ; 1
+  337    Nd   153   ARG    BB   337  0.0000 ; 1
+  338    N0   153   ARG   SC1   338  0.0000 ; 1
+  339    Qd   153   ARG   SC2   339  1.0000 ; 1
+  340    N0   154   ASN    BB   340  0.0000 ; H
+  341    P5   154   ASN   SC1   341  0.0000 ; H
+  342    N0   155   GLN    BB   342  0.0000 ; H
+  343    P4   155   GLN   SC1   343  0.0000 ; H
+  344    N0   156   ASN    BB   344  0.0000 ; H
+  345    P5   156   ASN   SC1   345  0.0000 ; H
+  346    N0   157   TYR    BB   346  0.0000 ; H
+  347   SC4   157   TYR   SC1   347  0.0000 ; H
+  348   SC4   157   TYR   SC2   348  0.0000 ; H
+  349   SP1   157   TYR   SC3   349  0.0000 ; H
+  350    N0   158   LEU    BB   350  0.0000 ; H
+  351   AC1   158   LEU   SC1   351  0.0000 ; H
+  352    N0   159   ASP    BB   352  0.0000 ; H
+  353    Qa   159   ASP   SC1   353 -1.0000 ; H
+  354    Na   160   ILE    BB   354  0.0000 ; 2
+  355   AC1   160   ILE   SC1   355  0.0000 ; 2
+  356    Na   161   LEU    BB   356  0.0000 ; 2
+  357   AC1   161   LEU   SC1   357  0.0000 ; 2
+  358    Na   162   ARG    BB   358  0.0000 ; 2
+  359    N0   162   ARG   SC1   359  0.0000 ; 2
+  360    Qd   162   ARG   SC2   360  1.0000 ; 2
+  361    Na   163   LEU    BB   361  0.0000 ; 2
+  362   AC1   163   LEU   SC1   362  0.0000 ; 2
+  363    P5   164   LEU    BB   363  0.0000 ; C
+  364   AC1   164   LEU   SC1   364  0.0000 ; C
+  365    P5   165   SER    BB   365  0.0000 ; C
+  366    P1   165   SER   SC1   366  0.0000 ; C
+  367    P5   166   LEU    BB   367  0.0000 ; C
+  368   AC1   166   LEU   SC1   368  0.0000 ; C
+  369    P5   167   GLY    BB   369  0.0000 ; C
+  370    P5   168   ASP    BB   370  0.0000 ; S
+  371    Qa   168   ASP   SC1   371 -1.0000 ; S
+  372    P5   169   ARG    BB   372  0.0000 ; S
+  373    N0   169   ARG   SC1   373  0.0000 ; S
+  374    Qd   169   ARG   SC2   374  1.0000 ; S
+  375    P5   170   GLN    BB   375  0.0000 ; C
+  376    P4   170   GLN   SC1   376  0.0000 ; C
+  377    P5   171   LEU    BB   377  0.0000 ; C
+  378   AC1   171   LEU   SC1   378  0.0000 ; C
+  379   Nda   172   ASN    BB   379  0.0000 ; T
+  380    P5   172   ASN   SC1   380  0.0000 ; T
+  381    N0   173   ALA    BB   381  0.0000 ; T
+  382    P5   174   PHE    BB   382  0.0000 ; C
+  383   SC5   174   PHE   SC1   383  0.0000 ; C
+  384   SC5   174   PHE   SC2   384  0.0000 ; C
+  385   SC5   174   PHE   SC3   385  0.0000 ; C
+  386    P5   175   ASP    BB   386  0.0000 ; C
+  387    Qa   175   ASP   SC1   387 -1.0000 ; C
+  388   Nda   176   ILE    BB   388  0.0000 ; 3
+  389   AC1   176   ILE   SC1   389  0.0000 ; 3
+  390   Nda   177   SER    BB   390  0.0000 ; 3
+  391    P1   177   SER   SC1   391  0.0000 ; 3
+  392   Nda   178   LEU    BB   392  0.0000 ; 3
+  393   AC1   178   LEU   SC1   393  0.0000 ; 3
+  394   Nda   179   ARG    BB   394  0.0000 ; 3
+  395    N0   179   ARG   SC1   395  0.0000 ; 3
+  396    Qd   179   ARG   SC2   396  1.0000 ; 3
+  397    P5   180   PHE    BB   397  0.0000 ; S
+  398   SC5   180   PHE   SC1   398  0.0000 ; S
+  399   SC5   180   PHE   SC2   399  0.0000 ; S
+  400   SC5   180   PHE   SC3   400  0.0000 ; S
+  401    P5   181   THR    BB   401  0.0000 ; S
+  402    P1   181   THR   SC1   402  0.0000 ; S
+  403   Nda   182   HIS    BB   403  0.0000 ; E
+  404   SC4   182   HIS   SC1   404  0.0000 ; E
+  405   SP1   182   HIS   SC2   405  0.0000 ; E
+  406   SP1   182   HIS   SC3   406  0.0000 ; E
+  407   Nda   183   LEU    BB   407  0.0000 ; E
+  408   AC1   183   LEU   SC1   408  0.0000 ; E
+  409   Nda   184   PHE    BB   409  0.0000 ; E
+  410   SC5   184   PHE   SC1   410  0.0000 ; E
+  411   SC5   184   PHE   SC2   411  0.0000 ; E
+  412   SC5   184   PHE   SC3   412  0.0000 ; E
+  413   Nda   185   TRP    BB   413  0.0000 ; E
+  414   SC4   185   TRP   SC1   414  0.0000 ; E
+  415   SNd   185   TRP   SC2   415  0.0000 ; E
+  416   SC5   185   TRP   SC3   416  0.0000 ; E
+  417   SC5   185   TRP   SC4   417  0.0000 ; E
+  418   Nda   186   PHE    BB   418  0.0000 ; E
+  419   SC5   186   PHE   SC1   419  0.0000 ; E
+  420   SC5   186   PHE   SC2   420  0.0000 ; E
+  421   SC5   186   PHE   SC3   421  0.0000 ; E
+  422   Nda   187   GLY    BB   422  0.0000 ; E
+  423   Nda   188   ASP    BB   423  0.0000 ; E
+  424    Qa   188   ASP   SC1   424 -1.0000 ; E
+  425    P5   189   LEU    BB   425  0.0000 ; C
+  426   AC1   189   LEU   SC1   426  0.0000 ; C
+  427    P5   190   ASN    BB   427  0.0000 ; C
+  428    P5   190   ASN   SC1   428  0.0000 ; C
+  429    P5   191   TYR    BB   429  0.0000 ; C
+  430   SC4   191   TYR   SC1   430  0.0000 ; C
+  431   SC4   191   TYR   SC2   431  0.0000 ; C
+  432   SP1   191   TYR   SC3   432  0.0000 ; C
+  433    P5   192   ARG    BB   433  0.0000 ; C
+  434    N0   192   ARG   SC1   434  0.0000 ; C
+  435    Qd   192   ARG   SC2   435  1.0000 ; C
+  436    P5   193   LEU    BB   436  0.0000 ; C
+  437   AC1   193   LEU   SC1   437  0.0000 ; C
+  438    P5   194   ASP    BB   438  0.0000 ; S
+  439    Qa   194   ASP   SC1   439 -1.0000 ; S
+  440    P5   195   MET    BB   440  0.0000 ; S
+  441    C5   195   MET   SC1   441  0.0000 ; S
+  442    P5   196   ASP    BB   442  0.0000 ; C
+  443    Qa   196   ASP   SC1   443 -1.0000 ; C
+  444    Nd   197   ILE    BB   444  0.0000 ; 1
+  445   AC1   197   ILE   SC1   445  0.0000 ; 1
+  446    Nd   198   GLN    BB   446  0.0000 ; 1
+  447    P4   198   GLN   SC1   447  0.0000 ; 1
+  448    Nd   199   GLU    BB   448  0.0000 ; 1
+  449    Qa   199   GLU   SC1   449 -1.0000 ; 1
+  450    Nd   200   ILE    BB   450  0.0000 ; 1
+  451   AC1   200   ILE   SC1   451  0.0000 ; 1
+  452    N0   201   LEU    BB   452  0.0000 ; H
+  453   AC1   201   LEU   SC1   453  0.0000 ; H
+  454    Na   202   ASN    BB   454  0.0000 ; 2
+  455    P5   202   ASN   SC1   455  0.0000 ; 2
+  456    Na   203   TYR    BB   456  0.0000 ; 2
+  457   SC4   203   TYR   SC1   457  0.0000 ; 2
+  458   SC4   203   TYR   SC2   458  0.0000 ; 2
+  459   SP1   203   TYR   SC3   459  0.0000 ; 2
+  460    Na   204   ILE    BB   460  0.0000 ; 2
+  461   AC1   204   ILE   SC1   461  0.0000 ; 2
+  462    Na   205   SER    BB   462  0.0000 ; 2
+  463    P1   205   SER   SC1   463  0.0000 ; 2
+  464   Nda   206   ARG    BB   464  0.0000 ; T
+  465    N0   206   ARG   SC1   465  0.0000 ; T
+  466    Qd   206   ARG   SC2   466  1.0000 ; T
+  467   Nda   207   LYS    BB   467  0.0000 ; T
+  468    C3   207   LYS   SC1   468  0.0000 ; T
+  469    Qd   207   LYS   SC2   469  1.0000 ; T
+  470    P5   208   GLU    BB   470  0.0000 ; C
+  471    Qa   208   GLU   SC1   471 -1.0000 ; C
+  472    P5   209   PHE    BB   472  0.0000 ; C
+  473   SC5   209   PHE   SC1   473  0.0000 ; C
+  474   SC5   209   PHE   SC2   474  0.0000 ; C
+  475   SC5   209   PHE   SC3   475  0.0000 ; C
+  476   Nda   210   GLU    BB   476  0.0000 ; 3
+  477    Qa   210   GLU   SC1   477 -1.0000 ; 3
+  478    N0   211   PRO    BB   478  0.0000 ; 3
+  479    C3   211   PRO   SC1   479  0.0000 ; 3
+  480   Nda   212   LEU    BB   480  0.0000 ; 3
+  481   AC1   212   LEU   SC1   481  0.0000 ; 3
+  482   Nda   213   LEU    BB   482  0.0000 ; 3
+  483   AC1   213   LEU   SC1   483  0.0000 ; 3
+  484   Nda   214   ARG    BB   484  0.0000 ; T
+  485    N0   214   ARG   SC1   485  0.0000 ; T
+  486    Qd   214   ARG   SC2   486  1.0000 ; T
+  487   Nda   215   VAL    BB   487  0.0000 ; T
+  488   AC2   215   VAL   SC1   488  0.0000 ; T
+  489    P5   216   ASP    BB   489  0.0000 ; C
+  490    Qa   216   ASP   SC1   490 -1.0000 ; C
+  491    Nd   217   GLN    BB   491  0.0000 ; 1
+  492    P4   217   GLN   SC1   492  0.0000 ; 1
+  493    Nd   218   LEU    BB   493  0.0000 ; 1
+  494   AC1   218   LEU   SC1   494  0.0000 ; 1
+  495    Nd   219   ASN    BB   495  0.0000 ; 1
+  496    P5   219   ASN   SC1   496  0.0000 ; 1
+  497   Nda   220   LEU    BB   497  0.0000 ; 3
+  498   AC1   220   LEU   SC1   498  0.0000 ; 3
+  499    Na   221   GLU    BB   499  0.0000 ; 2
+  500    Qa   221   GLU   SC1   500 -1.0000 ; 2
+  501    Na   222   ARG    BB   501  0.0000 ; 2
+  502    N0   222   ARG   SC1   502  0.0000 ; 2
+  503    Qd   222   ARG   SC2   503  1.0000 ; 2
+  504    Na   223   GLU    BB   504  0.0000 ; 2
+  505    Qa   223   GLU   SC1   505 -1.0000 ; 2
+  506   Nda   224   LYS    BB   506  0.0000 ; T
+  507    C3   224   LYS   SC1   507  0.0000 ; T
+  508    Qd   224   LYS   SC2   508  1.0000 ; T
+  509   Nda   225   HIS    BB   509  0.0000 ; T
+  510   SC4   225   HIS   SC1   510  0.0000 ; T
+  511   SP1   225   HIS   SC2   511  0.0000 ; T
+  512   SP1   225   HIS   SC3   512  0.0000 ; T
+  513    P5   226   LYS    BB   513  0.0000 ; S
+  514    C3   226   LYS   SC1   514  0.0000 ; S
+  515    Qd   226   LYS   SC2   515  1.0000 ; S
+  516    P5   227   VAL    BB   516  0.0000 ; S
+  517   AC2   227   VAL   SC1   517  0.0000 ; S
+  518    P5   228   PHE    BB   518  0.0000 ; S
+  519   SC5   228   PHE   SC1   519  0.0000 ; S
+  520   SC5   228   PHE   SC2   520  0.0000 ; S
+  521   SC5   228   PHE   SC3   521  0.0000 ; S
+  522   Nda   229   LEU    BB   522  0.0000 ; T
+  523   AC1   229   LEU   SC1   523  0.0000 ; T
+  524   Nda   230   ARG    BB   524  0.0000 ; T
+  525    N0   230   ARG   SC1   525  0.0000 ; T
+  526    Qd   230   ARG   SC2   526  1.0000 ; T
+  527    P5   231   PHE    BB   527  0.0000 ; C
+  528   SC5   231   PHE   SC1   528  0.0000 ; C
+  529   SC5   231   PHE   SC2   529  0.0000 ; C
+  530   SC5   231   PHE   SC3   530  0.0000 ; C
+  531    P5   232   SER    BB   531  0.0000 ; C
+  532    P1   232   SER   SC1   532  0.0000 ; C
+  533    P5   233   GLU    BB   533  0.0000 ; C
+  534    Qa   233   GLU   SC1   534 -1.0000 ; C
+  535    P5   234   GLU    BB   535  0.0000 ; C
+  536    Qa   234   GLU   SC1   536 -1.0000 ; C
+  537    P5   235   GLU    BB   537  0.0000 ; C
+  538    Qa   235   GLU   SC1   538 -1.0000 ; C
+  539    P5   236   ILE    BB   539  0.0000 ; C
+  540   AC1   236   ILE   SC1   540  0.0000 ; C
+  541    P5   237   SER    BB   541  0.0000 ; C
+  542    P1   237   SER   SC1   542  0.0000 ; C
+  543    P5   238   PHE    BB   543  0.0000 ; S
+  544   SC5   238   PHE   SC1   544  0.0000 ; S
+  545   SC5   238   PHE   SC2   545  0.0000 ; S
+  546   SC5   238   PHE   SC3   546  0.0000 ; S
+  547    P4   239   PRO    BB   547  0.0000 ; C
+  548    C3   239   PRO   SC1   548  0.0000 ; C
+  549    P4   240   PRO    BB   549  0.0000 ; C
+  550    C3   240   PRO   SC1   550  0.0000 ; C
+  551    P5   241   THR    BB   551  0.0000 ; C
+  552    P1   241   THR   SC1   552  0.0000 ; C
+  553    P5   242   TYR    BB   553  0.0000 ; C
+  554   SC4   242   TYR   SC1   554  0.0000 ; C
+  555   SC4   242   TYR   SC2   555  0.0000 ; C
+  556   SP1   242   TYR   SC3   556  0.0000 ; C
+  557    P5   243   ARG    BB   557  0.0000 ; C
+  558    N0   243   ARG   SC1   558  0.0000 ; C
+  559    Qd   243   ARG   SC2   559  1.0000 ; C
+  560    P5   244   TYR    BB   560  0.0000 ; C
+  561   SC4   244   TYR   SC1   561  0.0000 ; C
+  562   SC4   244   TYR   SC2   562  0.0000 ; C
+  563   SP1   244   TYR   SC3   563  0.0000 ; C
+  564    P5   245   GLU    BB   564  0.0000 ; C
+  565    Qa   245   GLU   SC1   565 -1.0000 ; C
+  566   Nda   246   ARG    BB   566  0.0000 ; T
+  567    N0   246   ARG   SC1   567  0.0000 ; T
+  568    Qd   246   ARG   SC2   568  1.0000 ; T
+  569   Nda   247   GLY    BB   569  0.0000 ; T
+  570    P5   248   SER    BB   570  0.0000 ; C
+  571    P1   248   SER   SC1   571  0.0000 ; C
+  572    P5   249   ARG    BB   572  0.0000 ; S
+  573    N0   249   ARG   SC1   573  0.0000 ; S
+  574    Qd   249   ARG   SC2   574  1.0000 ; S
+  575    P5   250   ASP    BB   575  0.0000 ; S
+  576    Qa   250   ASP   SC1   576 -1.0000 ; S
+  577    P5   251   THR    BB   577  0.0000 ; C
+  578    P1   251   THR   SC1   578  0.0000 ; C
+  579    P5   252   TYR    BB   579  0.0000 ; C
+  580   SC4   252   TYR   SC1   580  0.0000 ; C
+  581   SC4   252   TYR   SC2   581  0.0000 ; C
+  582   SP1   252   TYR   SC3   582  0.0000 ; C
+  583    P4   253   ALA    BB   583  0.0000 ; C
+  584    P5   254   TRP    BB   584  0.0000 ; C
+  585   SC4   254   TRP   SC1   585  0.0000 ; C
+  586   SNd   254   TRP   SC2   586  0.0000 ; C
+  587   SC5   254   TRP   SC3   587  0.0000 ; C
+  588   SC5   254   TRP   SC4   588  0.0000 ; C
+  589    P5   255   HIS    BB   589  0.0000 ; C
+  590   SC4   255   HIS   SC1   590  0.0000 ; C
+  591   SP1   255   HIS   SC2   591  0.0000 ; C
+  592   SP1   255   HIS   SC3   592  0.0000 ; C
+  593    P5   256   LYS    BB   593  0.0000 ; S
+  594    C3   256   LYS   SC1   594  0.0000 ; S
+  595    Qd   256   LYS   SC2   595  1.0000 ; S
+  596    P5   257   GLN    BB   596  0.0000 ; C
+  597    P4   257   GLN   SC1   597  0.0000 ; C
+  598    P5   258   LYS    BB   598  0.0000 ; C
+  599    C3   258   LYS   SC1   599  0.0000 ; C
+  600    Qd   258   LYS   SC2   600  1.0000 ; C
+  601    P4   259   PRO    BB   601  0.0000 ; C
+  602    C3   259   PRO   SC1   602  0.0000 ; C
+  603   Nda   260   THR    BB   603  0.0000 ; T
+  604    P1   260   THR   SC1   604  0.0000 ; T
+  605   Nda   261   GLY    BB   605  0.0000 ; T
+  606    P5   262   VAL    BB   606  0.0000 ; C
+  607   AC2   262   VAL   SC1   607  0.0000 ; C
+  608    P5   263   ARG    BB   608  0.0000 ; C
+  609    N0   263   ARG   SC1   609  0.0000 ; C
+  610    Qd   263   ARG   SC2   610  1.0000 ; C
+  611    P5   264   THR    BB   611  0.0000 ; C
+  612    P1   264   THR   SC1   612  0.0000 ; C
+  613    P5   265   ASN    BB   613  0.0000 ; C
+  614    P5   265   ASN   SC1   614  0.0000 ; C
+  615    P5   266   VAL    BB   615  0.0000 ; C
+  616   AC2   266   VAL   SC1   616  0.0000 ; C
+  617    P4   267   PRO    BB   617  0.0000 ; C
+  618    C3   267   PRO   SC1   618  0.0000 ; C
+  619    P5   268   SER    BB   619  0.0000 ; C
+  620    P1   268   SER   SC1   620  0.0000 ; C
+  621    P5   269   TRP    BB   621  0.0000 ; C
+  622   SC4   269   TRP   SC1   622  0.0000 ; C
+  623   SNd   269   TRP   SC2   623  0.0000 ; C
+  624   SC5   269   TRP   SC3   624  0.0000 ; C
+  625   SC5   269   TRP   SC4   625  0.0000 ; C
+  626    P5   270   CYS    BB   626  0.0000 ; C
+  627    C5   270   CYS   SC1   627  0.0000 ; C
+  628   Nda   271   ASP    BB   628  0.0000 ; E
+  629    Qa   271   ASP   SC1   629 -1.0000 ; E
+  630   Nda   272   ARG    BB   630  0.0000 ; E
+  631    N0   272   ARG   SC1   631  0.0000 ; E
+  632    Qd   272   ARG   SC2   632  1.0000 ; E
+  633   Nda   273   ILE    BB   633  0.0000 ; E
+  634   AC1   273   ILE   SC1   634  0.0000 ; E
+  635   Nda   274   LEU    BB   635  0.0000 ; E
+  636   AC1   274   LEU   SC1   636  0.0000 ; E
+  637   Nda   275   TRP    BB   637  0.0000 ; E
+  638   SC4   275   TRP   SC1   638  0.0000 ; E
+  639   SNd   275   TRP   SC2   639  0.0000 ; E
+  640   SC5   275   TRP   SC3   640  0.0000 ; E
+  641   SC5   275   TRP   SC4   641  0.0000 ; E
+  642   Nda   276   LYS    BB   642  0.0000 ; E
+  643    C3   276   LYS   SC1   643  0.0000 ; E
+  644    Qd   276   LYS   SC2   644  1.0000 ; E
+  645   Nda   277   SER    BB   645  0.0000 ; E
+  646    P1   277   SER   SC1   646  0.0000 ; E
+  647    P5   278   TYR    BB   647  0.0000 ; C
+  648   SC4   278   TYR   SC1   648  0.0000 ; C
+  649   SC4   278   TYR   SC2   649  0.0000 ; C
+  650   SP1   278   TYR   SC3   650  0.0000 ; C
+  651    N0   279   PRO    BB   651  0.0000 ; T
+  652    C3   279   PRO   SC1   652  0.0000 ; T
+  653   Nda   280   GLU    BB   653  0.0000 ; T
+  654    Qa   280   GLU   SC1   654 -1.0000 ; T
+  655    P5   281   THR    BB   655  0.0000 ; C
+  656    P1   281   THR   SC1   656  0.0000 ; C
+  657    P5   282   HIS    BB   657  0.0000 ; C
+  658   SC4   282   HIS   SC1   658  0.0000 ; C
+  659   SP1   282   HIS   SC2   659  0.0000 ; C
+  660   SP1   282   HIS   SC3   660  0.0000 ; C
+  661   Nda   283   ILE    BB   661  0.0000 ; E
+  662   AC1   283   ILE   SC1   662  0.0000 ; E
+  663   Nda   284   ILE    BB   663  0.0000 ; E
+  664   AC1   284   ILE   SC1   664  0.0000 ; E
+  665   Nda   285   CYS    BB   665  0.0000 ; E
+  666    C5   285   CYS   SC1   666  0.0000 ; E
+  667   Nda   286   ASN    BB   667  0.0000 ; E
+  668    P5   286   ASN   SC1   668  0.0000 ; E
+  669   Nda   287   SER    BB   669  0.0000 ; E
+  670    P1   287   SER   SC1   670  0.0000 ; E
+  671   Nda   288   TYR    BB   671  0.0000 ; E
+  672   SC4   288   TYR   SC1   672  0.0000 ; E
+  673   SC4   288   TYR   SC2   673  0.0000 ; E
+  674   SP1   288   TYR   SC3   674  0.0000 ; E
+  675   Nda   289   GLY    BB   675  0.0000 ; E
+  676   Nda   290   CYS    BB   676  0.0000 ; E
+  677    C5   290   CYS   SC1   677  0.0000 ; E
+  678    P5   291   THR    BB   678  0.0000 ; C
+  679    P1   291   THR   SC1   679  0.0000 ; C
+  680    P5   292   ASP    BB   680  0.0000 ; S
+  681    Qa   292   ASP   SC1   681 -1.0000 ; S
+  682    P5   293   ASP    BB   682  0.0000 ; S
+  683    Qa   293   ASP   SC1   683 -1.0000 ; S
+  684    P5   294   ILE    BB   684  0.0000 ; C
+  685   AC1   294   ILE   SC1   685  0.0000 ; C
+  686    P5   295   VAL    BB   686  0.0000 ; C
+  687   AC2   295   VAL   SC1   687  0.0000 ; C
+  688    P5   296   THR    BB   688  0.0000 ; S
+  689    P1   296   THR   SC1   689  0.0000 ; S
+  690    P5   297   SER    BB   690  0.0000 ; S
+  691    P1   297   SER   SC1   691  0.0000 ; S
+  692    P5   298   ASP    BB   692  0.0000 ; S
+  693    Qa   298   ASP   SC1   693 -1.0000 ; S
+  694    P5   299   HIS    BB   694  0.0000 ; S
+  695   SC4   299   HIS   SC1   695  0.0000 ; S
+  696   SP1   299   HIS   SC2   696  0.0000 ; S
+  697   SP1   299   HIS   SC3   697  0.0000 ; S
+  698    P5   300   SER    BB   698  0.0000 ; C
+  699    P1   300   SER   SC1   699  0.0000 ; C
+  700    P4   301   PRO    BB   700  0.0000 ; C
+  701    C3   301   PRO   SC1   701  0.0000 ; C
+  702   Nda   302   VAL    BB   702  0.0000 ; E
+  703   AC2   302   VAL   SC1   703  0.0000 ; E
+  704   Nda   303   PHE    BB   704  0.0000 ; E
+  705   SC5   303   PHE   SC1   705  0.0000 ; E
+  706   SC5   303   PHE   SC2   706  0.0000 ; E
+  707   SC5   303   PHE   SC3   707  0.0000 ; E
+  708   Nda   304   GLY    BB   708  0.0000 ; E
+  709   Nda   305   THR    BB   709  0.0000 ; E
+  710    P1   305   THR   SC1   710  0.0000 ; E
+  711   Nda   306   PHE    BB   711  0.0000 ; E
+  712   SC5   306   PHE   SC1   712  0.0000 ; E
+  713   SC5   306   PHE   SC2   713  0.0000 ; E
+  714   SC5   306   PHE   SC3   714  0.0000 ; E
+  715   Nda   307   GLU    BB   715  0.0000 ; E
+  716    Qa   307   GLU   SC1   716 -1.0000 ; E
+  717   Nda   308   VAL    BB   717  0.0000 ; E
+  718   AC2   308   VAL   SC1   718  0.0000 ; E
+  719   Nda   309   GLY    BB   719  0.0000 ; E
+  720    P5   310   VAL    BB   720  0.0000 ; C
+  721   AC2   310   VAL   SC1   721  0.0000 ; C
+  722    P5   311   THR    BB   722  0.0000 ; C
+  723    P1   311   THR   SC1   723  0.0000 ; C
+  724    Qa   312   SER    BB   724 -1.0000 ; C
+  725    P1   312   SER   SC1   725  0.0000 ; C
+
+[ bonds ]
+; Backbone bonds
+    1     3      1   0.35000  1250 ; GLU(C)-PRO(C)
+    3     5      1   0.35000  1250 ; PRO(C)-ASP(S)
+    5     7      1   0.35000  1250 ; ASP(S)-MET(E)
+    7     9      1   0.35000  1250 ; MET(E)-ILE(E)
+    9    11      1   0.35000  1250 ; ILE(E)-SER(E)
+   11    13      1   0.35000  1250 ; SER(E)-VAL(E)
+   13    15      1   0.35000  1250 ; VAL(E)-PHE(E)
+   15    19      1   0.35000  1250 ; PHE(E)-ILE(E)
+   19    21      1   0.35000  1250 ; ILE(E)-GLY(E)
+   21    22      1   0.35000  1250 ; GLY(E)-THR(E)
+   22    24      1   0.35000  1250 ; THR(E)-TRP(E)
+   24    29      1   0.35000  1250 ; TRP(E)-ASN(E)
+   29    31      1   0.35000  1250 ; ASN(E)-MET(C)
+   31    33      1   0.35000  1250 ; MET(C)-GLY(T)
+   33    34      1   0.35000  1250 ; GLY(T)-SER(T)
+   34    36      1   0.35000  1250 ; SER(T)-VAL(S)
+   36    38      1   0.35000  1250 ; VAL(S)-PRO(C)
+   38    40      1   0.35000  1250 ; PRO(C)-PRO(C)
+   40    42      1   0.35000  1250 ; PRO(C)-PRO(C)
+   42    44      1   0.35000  1250 ; PRO(C)-LYS(S)
+   44    47      1   0.35000  1250 ; LYS(S)-ASN(C)
+   47    49      1   0.35000  1250 ; ASN(C)-VAL(C)
+   64    66      1   0.35000  1250 ; THR(T)-SER(T)
+   66    68      1   0.35000  1250 ; SER(T)-LYS(C)
+   68    71      1   0.35000  1250 ; LYS(C)-GLY(S)
+   71    72      1   0.35000  1250 ; GLY(S)-LEU(E)
+   72    74      1   0.35000  1250 ; LEU(E)-GLY(E)
+   74    75      1   0.35000  1250 ; GLY(E)-LYS(E)
+   75    78      1   0.35000  1250 ; LYS(E)-THR(C)
+   78    80      1   0.35000  1250 ; THR(C)-LEU(C)
+   80    82      1   0.35000  1250 ; LEU(C)-ASP(T)
+   82    84      1   0.35000  1250 ; ASP(T)-GLU(T)
+   84    86      1   0.35000  1250 ; GLU(T)-VAL(C)
+   86    88      1   0.35000  1250 ; VAL(C)-THR(S)
+   88    90      1   0.35000  1250 ; THR(S)-VAL(S)
+   90    92      1   0.35000  1250 ; VAL(S)-THR(C)
+   92    94      1   0.35000  1250 ; THR(C)-ILE(C)
+   94    96      1   0.35000  1250 ; ILE(C)-PRO(C)
+   96    98      1   0.35000  1250 ; PRO(C)-HIS(C)
+   98   102      1   0.35000  1250 ; HIS(C)-ASP(S)
+  102   104      1   0.35000  1250 ; ASP(S)-ILE(E)
+  104   106      1   0.35000  1250 ; ILE(E)-TYR(E)
+  106   110      1   0.35000  1250 ; TYR(E)-VAL(E)
+  110   112      1   0.35000  1250 ; VAL(E)-PHE(E)
+  112   116      1   0.35000  1250 ; PHE(E)-GLY(E)
+  116   117      1   0.35000  1250 ; GLY(E)-THR(E)
+  117   119      1   0.35000  1250 ; THR(E)-GLN(E)
+  119   121      1   0.35000  1250 ; GLN(E)-GLU(S)
+  121   123      1   0.35000  1250 ; GLU(S)-ASN(C)
+  123   125      1   0.35000  1250 ; ASN(C)-SER(C)
+  125   127      1   0.35000  1250 ; SER(C)-VAL(S)
+  127   129      1   0.35000  1250 ; VAL(S)-GLY(C)
+  166   168      1   0.35000  1250 ; ASP(S)-LEU(S)
+  168   170      1   0.35000  1250 ; LEU(S)-ASP(C)
+  170   172      1   0.35000  1250 ; ASP(C)-TYR(C)
+  172   176      1   0.35000  1250 ; TYR(C)-ARG(E)
+  176   179      1   0.35000  1250 ; ARG(E)-PRO(E)
+  179   181      1   0.35000  1250 ; PRO(E)-ILE(E)
+  181   183      1   0.35000  1250 ; ILE(E)-ALA(E)
+  183   184      1   0.35000  1250 ; ALA(E)-MET(E)
+  184   186      1   0.35000  1250 ; MET(E)-GLN(E)
+  186   188      1   0.35000  1250 ; GLN(E)-SER(E)
+  188   190      1   0.35000  1250 ; SER(E)-LEU(E)
+  190   192      1   0.35000  1250 ; LEU(E)-TRP(T)
+  192   197      1   0.35000  1250 ; TRP(T)-ASN(T)
+  197   199      1   0.35000  1250 ; ASN(T)-ILE(E)
+  199   201      1   0.35000  1250 ; ILE(E)-LYS(E)
+  201   204      1   0.35000  1250 ; LYS(E)-VAL(E)
+  204   206      1   0.35000  1250 ; VAL(E)-ALA(E)
+  206   207      1   0.35000  1250 ; ALA(E)-VAL(E)
+  207   209      1   0.35000  1250 ; VAL(E)-LEU(E)
+  209   211      1   0.35000  1250 ; LEU(E)-VAL(E)
+  211   213      1   0.35000  1250 ; VAL(E)-LYS(C)
+  213   216      1   0.35000  1250 ; LYS(C)-PRO(C)
+  216   218      1   0.35000  1250 ; PRO(C)-GLU(C)
+  218   220      1   0.35000  1250 ; GLU(C)-HIS(C)
+  220   224      1   0.35000  1250 ; HIS(C)-GLU(C)
+  224   226      1   0.35000  1250 ; GLU(C)-ASN(C)
+  226   228      1   0.35000  1250 ; ASN(C)-ARG(C)
+  228   231      1   0.35000  1250 ; ARG(C)-ILE(E)
+  231   233      1   0.35000  1250 ; ILE(E)-SER(E)
+  233   235      1   0.35000  1250 ; SER(E)-HIS(E)
+  235   239      1   0.35000  1250 ; HIS(E)-VAL(E)
+  239   241      1   0.35000  1250 ; VAL(E)-SER(E)
+  241   243      1   0.35000  1250 ; SER(E)-THR(E)
+  243   245      1   0.35000  1250 ; THR(E)-SER(E)
+  245   247      1   0.35000  1250 ; SER(E)-SER(E)
+  247   249      1   0.35000  1250 ; SER(E)-VAL(E)
+  249   251      1   0.35000  1250 ; VAL(E)-LYS(E)
+  251   254      1   0.35000  1250 ; LYS(E)-THR(C)
+  254   256      1   0.35000  1250 ; THR(C)-GLY(C)
+  256   257      1   0.35000  1250 ; GLY(C)-ILE(S)
+  257   259      1   0.35000  1250 ; ILE(S)-ALA(S)
+  259   260      1   0.35000  1250 ; ALA(S)-ASN(T)
+  260   262      1   0.35000  1250 ; ASN(T)-THR(T)
+  262   264      1   0.35000  1250 ; THR(T)-LEU(C)
+  264   266      1   0.35000  1250 ; LEU(C)-GLY(C)
+  266   267      1   0.35000  1250 ; GLY(C)-ASN(S)
+  267   269      1   0.35000  1250 ; ASN(S)-LYS(C)
+  269   272      1   0.35000  1250 ; LYS(C)-GLY(E)
+  272   273      1   0.35000  1250 ; GLY(E)-ALA(E)
+  273   274      1   0.35000  1250 ; ALA(E)-VAL(E)
+  274   276      1   0.35000  1250 ; VAL(E)-GLY(E)
+  276   277      1   0.35000  1250 ; GLY(E)-VAL(E)
+  277   279      1   0.35000  1250 ; VAL(E)-SER(E)
+  279   281      1   0.35000  1250 ; SER(E)-PHE(E)
+  281   285      1   0.35000  1250 ; PHE(E)-MET(E)
+  285   287      1   0.35000  1250 ; MET(E)-PHE(E)
+  287   291      1   0.35000  1250 ; PHE(E)-ASN(T)
+  291   293      1   0.35000  1250 ; ASN(T)-GLY(T)
+  293   294      1   0.35000  1250 ; GLY(T)-THR(E)
+  294   296      1   0.35000  1250 ; THR(E)-SER(E)
+  296   298      1   0.35000  1250 ; SER(E)-PHE(E)
+  298   302      1   0.35000  1250 ; PHE(E)-GLY(E)
+  302   303      1   0.35000  1250 ; GLY(E)-PHE(E)
+  303   307      1   0.35000  1250 ; PHE(E)-VAL(E)
+  307   309      1   0.35000  1250 ; VAL(E)-ASN(E)
+  309   311      1   0.35000  1250 ; ASN(E)-CYS(E)
+  311   313      1   0.35000  1250 ; CYS(E)-HIS(E)
+  313   317      1   0.35000  1250 ; HIS(E)-LEU(C)
+  317   319      1   0.35000  1250 ; LEU(C)-THR(C)
+  319   321      1   0.35000  1250 ; THR(C)-SER(C)
+  321   323      1   0.35000  1250 ; SER(C)-GLY(S)
+  323   324      1   0.35000  1250 ; GLY(S)-ASN(T)
+  324   326      1   0.35000  1250 ; ASN(T)-GLU(T)
+  326   328      1   0.35000  1250 ; GLU(T)-LYS(C)
+  363   365      1   0.35000  1250 ; LEU(C)-SER(C)
+  365   367      1   0.35000  1250 ; SER(C)-LEU(C)
+  367   369      1   0.35000  1250 ; LEU(C)-GLY(C)
+  369   370      1   0.35000  1250 ; GLY(C)-ASP(S)
+  370   372      1   0.35000  1250 ; ASP(S)-ARG(S)
+  372   375      1   0.35000  1250 ; ARG(S)-GLN(C)
+  375   377      1   0.35000  1250 ; GLN(C)-LEU(C)
+  377   379      1   0.35000  1250 ; LEU(C)-ASN(T)
+  379   381      1   0.35000  1250 ; ASN(T)-ALA(T)
+  381   382      1   0.35000  1250 ; ALA(T)-PHE(C)
+  382   386      1   0.35000  1250 ; PHE(C)-ASP(C)
+  397   401      1   0.35000  1250 ; PHE(S)-THR(S)
+  401   403      1   0.35000  1250 ; THR(S)-HIS(E)
+  403   407      1   0.35000  1250 ; HIS(E)-LEU(E)
+  407   409      1   0.35000  1250 ; LEU(E)-PHE(E)
+  409   413      1   0.35000  1250 ; PHE(E)-TRP(E)
+  413   418      1   0.35000  1250 ; TRP(E)-PHE(E)
+  418   422      1   0.35000  1250 ; PHE(E)-GLY(E)
+  422   423      1   0.35000  1250 ; GLY(E)-ASP(E)
+  423   425      1   0.35000  1250 ; ASP(E)-LEU(C)
+  425   427      1   0.35000  1250 ; LEU(C)-ASN(C)
+  427   429      1   0.35000  1250 ; ASN(C)-TYR(C)
+  429   433      1   0.35000  1250 ; TYR(C)-ARG(C)
+  433   436      1   0.35000  1250 ; ARG(C)-LEU(C)
+  436   438      1   0.35000  1250 ; LEU(C)-ASP(S)
+  438   440      1   0.35000  1250 ; ASP(S)-MET(S)
+  440   442      1   0.35000  1250 ; MET(S)-ASP(C)
+  464   467      1   0.35000  1250 ; ARG(T)-LYS(T)
+  467   470      1   0.35000  1250 ; LYS(T)-GLU(C)
+  470   472      1   0.35000  1250 ; GLU(C)-PHE(C)
+  484   487      1   0.35000  1250 ; ARG(T)-VAL(T)
+  487   489      1   0.35000  1250 ; VAL(T)-ASP(C)
+  506   509      1   0.35000  1250 ; LYS(T)-HIS(T)
+  509   513      1   0.35000  1250 ; HIS(T)-LYS(S)
+  513   516      1   0.35000  1250 ; LYS(S)-VAL(S)
+  516   518      1   0.35000  1250 ; VAL(S)-PHE(S)
+  518   522      1   0.35000  1250 ; PHE(S)-LEU(T)
+  522   524      1   0.35000  1250 ; LEU(T)-ARG(T)
+  524   527      1   0.35000  1250 ; ARG(T)-PHE(C)
+  527   531      1   0.35000  1250 ; PHE(C)-SER(C)
+  531   533      1   0.35000  1250 ; SER(C)-GLU(C)
+  533   535      1   0.35000  1250 ; GLU(C)-GLU(C)
+  535   537      1   0.35000  1250 ; GLU(C)-GLU(C)
+  537   539      1   0.35000  1250 ; GLU(C)-ILE(C)
+  539   541      1   0.35000  1250 ; ILE(C)-SER(C)
+  541   543      1   0.35000  1250 ; SER(C)-PHE(S)
+  543   547      1   0.35000  1250 ; PHE(S)-PRO(C)
+  547   549      1   0.35000  1250 ; PRO(C)-PRO(C)
+  549   551      1   0.35000  1250 ; PRO(C)-THR(C)
+  551   553      1   0.35000  1250 ; THR(C)-TYR(C)
+  553   557      1   0.35000  1250 ; TYR(C)-ARG(C)
+  557   560      1   0.35000  1250 ; ARG(C)-TYR(C)
+  560   564      1   0.35000  1250 ; TYR(C)-GLU(C)
+  564   566      1   0.35000  1250 ; GLU(C)-ARG(T)
+  566   569      1   0.35000  1250 ; ARG(T)-GLY(T)
+  569   570      1   0.35000  1250 ; GLY(T)-SER(C)
+  570   572      1   0.35000  1250 ; SER(C)-ARG(S)
+  572   575      1   0.35000  1250 ; ARG(S)-ASP(S)
+  575   577      1   0.35000  1250 ; ASP(S)-THR(C)
+  577   579      1   0.35000  1250 ; THR(C)-TYR(C)
+  579   583      1   0.35000  1250 ; TYR(C)-ALA(C)
+  583   584      1   0.35000  1250 ; ALA(C)-TRP(C)
+  584   589      1   0.35000  1250 ; TRP(C)-HIS(C)
+  589   593      1   0.35000  1250 ; HIS(C)-LYS(S)
+  593   596      1   0.35000  1250 ; LYS(S)-GLN(C)
+  596   598      1   0.35000  1250 ; GLN(C)-LYS(C)
+  598   601      1   0.35000  1250 ; LYS(C)-PRO(C)
+  601   603      1   0.35000  1250 ; PRO(C)-THR(T)
+  603   605      1   0.35000  1250 ; THR(T)-GLY(T)
+  605   606      1   0.35000  1250 ; GLY(T)-VAL(C)
+  606   608      1   0.35000  1250 ; VAL(C)-ARG(C)
+  608   611      1   0.35000  1250 ; ARG(C)-THR(C)
+  611   613      1   0.35000  1250 ; THR(C)-ASN(C)
+  613   615      1   0.35000  1250 ; ASN(C)-VAL(C)
+  615   617      1   0.35000  1250 ; VAL(C)-PRO(C)
+  617   619      1   0.35000  1250 ; PRO(C)-SER(C)
+  619   621      1   0.35000  1250 ; SER(C)-TRP(C)
+  621   626      1   0.35000  1250 ; TRP(C)-CYS(C)
+  626   628      1   0.35000  1250 ; CYS(C)-ASP(E)
+  628   630      1   0.35000  1250 ; ASP(E)-ARG(E)
+  630   633      1   0.35000  1250 ; ARG(E)-ILE(E)
+  633   635      1   0.35000  1250 ; ILE(E)-LEU(E)
+  635   637      1   0.35000  1250 ; LEU(E)-TRP(E)
+  637   642      1   0.35000  1250 ; TRP(E)-LYS(E)
+  642   645      1   0.35000  1250 ; LYS(E)-SER(E)
+  645   647      1   0.35000  1250 ; SER(E)-TYR(C)
+  647   651      1   0.35000  1250 ; TYR(C)-PRO(T)
+  651   653      1   0.35000  1250 ; PRO(T)-GLU(T)
+  653   655      1   0.35000  1250 ; GLU(T)-THR(C)
+  655   657      1   0.35000  1250 ; THR(C)-HIS(C)
+  657   661      1   0.35000  1250 ; HIS(C)-ILE(E)
+  661   663      1   0.35000  1250 ; ILE(E)-ILE(E)
+  663   665      1   0.35000  1250 ; ILE(E)-CYS(E)
+  665   667      1   0.35000  1250 ; CYS(E)-ASN(E)
+  667   669      1   0.35000  1250 ; ASN(E)-SER(E)
+  669   671      1   0.35000  1250 ; SER(E)-TYR(E)
+  671   675      1   0.35000  1250 ; TYR(E)-GLY(E)
+  675   676      1   0.35000  1250 ; GLY(E)-CYS(E)
+  676   678      1   0.35000  1250 ; CYS(E)-THR(C)
+  678   680      1   0.35000  1250 ; THR(C)-ASP(S)
+  680   682      1   0.35000  1250 ; ASP(S)-ASP(S)
+  682   684      1   0.35000  1250 ; ASP(S)-ILE(C)
+  684   686      1   0.35000  1250 ; ILE(C)-VAL(C)
+  686   688      1   0.35000  1250 ; VAL(C)-THR(S)
+  688   690      1   0.35000  1250 ; THR(S)-SER(S)
+  690   692      1   0.35000  1250 ; SER(S)-ASP(S)
+  692   694      1   0.35000  1250 ; ASP(S)-HIS(S)
+  694   698      1   0.35000  1250 ; HIS(S)-SER(C)
+  698   700      1   0.35000  1250 ; SER(C)-PRO(C)
+  700   702      1   0.35000  1250 ; PRO(C)-VAL(E)
+  702   704      1   0.35000  1250 ; VAL(E)-PHE(E)
+  704   708      1   0.35000  1250 ; PHE(E)-GLY(E)
+  708   709      1   0.35000  1250 ; GLY(E)-THR(E)
+  709   711      1   0.35000  1250 ; THR(E)-PHE(E)
+  711   715      1   0.35000  1250 ; PHE(E)-GLU(E)
+  715   717      1   0.35000  1250 ; GLU(E)-VAL(E)
+  717   719      1   0.35000  1250 ; VAL(E)-GLY(E)
+  719   720      1   0.35000  1250 ; GLY(E)-VAL(C)
+  720   722      1   0.35000  1250 ; VAL(C)-THR(C)
+  722   724      1   0.35000  1250 ; THR(C)-SER(C)
+#ifndef NO_RUBBER_BANDS
+#ifndef RUBBER_FC
+#define RUBBER_FC 500.000000
+#endif
+    1     7      6   0.79440 RUBBER_FC*1.000000
+    1   720      6   0.85931 RUBBER_FC*1.000000
+    1   722      6   0.86121 RUBBER_FC*1.000000
+    1   724      6   0.77892 RUBBER_FC*1.000000
+    3     9      6   0.79703 RUBBER_FC*1.000000
+    3   719      6   0.83840 RUBBER_FC*1.000000
+    3   720      6   0.58945 RUBBER_FC*1.000000
+    3   722      6   0.69986 RUBBER_FC*1.000000
+    3   724      6   0.75907 RUBBER_FC*1.000000
+    5   717      6   0.67262 RUBBER_FC*1.000000
+    5   719      6   0.55365 RUBBER_FC*1.000000
+    5   720      6   0.40322 RUBBER_FC*1.000000
+    5   722      6   0.66855 RUBBER_FC*1.000000
+    5   724      6   0.83574 RUBBER_FC*1.000000
+    7   715      6   0.75048 RUBBER_FC*1.000000
+    7   717      6   0.51389 RUBBER_FC*1.000000
+    7   719      6   0.56745 RUBBER_FC*1.000000
+    7   720      6   0.56815 RUBBER_FC*1.000000
+    7   722      6   0.88011 RUBBER_FC*1.000000
+    9    98      6   0.83015 RUBBER_FC*1.000000
+    9   102      6   0.70379 RUBBER_FC*1.000000
+    9   104      6   0.80796 RUBBER_FC*1.000000
+    9   711      6   0.63219 RUBBER_FC*1.000000
+    9   715      6   0.52086 RUBBER_FC*1.000000
+    9   717      6   0.38266 RUBBER_FC*1.000000
+    9   719      6   0.61304 RUBBER_FC*1.000000
+    9   720      6   0.75672 RUBBER_FC*1.000000
+   11    96      6   0.75141 RUBBER_FC*1.000000
+   11    98      6   0.53063 RUBBER_FC*1.000000
+   11   102      6   0.47525 RUBBER_FC*1.000000
+   11   104      6   0.51393 RUBBER_FC*1.000000
+   11   106      6   0.84852 RUBBER_FC*1.000000
+   11   709      6   0.78605 RUBBER_FC*1.000000
+   11   711      6   0.51628 RUBBER_FC*1.000000
+   11   715      6   0.61867 RUBBER_FC*1.000000
+   11   717      6   0.64316 RUBBER_FC*1.000000
+   13    98      6   0.67887 RUBBER_FC*1.000000
+   13   102      6   0.66827 RUBBER_FC*1.000000
+   13   104      6   0.49540 RUBBER_FC*1.000000
+   13   106      6   0.70172 RUBBER_FC*1.000000
+   13   110      6   0.78266 RUBBER_FC*1.000000
+   13   663      6   0.86873 RUBBER_FC*1.000000
+   13   669      6   0.89795 RUBBER_FC*1.000000
+   13   708      6   0.66027 RUBBER_FC*1.000000
+   13   709      6   0.51410 RUBBER_FC*1.000000
+   13   711      6   0.36795 RUBBER_FC*1.000000
+   13   715      6   0.64214 RUBBER_FC*1.000000
+   13   717      6   0.76845 RUBBER_FC*1.000000
+   15    60      6   0.82096 RUBBER_FC*1.000000
+   15    98      6   0.74585 RUBBER_FC*1.000000
+   15   102      6   0.76806 RUBBER_FC*1.000000
+   15   104      6   0.48091 RUBBER_FC*1.000000
+   15   106      6   0.48039 RUBBER_FC*1.000000
+   15   110      6   0.46295 RUBBER_FC*1.000000
+   15   112      6   0.81581 RUBBER_FC*1.000000
+   15   209      6   0.83875 RUBBER_FC*1.000000
+   15   704      6   0.82417 RUBBER_FC*1.000000
+   15   708      6   0.53690 RUBBER_FC*1.000000
+   15   709      6   0.60935 RUBBER_FC*1.000000
+   15   711      6   0.65741 RUBBER_FC*1.000000
+   19    55      6   0.84463 RUBBER_FC*1.000000
+   19    60      6   0.81260 RUBBER_FC*1.000000
+   19   104      6   0.83374 RUBBER_FC*1.000000
+   19   106      6   0.71039 RUBBER_FC*1.000000
+   19   110      6   0.47726 RUBBER_FC*1.000000
+   19   112      6   0.69800 RUBBER_FC*1.000000
+   19   116      6   0.77935 RUBBER_FC*1.000000
+   19   633      6   0.84868 RUBBER_FC*1.000000
+   19   669      6   0.84096 RUBBER_FC*1.000000
+   19   702      6   0.67321 RUBBER_FC*1.000000
+   19   704      6   0.53048 RUBBER_FC*1.000000
+   19   708      6   0.35764 RUBBER_FC*1.000000
+   19   709      6   0.63692 RUBBER_FC*1.000000
+   19   711      6   0.84328 RUBBER_FC*1.000000
+   21    55      6   0.82151 RUBBER_FC*1.000000
+   21    60      6   0.88256 RUBBER_FC*1.000000
+   21   106      6   0.82157 RUBBER_FC*1.000000
+   21   110      6   0.49024 RUBBER_FC*1.000000
+   21   112      6   0.48595 RUBBER_FC*1.000000
+   21   116      6   0.45098 RUBBER_FC*1.000000
+   21   117      6   0.78798 RUBBER_FC*1.000000
+   21   206      6   0.86528 RUBBER_FC*1.000000
+   21   418      6   0.79484 RUBBER_FC*1.000000
+   21   422      6   0.80328 RUBBER_FC*1.000000
+   21   630      6   0.82951 RUBBER_FC*1.000000
+   21   633      6   0.89443 RUBBER_FC*1.000000
+   21   700      6   0.80851 RUBBER_FC*1.000000
+   21   702      6   0.53197 RUBBER_FC*1.000000
+   21   704      6   0.61095 RUBBER_FC*1.000000
+   21   708      6   0.64437 RUBBER_FC*1.000000
+   22    55      6   0.88642 RUBBER_FC*1.000000
+   22   110      6   0.84418 RUBBER_FC*1.000000
+   22   112      6   0.71577 RUBBER_FC*1.000000
+   22   116      6   0.47571 RUBBER_FC*1.000000
+   22   117      6   0.67249 RUBBER_FC*1.000000
+   22   119      6   0.82533 RUBBER_FC*1.000000
+   22   418      6   0.76854 RUBBER_FC*1.000000
+   22   422      6   0.60496 RUBBER_FC*1.000000
+   22   423      6   0.84204 RUBBER_FC*1.000000
+   22   628      6   0.70011 RUBBER_FC*1.000000
+   22   630      6   0.67343 RUBBER_FC*1.000000
+   22   633      6   0.88539 RUBBER_FC*1.000000
+   22   675      6   0.87486 RUBBER_FC*1.000000
+   22   698      6   0.72559 RUBBER_FC*1.000000
+   22   700      6   0.55205 RUBBER_FC*1.000000
+   22   702      6   0.37399 RUBBER_FC*1.000000
+   22   704      6   0.65050 RUBBER_FC*1.000000
+   22   708      6   0.85023 RUBBER_FC*1.000000
+   24    33      6   0.89875 RUBBER_FC*1.000000
+   24   112      6   0.81034 RUBBER_FC*1.000000
+   24   116      6   0.50151 RUBBER_FC*1.000000
+   24   117      6   0.47535 RUBBER_FC*1.000000
+   24   119      6   0.49523 RUBBER_FC*1.000000
+   24   121      6   0.74720 RUBBER_FC*1.000000
+   24   123      6   0.88860 RUBBER_FC*1.000000
+   24   201      6   0.83343 RUBBER_FC*1.000000
+   24   311      6   0.88331 RUBBER_FC*1.000000
+   24   422      6   0.70278 RUBBER_FC*1.000000
+   24   423      6   0.79160 RUBBER_FC*1.000000
+   24   628      6   0.83713 RUBBER_FC*1.000000
+   24   694      6   0.74234 RUBBER_FC*1.000000
+   24   698      6   0.67728 RUBBER_FC*1.000000
+   24   700      6   0.63305 RUBBER_FC*1.000000
+   24   702      6   0.66518 RUBBER_FC*1.000000
+   29    34      6   0.84921 RUBBER_FC*1.000000
+   29    36      6   0.87122 RUBBER_FC*1.000000
+   29   116      6   0.81650 RUBBER_FC*1.000000
+   29   117      6   0.66221 RUBBER_FC*1.000000
+   29   119      6   0.45836 RUBBER_FC*1.000000
+   29   121      6   0.58932 RUBBER_FC*1.000000
+   29   123      6   0.82408 RUBBER_FC*1.000000
+   29   422      6   0.86514 RUBBER_FC*1.000000
+   29   423      6   0.81412 RUBBER_FC*1.000000
+   29   551      6   0.89941 RUBBER_FC*1.000000
+   29   688      6   0.87872 RUBBER_FC*1.000000
+   29   690      6   0.68577 RUBBER_FC*1.000000
+   29   692      6   0.68658 RUBBER_FC*1.000000
+   29   694      6   0.51596 RUBBER_FC*1.000000
+   29   698      6   0.61547 RUBBER_FC*1.000000
+   29   700      6   0.72746 RUBBER_FC*1.000000
+   29   702      6   0.88922 RUBBER_FC*1.000000
+   31    36      6   0.50858 RUBBER_FC*1.000000
+   31    38      6   0.67986 RUBBER_FC*1.000000
+   31    40      6   0.79721 RUBBER_FC*1.000000
+   31   117      6   0.80677 RUBBER_FC*1.000000
+   31   119      6   0.54535 RUBBER_FC*1.000000
+   31   121      6   0.47448 RUBBER_FC*1.000000
+   31   123      6   0.65459 RUBBER_FC*1.000000
+   31   125      6   0.84170 RUBBER_FC*1.000000
+   31   686      6   0.89916 RUBBER_FC*1.000000
+   31   688      6   0.66148 RUBBER_FC*1.000000
+   31   690      6   0.57177 RUBBER_FC*1.000000
+   31   692      6   0.71755 RUBBER_FC*1.000000
+   31   694      6   0.64738 RUBBER_FC*1.000000
+   31   698      6   0.83741 RUBBER_FC*1.000000
+   33    38      6   0.74123 RUBBER_FC*1.000000
+   33   119      6   0.71066 RUBBER_FC*1.000000
+   33   121      6   0.51034 RUBBER_FC*1.000000
+   33   123      6   0.73187 RUBBER_FC*1.000000
+   33   125      6   0.85564 RUBBER_FC*1.000000
+   33   688      6   0.69066 RUBBER_FC*1.000000
+   33   690      6   0.59552 RUBBER_FC*1.000000
+   33   692      6   0.68799 RUBBER_FC*1.000000
+   33   694      6   0.76105 RUBBER_FC*1.000000
+   34   119      6   0.81681 RUBBER_FC*1.000000
+   34   121      6   0.52798 RUBBER_FC*1.000000
+   34   123      6   0.60959 RUBBER_FC*1.000000
+   34   125      6   0.60027 RUBBER_FC*1.000000
+   34   127      6   0.86982 RUBBER_FC*1.000000
+   34   688      6   0.84661 RUBBER_FC*1.000000
+   34   690      6   0.85873 RUBBER_FC*1.000000
+   36    42      6   0.89462 RUBBER_FC*1.000000
+   36   121      6   0.69170 RUBBER_FC*1.000000
+   36   123      6   0.69444 RUBBER_FC*1.000000
+   36   125      6   0.62537 RUBBER_FC*1.000000
+   36   127      6   0.82157 RUBBER_FC*1.000000
+   36   688      6   0.66699 RUBBER_FC*1.000000
+   36   690      6   0.77896 RUBBER_FC*1.000000
+   38   123      6   0.86815 RUBBER_FC*1.000000
+   38   125      6   0.75201 RUBBER_FC*1.000000
+   38   127      6   0.85229 RUBBER_FC*1.000000
+   38   688      6   0.65932 RUBBER_FC*1.000000
+   38   690      6   0.86423 RUBBER_FC*1.000000
+   40    47      6   0.74481 RUBBER_FC*1.000000
+   40   686      6   0.87712 RUBBER_FC*1.000000
+   40   688      6   0.70998 RUBBER_FC*1.000000
+   42    49      6   0.68908 RUBBER_FC*1.000000
+   42   684      6   0.83880 RUBBER_FC*1.000000
+   42   686      6   0.84783 RUBBER_FC*1.000000
+   42   688      6   0.79861 RUBBER_FC*1.000000
+   44    51      6   0.87961 RUBBER_FC*1.000000
+   44   154      6   0.89828 RUBBER_FC*1.000000
+   47    53      6   0.81201 RUBBER_FC*1.000000
+   47   682      6   0.78407 RUBBER_FC*1.000000
+   47   684      6   0.81225 RUBBER_FC*1.000000
+   49    55      6   0.55387 RUBBER_FC*1.000000
+   49    60      6   0.67664 RUBBER_FC*1.000000
+   49    64      6   0.86245 RUBBER_FC*1.000000
+   49   154      6   0.81120 RUBBER_FC*1.000000
+   49   682      6   0.80721 RUBBER_FC*1.000000
+   49   684      6   0.82078 RUBBER_FC*1.000000
+   51    60      6   0.50237 RUBBER_FC*1.000000
+   51    64      6   0.59625 RUBBER_FC*1.000000
+   51    66      6   0.78353 RUBBER_FC*1.000000
+   51    68      6   0.73986 RUBBER_FC*1.000000
+   51   154      6   0.85046 RUBBER_FC*1.000000
+   51   162      6   0.85901 RUBBER_FC*1.000000
+   51   682      6   0.89165 RUBBER_FC*1.000000
+   53    64      6   0.46416 RUBBER_FC*1.000000
+   53    66      6   0.52759 RUBBER_FC*1.000000
+   53    68      6   0.43691 RUBBER_FC*1.000000
+   53    71      6   0.77053 RUBBER_FC*1.000000
+   53    80      6   0.89684 RUBBER_FC*1.000000
+   53   676      6   0.80942 RUBBER_FC*1.000000
+   53   678      6   0.71485 RUBBER_FC*1.000000
+   53   680      6   0.85393 RUBBER_FC*1.000000
+   53   682      6   0.77926 RUBBER_FC*1.000000
+   53   684      6   0.89176 RUBBER_FC*1.000000
+   53   700      6   0.86370 RUBBER_FC*1.000000
+   55    66      6   0.52851 RUBBER_FC*1.000000
+   55    68      6   0.57282 RUBBER_FC*1.000000
+   55    71      6   0.89881 RUBBER_FC*1.000000
+   55   675      6   0.85612 RUBBER_FC*1.000000
+   55   676      6   0.77064 RUBBER_FC*1.000000
+   55   678      6   0.74698 RUBBER_FC*1.000000
+   55   700      6   0.72252 RUBBER_FC*1.000000
+   55   702      6   0.68516 RUBBER_FC*1.000000
+   55   704      6   0.69831 RUBBER_FC*1.000000
+   55   708      6   0.85716 RUBBER_FC*1.000000
+   60    68      6   0.74311 RUBBER_FC*1.000000
+   60   704      6   0.82797 RUBBER_FC*1.000000
+   60   708      6   0.84468 RUBBER_FC*1.000000
+   64    71      6   0.88604 RUBBER_FC*1.000000
+   64    78      6   0.82911 RUBBER_FC*1.000000
+   64    80      6   0.60175 RUBBER_FC*1.000000
+   64    82      6   0.77660 RUBBER_FC*1.000000
+   64    86      6   0.84745 RUBBER_FC*1.000000
+   64    92      6   0.84854 RUBBER_FC*1.000000
+   64    94      6   0.83237 RUBBER_FC*1.000000
+   64   704      6   0.85968 RUBBER_FC*1.000000
+   64   708      6   0.88354 RUBBER_FC*1.000000
+   66    72      6   0.76631 RUBBER_FC*1.000000
+   66    74      6   0.88727 RUBBER_FC*1.000000
+   66    75      6   0.72373 RUBBER_FC*1.000000
+   66    78      6   0.56463 RUBBER_FC*1.000000
+   66    80      6   0.46809 RUBBER_FC*1.000000
+   66    82      6   0.67254 RUBBER_FC*1.000000
+   66    86      6   0.88850 RUBBER_FC*1.000000
+   66   669      6   0.75046 RUBBER_FC*1.000000
+   66   671      6   0.77737 RUBBER_FC*1.000000
+   66   675      6   0.71280 RUBBER_FC*1.000000
+   66   676      6   0.71132 RUBBER_FC*1.000000
+   66   678      6   0.82561 RUBBER_FC*1.000000
+   66   702      6   0.88134 RUBBER_FC*1.000000
+   66   704      6   0.68710 RUBBER_FC*1.000000
+   66   708      6   0.78456 RUBBER_FC*1.000000
+   66   709      6   0.89956 RUBBER_FC*1.000000
+   68    74      6   0.83843 RUBBER_FC*1.000000
+   68    75      6   0.80822 RUBBER_FC*1.000000
+   68    78      6   0.67799 RUBBER_FC*1.000000
+   68    80      6   0.61127 RUBBER_FC*1.000000
+   68    82      6   0.66374 RUBBER_FC*1.000000
+   68   675      6   0.74123 RUBBER_FC*1.000000
+   68   676      6   0.57904 RUBBER_FC*1.000000
+   68   678      6   0.59708 RUBBER_FC*1.000000
+   68   680      6   0.77867 RUBBER_FC*1.000000
+   68   682      6   0.87997 RUBBER_FC*1.000000
+   68   704      6   0.83153 RUBBER_FC*1.000000
+   71    75      6   0.72384 RUBBER_FC*1.000000
+   71    78      6   0.67130 RUBBER_FC*1.000000
+   71    80      6   0.75224 RUBBER_FC*1.000000
+   71    82      6   0.73198 RUBBER_FC*1.000000
+   71   671      6   0.89458 RUBBER_FC*1.000000
+   71   675      6   0.72915 RUBBER_FC*1.000000
+   71   676      6   0.51493 RUBBER_FC*1.000000
+   71   678      6   0.55796 RUBBER_FC*1.000000
+   71   680      6   0.67969 RUBBER_FC*1.000000
+   72    78      6   0.68462 RUBBER_FC*1.000000
+   72   541      6   0.65367 RUBBER_FC*1.000000
+   72   543      6   0.61501 RUBBER_FC*1.000000
+   72   547      6   0.74737 RUBBER_FC*1.000000
+   72   671      6   0.68185 RUBBER_FC*1.000000
+   72   675      6   0.51744 RUBBER_FC*1.000000
+   72   676      6   0.38213 RUBBER_FC*1.000000
+   72   678      6   0.57540 RUBBER_FC*1.000000
+   72   680      6   0.79856 RUBBER_FC*1.000000
+   72   704      6   0.85594 RUBBER_FC*1.000000
+   74   537      6   0.85733 RUBBER_FC*1.000000
+   74   539      6   0.75973 RUBBER_FC*1.000000
+   74   541      6   0.46315 RUBBER_FC*1.000000
+   74   543      6   0.60604 RUBBER_FC*1.000000
+   74   547      6   0.86276 RUBBER_FC*1.000000
+   74   669      6   0.83903 RUBBER_FC*1.000000
+   74   671      6   0.57217 RUBBER_FC*1.000000
+   74   675      6   0.61109 RUBBER_FC*1.000000
+   74   676      6   0.66965 RUBBER_FC*1.000000
+   75   537      6   0.79934 RUBBER_FC*1.000000
+   75   539      6   0.84401 RUBBER_FC*1.000000
+   75   541      6   0.69099 RUBBER_FC*1.000000
+   75   543      6   0.84902 RUBBER_FC*1.000000
+   75   667      6   0.67606 RUBBER_FC*1.000000
+   75   669      6   0.51196 RUBBER_FC*1.000000
+   75   671      6   0.35672 RUBBER_FC*1.000000
+   75   675      6   0.55688 RUBBER_FC*1.000000
+   75   676      6   0.74526 RUBBER_FC*1.000000
+   75   704      6   0.77797 RUBBER_FC*1.000000
+   75   708      6   0.88019 RUBBER_FC*1.000000
+   75   709      6   0.89786 RUBBER_FC*1.000000
+   78    84      6   0.75852 RUBBER_FC*1.000000
+   78    86      6   0.88425 RUBBER_FC*1.000000
+   78   667      6   0.67529 RUBBER_FC*1.000000
+   78   669      6   0.62061 RUBBER_FC*1.000000
+   78   671      6   0.63726 RUBBER_FC*1.000000
+   78   675      6   0.77696 RUBBER_FC*1.000000
+   78   676      6   0.87584 RUBBER_FC*1.000000
+   80    86      6   0.52311 RUBBER_FC*1.000000
+   80    88      6   0.84766 RUBBER_FC*1.000000
+   80   667      6   0.84481 RUBBER_FC*1.000000
+   80   669      6   0.84255 RUBBER_FC*1.000000
+   82    88      6   0.73168 RUBBER_FC*1.000000
+   84    90      6   0.79927 RUBBER_FC*1.000000
+   86    92      6   0.72331 RUBBER_FC*1.000000
+   86    94      6   0.89420 RUBBER_FC*1.000000
+   88    94      6   0.89487 RUBBER_FC*1.000000
+   92   162      6   0.78826 RUBBER_FC*1.000000
+   92   164      6   0.78331 RUBBER_FC*1.000000
+   94   164      6   0.83249 RUBBER_FC*1.000000
+   96   104      6   0.79569 RUBBER_FC*1.000000
+   96   162      6   0.88626 RUBBER_FC*1.000000
+   96   164      6   0.74340 RUBBER_FC*1.000000
+   98   106      6   0.72632 RUBBER_FC*1.000000
+   98   209      6   0.85344 RUBBER_FC*1.000000
+   98   211      6   0.77986 RUBBER_FC*1.000000
+   98   213      6   0.76433 RUBBER_FC*1.000000
+  102   209      6   0.68306 RUBBER_FC*1.000000
+  102   211      6   0.57196 RUBBER_FC*1.000000
+  102   213      6   0.56051 RUBBER_FC*1.000000
+  102   216      6   0.88343 RUBBER_FC*1.000000
+  102   220      6   0.80876 RUBBER_FC*1.000000
+  104   207      6   0.79122 RUBBER_FC*1.000000
+  104   209      6   0.52906 RUBBER_FC*1.000000
+  104   211      6   0.61744 RUBBER_FC*1.000000
+  104   213      6   0.75529 RUBBER_FC*1.000000
+  104   711      6   0.85076 RUBBER_FC*1.000000
+  106   176      6   0.84550 RUBBER_FC*1.000000
+  106   206      6   0.66560 RUBBER_FC*1.000000
+  106   207      6   0.53304 RUBBER_FC*1.000000
+  106   209      6   0.37450 RUBBER_FC*1.000000
+  106   211      6   0.65529 RUBBER_FC*1.000000
+  110   204      6   0.79614 RUBBER_FC*1.000000
+  110   206      6   0.55087 RUBBER_FC*1.000000
+  110   207      6   0.62847 RUBBER_FC*1.000000
+  110   209      6   0.66648 RUBBER_FC*1.000000
+  110   708      6   0.82180 RUBBER_FC*1.000000
+  112   186      6   0.89044 RUBBER_FC*1.000000
+  112   201      6   0.64015 RUBBER_FC*1.000000
+  112   204      6   0.50600 RUBBER_FC*1.000000
+  112   206      6   0.39184 RUBBER_FC*1.000000
+  112   207      6   0.68200 RUBBER_FC*1.000000
+  112   209      6   0.85921 RUBBER_FC*1.000000
+  112   307      6   0.89025 RUBBER_FC*1.000000
+  112   309      6   0.85655 RUBBER_FC*1.000000
+  116   199      6   0.81981 RUBBER_FC*1.000000
+  116   201      6   0.53413 RUBBER_FC*1.000000
+  116   204      6   0.61170 RUBBER_FC*1.000000
+  116   206      6   0.68923 RUBBER_FC*1.000000
+  116   307      6   0.83577 RUBBER_FC*1.000000
+  116   309      6   0.69726 RUBBER_FC*1.000000
+  116   311      6   0.76350 RUBBER_FC*1.000000
+  116   418      6   0.74665 RUBBER_FC*1.000000
+  116   422      6   0.71713 RUBBER_FC*1.000000
+  116   702      6   0.82498 RUBBER_FC*1.000000
+  117   123      6   0.67377 RUBBER_FC*1.000000
+  117   186      6   0.89476 RUBBER_FC*1.000000
+  117   190      6   0.89034 RUBBER_FC*1.000000
+  117   197      6   0.65417 RUBBER_FC*1.000000
+  117   199      6   0.52926 RUBBER_FC*1.000000
+  117   201      6   0.37178 RUBBER_FC*1.000000
+  117   204      6   0.65538 RUBBER_FC*1.000000
+  117   206      6   0.87155 RUBBER_FC*1.000000
+  117   274      6   0.87630 RUBBER_FC*1.000000
+  117   309      6   0.70527 RUBBER_FC*1.000000
+  117   311      6   0.66148 RUBBER_FC*1.000000
+  117   313      6   0.86082 RUBBER_FC*1.000000
+  117   418      6   0.87488 RUBBER_FC*1.000000
+  117   422      6   0.75663 RUBBER_FC*1.000000
+  117   423      6   0.82607 RUBBER_FC*1.000000
+  119   125      6   0.85892 RUBBER_FC*1.000000
+  119   197      6   0.53997 RUBBER_FC*1.000000
+  119   199      6   0.59938 RUBBER_FC*1.000000
+  119   201      6   0.63892 RUBBER_FC*1.000000
+  119   311      6   0.77248 RUBBER_FC*1.000000
+  119   313      6   0.81420 RUBBER_FC*1.000000
+  119   422      6   0.85762 RUBBER_FC*1.000000
+  119   423      6   0.78624 RUBBER_FC*1.000000
+  121   127      6   0.81285 RUBBER_FC*1.000000
+  121   192      6   0.84275 RUBBER_FC*1.000000
+  121   197      6   0.48717 RUBBER_FC*1.000000
+  121   199      6   0.70371 RUBBER_FC*1.000000
+  121   201      6   0.82868 RUBBER_FC*1.000000
+  123   129      6   0.76290 RUBBER_FC*1.000000
+  123   190      6   0.86439 RUBBER_FC*1.000000
+  123   192      6   0.71999 RUBBER_FC*1.000000
+  123   197      6   0.41739 RUBBER_FC*1.000000
+  123   199      6   0.63317 RUBBER_FC*1.000000
+  123   201      6   0.72043 RUBBER_FC*1.000000
+  125   130      6   0.86916 RUBBER_FC*1.000000
+  125   192      6   0.87929 RUBBER_FC*1.000000
+  125   197      6   0.69696 RUBBER_FC*1.000000
+  127   132      6   0.77962 RUBBER_FC*1.000000
+  127   135      6   0.66628 RUBBER_FC*1.000000
+  127   137      6   0.64812 RUBBER_FC*1.000000
+  127   197      6   0.78014 RUBBER_FC*1.000000
+  129   135      6   0.47247 RUBBER_FC*1.000000
+  129   137      6   0.55166 RUBBER_FC*1.000000
+  129   142      6   0.79016 RUBBER_FC*1.000000
+  130   137      6   0.48651 RUBBER_FC*1.000000
+  130   142      6   0.60526 RUBBER_FC*1.000000
+  130   144      6   0.81392 RUBBER_FC*1.000000
+  130   184      6   0.88799 RUBBER_FC*1.000000
+  130   186      6   0.85752 RUBBER_FC*1.000000
+  130   188      6   0.88801 RUBBER_FC*1.000000
+  130   201      6   0.89677 RUBBER_FC*1.000000
+  132   142      6   0.48755 RUBBER_FC*1.000000
+  132   144      6   0.60356 RUBBER_FC*1.000000
+  132   146      6   0.81164 RUBBER_FC*1.000000
+  135   144      6   0.48647 RUBBER_FC*1.000000
+  135   146      6   0.60862 RUBBER_FC*1.000000
+  135   148      6   0.83481 RUBBER_FC*1.000000
+  137   146      6   0.47847 RUBBER_FC*1.000000
+  137   148      6   0.62538 RUBBER_FC*1.000000
+  137   150      6   0.83349 RUBBER_FC*1.000000
+  142   148      6   0.49614 RUBBER_FC*1.000000
+  142   150      6   0.62566 RUBBER_FC*1.000000
+  142   153      6   0.81477 RUBBER_FC*1.000000
+  142   206      6   0.80483 RUBBER_FC*1.000000
+  144   150      6   0.49616 RUBBER_FC*1.000000
+  144   153      6   0.59279 RUBBER_FC*1.000000
+  144   154      6   0.80156 RUBBER_FC*1.000000
+  146   153      6   0.48447 RUBBER_FC*1.000000
+  146   154      6   0.59397 RUBBER_FC*1.000000
+  146   155      6   0.81309 RUBBER_FC*1.000000
+  148   154      6   0.48128 RUBBER_FC*1.000000
+  148   155      6   0.60264 RUBBER_FC*1.000000
+  148   157      6   0.81323 RUBBER_FC*1.000000
+  148   172      6   0.81509 RUBBER_FC*1.000000
+  150   155      6   0.47605 RUBBER_FC*1.000000
+  150   157      6   0.60042 RUBBER_FC*1.000000
+  150   160      6   0.82003 RUBBER_FC*1.000000
+  150   168      6   0.77145 RUBBER_FC*1.000000
+  150   170      6   0.72090 RUBBER_FC*1.000000
+  150   172      6   0.59868 RUBBER_FC*1.000000
+  150   176      6   0.83834 RUBBER_FC*1.000000
+  153   157      6   0.49034 RUBBER_FC*1.000000
+  153   160      6   0.62416 RUBBER_FC*1.000000
+  153   162      6   0.83288 RUBBER_FC*1.000000
+  153   168      6   0.81789 RUBBER_FC*1.000000
+  153   170      6   0.87098 RUBBER_FC*1.000000
+  153   172      6   0.84274 RUBBER_FC*1.000000
+  154   160      6   0.50189 RUBBER_FC*1.000000
+  154   162      6   0.62524 RUBBER_FC*1.000000
+  154   164      6   0.82245 RUBBER_FC*1.000000
+  154   168      6   0.84379 RUBBER_FC*1.000000
+  155   162      6   0.48599 RUBBER_FC*1.000000
+  155   164      6   0.56536 RUBBER_FC*1.000000
+  155   166      6   0.66832 RUBBER_FC*1.000000
+  155   168      6   0.56557 RUBBER_FC*1.000000
+  155   170      6   0.73862 RUBBER_FC*1.000000
+  155   172      6   0.72625 RUBBER_FC*1.000000
+  157   164      6   0.47829 RUBBER_FC*1.000000
+  157   166      6   0.45185 RUBBER_FC*1.000000
+  157   168      6   0.44517 RUBBER_FC*1.000000
+  157   170      6   0.68806 RUBBER_FC*1.000000
+  157   172      6   0.79614 RUBBER_FC*1.000000
+  160   166      6   0.59292 RUBBER_FC*1.000000
+  160   168      6   0.71233 RUBBER_FC*1.000000
+  162   168      6   0.72666 RUBBER_FC*1.000000
+  164   170      6   0.83192 RUBBER_FC*1.000000
+  166   172      6   0.89660 RUBBER_FC*1.000000
+  168   211      6   0.89092 RUBBER_FC*1.000000
+  168   213      6   0.82441 RUBBER_FC*1.000000
+  168   216      6   0.87557 RUBBER_FC*1.000000
+  170   211      6   0.70190 RUBBER_FC*1.000000
+  170   213      6   0.66869 RUBBER_FC*1.000000
+  170   216      6   0.65779 RUBBER_FC*1.000000
+  172   207      6   0.89254 RUBBER_FC*1.000000
+  172   209      6   0.65510 RUBBER_FC*1.000000
+  172   211      6   0.49404 RUBBER_FC*1.000000
+  172   213      6   0.59912 RUBBER_FC*1.000000
+  172   216      6   0.68645 RUBBER_FC*1.000000
+  176   183      6   0.84054 RUBBER_FC*1.000000
+  176   207      6   0.65956 RUBBER_FC*1.000000
+  176   209      6   0.48681 RUBBER_FC*1.000000
+  176   211      6   0.36461 RUBBER_FC*1.000000
+  176   213      6   0.56866 RUBBER_FC*1.000000
+  176   216      6   0.66515 RUBBER_FC*1.000000
+  176   220      6   0.84469 RUBBER_FC*1.000000
+  176   224      6   0.78514 RUBBER_FC*1.000000
+  179   184      6   0.83746 RUBBER_FC*1.000000
+  179   206      6   0.82656 RUBBER_FC*1.000000
+  179   207      6   0.53603 RUBBER_FC*1.000000
+  179   209      6   0.56649 RUBBER_FC*1.000000
+  179   211      6   0.61340 RUBBER_FC*1.000000
+  179   213      6   0.85386 RUBBER_FC*1.000000
+  179   224      6   0.87414 RUBBER_FC*1.000000
+  181   206      6   0.79210 RUBBER_FC*1.000000
+  181   207      6   0.50052 RUBBER_FC*1.000000
+  181   209      6   0.65892 RUBBER_FC*1.000000
+  181   211      6   0.77744 RUBBER_FC*1.000000
+  181   224      6   0.88057 RUBBER_FC*1.000000
+  181   231      6   0.87955 RUBBER_FC*1.000000
+  181   239      6   0.79860 RUBBER_FC*1.000000
+  181   241      6   0.84153 RUBBER_FC*1.000000
+  181   279      6   0.83847 RUBBER_FC*1.000000
+  183   204      6   0.70108 RUBBER_FC*1.000000
+  183   206      6   0.57600 RUBBER_FC*1.000000
+  183   207      6   0.43914 RUBBER_FC*1.000000
+  183   209      6   0.74939 RUBBER_FC*1.000000
+  183   239      6   0.83521 RUBBER_FC*1.000000
+  183   241      6   0.73145 RUBBER_FC*1.000000
+  183   243      6   0.84863 RUBBER_FC*1.000000
+  183   276      6   0.83008 RUBBER_FC*1.000000
+  183   277      6   0.71638 RUBBER_FC*1.000000
+  183   279      6   0.77036 RUBBER_FC*1.000000
+  184   201      6   0.81275 RUBBER_FC*1.000000
+  184   204      6   0.52021 RUBBER_FC*1.000000
+  184   206      6   0.59383 RUBBER_FC*1.000000
+  184   207      6   0.67639 RUBBER_FC*1.000000
+  184   241      6   0.80870 RUBBER_FC*1.000000
+  184   243      6   0.75971 RUBBER_FC*1.000000
+  184   245      6   0.82478 RUBBER_FC*1.000000
+  184   274      6   0.89213 RUBBER_FC*1.000000
+  184   276      6   0.70917 RUBBER_FC*1.000000
+  184   277      6   0.77093 RUBBER_FC*1.000000
+  186   192      6   0.88828 RUBBER_FC*1.000000
+  186   199      6   0.66108 RUBBER_FC*1.000000
+  186   201      6   0.53053 RUBBER_FC*1.000000
+  186   204      6   0.38501 RUBBER_FC*1.000000
+  186   206      6   0.67683 RUBBER_FC*1.000000
+  186   243      6   0.80266 RUBBER_FC*1.000000
+  186   245      6   0.68763 RUBBER_FC*1.000000
+  186   247      6   0.86945 RUBBER_FC*1.000000
+  186   273      6   0.88414 RUBBER_FC*1.000000
+  186   274      6   0.62820 RUBBER_FC*1.000000
+  186   276      6   0.60396 RUBBER_FC*1.000000
+  186   277      6   0.82823 RUBBER_FC*1.000000
+  186   309      6   0.86460 RUBBER_FC*1.000000
+  188   197      6   0.73473 RUBBER_FC*1.000000
+  188   199      6   0.52231 RUBBER_FC*1.000000
+  188   201      6   0.61550 RUBBER_FC*1.000000
+  188   204      6   0.67351 RUBBER_FC*1.000000
+  188   245      6   0.74183 RUBBER_FC*1.000000
+  188   247      6   0.76450 RUBBER_FC*1.000000
+  188   273      6   0.80834 RUBBER_FC*1.000000
+  188   274      6   0.70500 RUBBER_FC*1.000000
+  188   276      6   0.80420 RUBBER_FC*1.000000
+  190   199      6   0.36320 RUBBER_FC*1.000000
+  190   201      6   0.66803 RUBBER_FC*1.000000
+  190   204      6   0.88616 RUBBER_FC*1.000000
+  190   247      6   0.81710 RUBBER_FC*1.000000
+  190   249      6   0.78693 RUBBER_FC*1.000000
+  190   267      6   0.76180 RUBBER_FC*1.000000
+  190   269      6   0.78338 RUBBER_FC*1.000000
+  190   272      6   0.75029 RUBBER_FC*1.000000
+  190   273      6   0.71397 RUBBER_FC*1.000000
+  190   274      6   0.77402 RUBBER_FC*1.000000
+  192   201      6   0.78793 RUBBER_FC*1.000000
+  192   267      6   0.71881 RUBBER_FC*1.000000
+  192   269      6   0.85028 RUBBER_FC*1.000000
+  197   267      6   0.74257 RUBBER_FC*1.000000
+  197   269      6   0.87390 RUBBER_FC*1.000000
+  197   313      6   0.89977 RUBBER_FC*1.000000
+  199   267      6   0.83869 RUBBER_FC*1.000000
+  199   269      6   0.85632 RUBBER_FC*1.000000
+  199   272      6   0.75582 RUBBER_FC*1.000000
+  199   273      6   0.73796 RUBBER_FC*1.000000
+  199   274      6   0.72045 RUBBER_FC*1.000000
+  199   309      6   0.76350 RUBBER_FC*1.000000
+  199   311      6   0.75008 RUBBER_FC*1.000000
+  199   313      6   0.81144 RUBBER_FC*1.000000
+  201   273      6   0.87196 RUBBER_FC*1.000000
+  201   274      6   0.69387 RUBBER_FC*1.000000
+  201   276      6   0.87439 RUBBER_FC*1.000000
+  201   309      6   0.69127 RUBBER_FC*1.000000
+  201   311      6   0.78851 RUBBER_FC*1.000000
+  204   274      6   0.67602 RUBBER_FC*1.000000
+  204   276      6   0.68815 RUBBER_FC*1.000000
+  204   277      6   0.80956 RUBBER_FC*1.000000
+  204   303      6   0.86980 RUBBER_FC*1.000000
+  204   307      6   0.86934 RUBBER_FC*1.000000
+  204   309      6   0.74482 RUBBER_FC*1.000000
+  206   276      6   0.88295 RUBBER_FC*1.000000
+  206   277      6   0.84527 RUBBER_FC*1.000000
+  207   277      6   0.83853 RUBBER_FC*1.000000
+  211   218      6   0.77379 RUBBER_FC*1.000000
+  211   220      6   0.66044 RUBBER_FC*1.000000
+  211   224      6   0.73722 RUBBER_FC*1.000000
+  213   220      6   0.49117 RUBBER_FC*1.000000
+  213   224      6   0.66276 RUBBER_FC*1.000000
+  216   224      6   0.57235 RUBBER_FC*1.000000
+  216   226      6   0.81776 RUBBER_FC*1.000000
+  218   226      6   0.68253 RUBBER_FC*1.000000
+  218   228      6   0.80232 RUBBER_FC*1.000000
+  220   228      6   0.51019 RUBBER_FC*1.000000
+  220   231      6   0.67295 RUBBER_FC*1.000000
+  220   287      6   0.89199 RUBBER_FC*1.000000
+  224   231      6   0.49660 RUBBER_FC*1.000000
+  224   233      6   0.84971 RUBBER_FC*1.000000
+  226   233      6   0.80141 RUBBER_FC*1.000000
+  226   287      6   0.89088 RUBBER_FC*1.000000
+  226   291      6   0.85748 RUBBER_FC*1.000000
+  228   285      6   0.62564 RUBBER_FC*1.000000
+  228   287      6   0.55218 RUBBER_FC*1.000000
+  228   291      6   0.54502 RUBBER_FC*1.000000
+  231   239      6   0.82962 RUBBER_FC*1.000000
+  231   281      6   0.76143 RUBBER_FC*1.000000
+  231   285      6   0.51158 RUBBER_FC*1.000000
+  231   287      6   0.63557 RUBBER_FC*1.000000
+  231   291      6   0.66482 RUBBER_FC*1.000000
+  233   241      6   0.85997 RUBBER_FC*1.000000
+  233   279      6   0.76322 RUBBER_FC*1.000000
+  233   281      6   0.53904 RUBBER_FC*1.000000
+  233   285      6   0.37528 RUBBER_FC*1.000000
+  233   287      6   0.67020 RUBBER_FC*1.000000
+  233   291      6   0.69403 RUBBER_FC*1.000000
+  233   294      6   0.84880 RUBBER_FC*1.000000
+  233   370      6   0.88985 RUBBER_FC*1.000000
+  235   279      6   0.61491 RUBBER_FC*1.000000
+  235   281      6   0.51633 RUBBER_FC*1.000000
+  235   285      6   0.55730 RUBBER_FC*1.000000
+  235   298      6   0.88028 RUBBER_FC*1.000000
+  235   369      6   0.70386 RUBBER_FC*1.000000
+  235   370      6   0.63016 RUBBER_FC*1.000000
+  235   372      6   0.87009 RUBBER_FC*1.000000
+  239   277      6   0.80658 RUBBER_FC*1.000000
+  239   279      6   0.51681 RUBBER_FC*1.000000
+  239   281      6   0.61317 RUBBER_FC*1.000000
+  239   285      6   0.76147 RUBBER_FC*1.000000
+  239   369      6   0.67913 RUBBER_FC*1.000000
+  239   370      6   0.76213 RUBBER_FC*1.000000
+  241   276      6   0.66500 RUBBER_FC*1.000000
+  241   277      6   0.51816 RUBBER_FC*1.000000
+  241   279      6   0.37204 RUBBER_FC*1.000000
+  241   281      6   0.67486 RUBBER_FC*1.000000
+  241   298      6   0.88372 RUBBER_FC*1.000000
+  241   303      6   0.88473 RUBBER_FC*1.000000
+  241   365      6   0.81002 RUBBER_FC*1.000000
+  241   367      6   0.67005 RUBBER_FC*1.000000
+  241   369      6   0.57608 RUBBER_FC*1.000000
+  241   370      6   0.81787 RUBBER_FC*1.000000
+  243   274      6   0.81855 RUBBER_FC*1.000000
+  243   276      6   0.51018 RUBBER_FC*1.000000
+  243   277      6   0.59648 RUBBER_FC*1.000000
+  243   279      6   0.65413 RUBBER_FC*1.000000
+  243   363      6   0.86464 RUBBER_FC*1.000000
+  243   365      6   0.61188 RUBBER_FC*1.000000
+  243   367      6   0.62359 RUBBER_FC*1.000000
+  243   369      6   0.68912 RUBBER_FC*1.000000
+  245   273      6   0.68994 RUBBER_FC*1.000000
+  245   274      6   0.53019 RUBBER_FC*1.000000
+  245   276      6   0.38108 RUBBER_FC*1.000000
+  245   277      6   0.67662 RUBBER_FC*1.000000
+  245   279      6   0.88800 RUBBER_FC*1.000000
+  245   303      6   0.87488 RUBBER_FC*1.000000
+  245   309      6   0.89009 RUBBER_FC*1.000000
+  245   361      6   0.88569 RUBBER_FC*1.000000
+  245   363      6   0.69096 RUBBER_FC*1.000000
+  245   365      6   0.58952 RUBBER_FC*1.000000
+  245   367      6   0.70291 RUBBER_FC*1.000000
+  247   272      6   0.81929 RUBBER_FC*1.000000
+  247   273      6   0.53371 RUBBER_FC*1.000000
+  247   274      6   0.60051 RUBBER_FC*1.000000
+  247   276      6   0.66787 RUBBER_FC*1.000000
+  247   354      6   0.84100 RUBBER_FC*1.000000
+  247   361      6   0.71599 RUBBER_FC*1.000000
+  247   363      6   0.64546 RUBBER_FC*1.000000
+  247   365      6   0.68401 RUBBER_FC*1.000000
+  249   269      6   0.70508 RUBBER_FC*1.000000
+  249   272      6   0.52134 RUBBER_FC*1.000000
+  249   273      6   0.38515 RUBBER_FC*1.000000
+  249   274      6   0.67017 RUBBER_FC*1.000000
+  249   276      6   0.89483 RUBBER_FC*1.000000
+  249   309      6   0.88545 RUBBER_FC*1.000000
+  249   313      6   0.89925 RUBBER_FC*1.000000
+  249   352      6   0.79081 RUBBER_FC*1.000000
+  249   354      6   0.68802 RUBBER_FC*1.000000
+  249   361      6   0.72530 RUBBER_FC*1.000000
+  249   363      6   0.75644 RUBBER_FC*1.000000
+  251   257      6   0.89911 RUBBER_FC*1.000000
+  251   264      6   0.81875 RUBBER_FC*1.000000
+  251   266      6   0.84065 RUBBER_FC*1.000000
+  251   267      6   0.81296 RUBBER_FC*1.000000
+  251   269      6   0.57720 RUBBER_FC*1.000000
+  251   272      6   0.56904 RUBBER_FC*1.000000
+  251   273      6   0.63973 RUBBER_FC*1.000000
+  251   344      6   0.81368 RUBBER_FC*1.000000
+  251   352      6   0.77176 RUBBER_FC*1.000000
+  251   354      6   0.79910 RUBBER_FC*1.000000
+  251   361      6   0.86062 RUBBER_FC*1.000000
+  254   259      6   0.77098 RUBBER_FC*1.000000
+  254   264      6   0.69536 RUBBER_FC*1.000000
+  254   266      6   0.67789 RUBBER_FC*1.000000
+  254   267      6   0.67103 RUBBER_FC*1.000000
+  254   269      6   0.41796 RUBBER_FC*1.000000
+  254   272      6   0.55135 RUBBER_FC*1.000000
+  254   273      6   0.80880 RUBBER_FC*1.000000
+  254   313      6   0.77716 RUBBER_FC*1.000000
+  254   317      6   0.77594 RUBBER_FC*1.000000
+  254   319      6   0.85029 RUBBER_FC*1.000000
+  254   334      6   0.88432 RUBBER_FC*1.000000
+  254   342      6   0.82372 RUBBER_FC*1.000000
+  254   344      6   0.64055 RUBBER_FC*1.000000
+  254   352      6   0.82908 RUBBER_FC*1.000000
+  256   260      6   0.66278 RUBBER_FC*1.000000
+  256   262      6   0.73101 RUBBER_FC*1.000000
+  256   264      6   0.50538 RUBBER_FC*1.000000
+  256   266      6   0.60523 RUBBER_FC*1.000000
+  256   267      6   0.77098 RUBBER_FC*1.000000
+  256   269      6   0.62122 RUBBER_FC*1.000000
+  256   272      6   0.84923 RUBBER_FC*1.000000
+  256   344      6   0.83753 RUBBER_FC*1.000000
+  257   262      6   0.80143 RUBBER_FC*1.000000
+  257   264      6   0.60843 RUBBER_FC*1.000000
+  257   266      6   0.79394 RUBBER_FC*1.000000
+  259   264      6   0.48045 RUBBER_FC*1.000000
+  259   266      6   0.76699 RUBBER_FC*1.000000
+  260   266      6   0.80197 RUBBER_FC*1.000000
+  264   269      6   0.74397 RUBBER_FC*1.000000
+  267   313      6   0.70215 RUBBER_FC*1.000000
+  267   317      6   0.78223 RUBBER_FC*1.000000
+  269   311      6   0.82637 RUBBER_FC*1.000000
+  269   313      6   0.52840 RUBBER_FC*1.000000
+  269   317      6   0.62464 RUBBER_FC*1.000000
+  269   319      6   0.79095 RUBBER_FC*1.000000
+  269   344      6   0.89614 RUBBER_FC*1.000000
+  272   309      6   0.68437 RUBBER_FC*1.000000
+  272   311      6   0.53578 RUBBER_FC*1.000000
+  272   313      6   0.38198 RUBBER_FC*1.000000
+  272   317      6   0.61426 RUBBER_FC*1.000000
+  272   319      6   0.87486 RUBBER_FC*1.000000
+  272   344      6   0.76876 RUBBER_FC*1.000000
+  272   346      6   0.89752 RUBBER_FC*1.000000
+  272   354      6   0.85379 RUBBER_FC*1.000000
+  272   423      6   0.84259 RUBBER_FC*1.000000
+  273   307      6   0.74914 RUBBER_FC*1.000000
+  273   309      6   0.50420 RUBBER_FC*1.000000
+  273   311      6   0.58339 RUBBER_FC*1.000000
+  273   313      6   0.65956 RUBBER_FC*1.000000
+  273   354      6   0.73054 RUBBER_FC*1.000000
+  273   363      6   0.84620 RUBBER_FC*1.000000
+  274   303      6   0.66823 RUBBER_FC*1.000000
+  274   307      6   0.53763 RUBBER_FC*1.000000
+  274   309      6   0.36916 RUBBER_FC*1.000000
+  274   311      6   0.65123 RUBBER_FC*1.000000
+  274   313      6   0.88450 RUBBER_FC*1.000000
+  274   363      6   0.88178 RUBBER_FC*1.000000
+  274   418      6   0.83773 RUBBER_FC*1.000000
+  276   302      6   0.81487 RUBBER_FC*1.000000
+  276   303      6   0.52353 RUBBER_FC*1.000000
+  276   307      6   0.62095 RUBBER_FC*1.000000
+  276   309      6   0.64973 RUBBER_FC*1.000000
+  276   363      6   0.83982 RUBBER_FC*1.000000
+  276   365      6   0.79466 RUBBER_FC*1.000000
+  276   367      6   0.75378 RUBBER_FC*1.000000
+  277   298      6   0.67841 RUBBER_FC*1.000000
+  277   302      6   0.54846 RUBBER_FC*1.000000
+  277   303      6   0.37992 RUBBER_FC*1.000000
+  277   307      6   0.67814 RUBBER_FC*1.000000
+  277   309      6   0.85908 RUBBER_FC*1.000000
+  277   367      6   0.73249 RUBBER_FC*1.000000
+  277   369      6   0.83729 RUBBER_FC*1.000000
+  277   409      6   0.84689 RUBBER_FC*1.000000
+  279   296      6   0.81942 RUBBER_FC*1.000000
+  279   298      6   0.52352 RUBBER_FC*1.000000
+  279   302      6   0.61263 RUBBER_FC*1.000000
+  279   303      6   0.65853 RUBBER_FC*1.000000
+  279   367      6   0.71397 RUBBER_FC*1.000000
+  279   369      6   0.64725 RUBBER_FC*1.000000
+  279   370      6   0.80357 RUBBER_FC*1.000000
+  281   291      6   0.83225 RUBBER_FC*1.000000
+  281   294      6   0.67203 RUBBER_FC*1.000000
+  281   296      6   0.53283 RUBBER_FC*1.000000
+  281   298      6   0.38439 RUBBER_FC*1.000000
+  281   302      6   0.67963 RUBBER_FC*1.000000
+  281   303      6   0.88209 RUBBER_FC*1.000000
+  281   369      6   0.77720 RUBBER_FC*1.000000
+  281   370      6   0.75720 RUBBER_FC*1.000000
+  281   397      6   0.88506 RUBBER_FC*1.000000
+  281   403      6   0.85764 RUBBER_FC*1.000000
+  285   293      6   0.66615 RUBBER_FC*1.000000
+  285   294      6   0.50744 RUBBER_FC*1.000000
+  285   296      6   0.57970 RUBBER_FC*1.000000
+  285   298      6   0.62729 RUBBER_FC*1.000000
+  287   294      6   0.36082 RUBBER_FC*1.000000
+  287   296      6   0.61404 RUBBER_FC*1.000000
+  287   298      6   0.78893 RUBBER_FC*1.000000
+  287   719      6   0.89944 RUBBER_FC*1.000000
+  287   720      6   0.72883 RUBBER_FC*1.000000
+  287   722      6   0.64359 RUBBER_FC*1.000000
+  287   724      6   0.86671 RUBBER_FC*1.000000
+  291   296      6   0.77217 RUBBER_FC*1.000000
+  291   720      6   0.77916 RUBBER_FC*1.000000
+  291   722      6   0.56354 RUBBER_FC*1.000000
+  291   724      6   0.68634 RUBBER_FC*1.000000
+  293   720      6   0.70203 RUBBER_FC*1.000000
+  293   722      6   0.44656 RUBBER_FC*1.000000
+  293   724      6   0.63889 RUBBER_FC*1.000000
+  294   397      6   0.83520 RUBBER_FC*1.000000
+  294   401      6   0.70977 RUBBER_FC*1.000000
+  294   403      6   0.80507 RUBBER_FC*1.000000
+  294   719      6   0.79051 RUBBER_FC*1.000000
+  294   720      6   0.68307 RUBBER_FC*1.000000
+  294   722      6   0.59607 RUBBER_FC*1.000000
+  294   724      6   0.88700 RUBBER_FC*1.000000
+  296   394      6   0.74589 RUBBER_FC*1.000000
+  296   397      6   0.53165 RUBBER_FC*1.000000
+  296   401      6   0.47310 RUBBER_FC*1.000000
+  296   403      6   0.50463 RUBBER_FC*1.000000
+  296   407      6   0.83976 RUBBER_FC*1.000000
+  298   369      6   0.89381 RUBBER_FC*1.000000
+  298   394      6   0.77830 RUBBER_FC*1.000000
+  298   397      6   0.61321 RUBBER_FC*1.000000
+  298   401      6   0.65751 RUBBER_FC*1.000000
+  298   403      6   0.48550 RUBBER_FC*1.000000
+  298   407      6   0.69133 RUBBER_FC*1.000000
+  298   409      6   0.80401 RUBBER_FC*1.000000
+  302   367      6   0.86890 RUBBER_FC*1.000000
+  302   388      6   0.83430 RUBBER_FC*1.000000
+  302   394      6   0.83773 RUBBER_FC*1.000000
+  302   397      6   0.69175 RUBBER_FC*1.000000
+  302   401      6   0.77308 RUBBER_FC*1.000000
+  302   403      6   0.48890 RUBBER_FC*1.000000
+  302   407      6   0.46803 RUBBER_FC*1.000000
+  302   409      6   0.46959 RUBBER_FC*1.000000
+  302   413      6   0.81629 RUBBER_FC*1.000000
+  302   642      6   0.82886 RUBBER_FC*1.000000
+  303   367      6   0.88021 RUBBER_FC*1.000000
+  303   403      6   0.83971 RUBBER_FC*1.000000
+  303   407      6   0.69737 RUBBER_FC*1.000000
+  303   409      6   0.48094 RUBBER_FC*1.000000
+  303   413      6   0.69943 RUBBER_FC*1.000000
+  303   418      6   0.78758 RUBBER_FC*1.000000
+  307   407      6   0.79882 RUBBER_FC*1.000000
+  307   409      6   0.48280 RUBBER_FC*1.000000
+  307   413      6   0.47294 RUBBER_FC*1.000000
+  307   418      6   0.46019 RUBBER_FC*1.000000
+  307   422      6   0.79182 RUBBER_FC*1.000000
+  307   635      6   0.82185 RUBBER_FC*1.000000
+  309   409      6   0.82803 RUBBER_FC*1.000000
+  309   413      6   0.70166 RUBBER_FC*1.000000
+  309   418      6   0.48305 RUBBER_FC*1.000000
+  309   422      6   0.66116 RUBBER_FC*1.000000
+  309   423      6   0.80005 RUBBER_FC*1.000000
+  311   413      6   0.81874 RUBBER_FC*1.000000
+  311   418      6   0.50668 RUBBER_FC*1.000000
+  311   422      6   0.47053 RUBBER_FC*1.000000
+  311   423      6   0.46801 RUBBER_FC*1.000000
+  311   425      6   0.67336 RUBBER_FC*1.000000
+  311   630      6   0.84651 RUBBER_FC*1.000000
+  313   344      6   0.86295 RUBBER_FC*1.000000
+  313   418      6   0.84268 RUBBER_FC*1.000000
+  313   422      6   0.70863 RUBBER_FC*1.000000
+  313   423      6   0.48484 RUBBER_FC*1.000000
+  313   425      6   0.60346 RUBBER_FC*1.000000
+  313   427      6   0.81660 RUBBER_FC*1.000000
+  317   323      6   0.88173 RUBBER_FC*1.000000
+  317   334      6   0.81678 RUBBER_FC*1.000000
+  317   337      6   0.67718 RUBBER_FC*1.000000
+  317   344      6   0.78989 RUBBER_FC*1.000000
+  317   422      6   0.85006 RUBBER_FC*1.000000
+  317   423      6   0.54178 RUBBER_FC*1.000000
+  317   425      6   0.48606 RUBBER_FC*1.000000
+  317   427      6   0.58636 RUBBER_FC*1.000000
+  317   429      6   0.86321 RUBBER_FC*1.000000
+  319   324      6   0.88499 RUBBER_FC*1.000000
+  319   328      6   0.63098 RUBBER_FC*1.000000
+  319   331      6   0.75435 RUBBER_FC*1.000000
+  319   333      6   0.89322 RUBBER_FC*1.000000
+  319   334      6   0.63220 RUBBER_FC*1.000000
+  319   337      6   0.58753 RUBBER_FC*1.000000
+  319   340      6   0.89711 RUBBER_FC*1.000000
+  319   344      6   0.84221 RUBBER_FC*1.000000
+  319   423      6   0.78309 RUBBER_FC*1.000000
+  319   425      6   0.62556 RUBBER_FC*1.000000
+  319   427      6   0.56065 RUBBER_FC*1.000000
+  319   429      6   0.80094 RUBBER_FC*1.000000
+  321   326      6   0.73930 RUBBER_FC*1.000000
+  321   328      6   0.58648 RUBBER_FC*1.000000
+  321   331      6   0.82181 RUBBER_FC*1.000000
+  321   334      6   0.81166 RUBBER_FC*1.000000
+  321   337      6   0.84096 RUBBER_FC*1.000000
+  321   425      6   0.83019 RUBBER_FC*1.000000
+  321   427      6   0.62667 RUBBER_FC*1.000000
+  321   429      6   0.82267 RUBBER_FC*1.000000
+  323   328      6   0.50715 RUBBER_FC*1.000000
+  323   331      6   0.75925 RUBBER_FC*1.000000
+  323   427      6   0.65776 RUBBER_FC*1.000000
+  323   429      6   0.73123 RUBBER_FC*1.000000
+  323   433      6   0.76302 RUBBER_FC*1.000000
+  323   613      6   0.86924 RUBBER_FC*1.000000
+  324   331      6   0.72136 RUBBER_FC*1.000000
+  324   427      6   0.81741 RUBBER_FC*1.000000
+  324   429      6   0.76363 RUBBER_FC*1.000000
+  324   433      6   0.64215 RUBBER_FC*1.000000
+  324   436      6   0.72428 RUBBER_FC*1.000000
+  324   438      6   0.87904 RUBBER_FC*1.000000
+  324   608      6   0.79695 RUBBER_FC*1.000000
+  324   611      6   0.81542 RUBBER_FC*1.000000
+  324   613      6   0.84983 RUBBER_FC*1.000000
+  324   615      6   0.86277 RUBBER_FC*1.000000
+  326   333      6   0.76066 RUBBER_FC*1.000000
+  326   334      6   0.85577 RUBBER_FC*1.000000
+  328   334      6   0.51669 RUBBER_FC*1.000000
+  328   337      6   0.63274 RUBBER_FC*1.000000
+  328   340      6   0.84666 RUBBER_FC*1.000000
+  328   427      6   0.81987 RUBBER_FC*1.000000
+  328   429      6   0.85734 RUBBER_FC*1.000000
+  331   337      6   0.48770 RUBBER_FC*1.000000
+  331   340      6   0.61867 RUBBER_FC*1.000000
+  331   342      6   0.81976 RUBBER_FC*1.000000
+  331   427      6   0.84740 RUBBER_FC*1.000000
+  331   429      6   0.83234 RUBBER_FC*1.000000
+  331   433      6   0.88833 RUBBER_FC*1.000000
+  331   491      6   0.80364 RUBBER_FC*1.000000
+  333   340      6   0.52098 RUBBER_FC*1.000000
+  333   342      6   0.63707 RUBBER_FC*1.000000
+  333   344      6   0.84973 RUBBER_FC*1.000000
+  334   342      6   0.47389 RUBBER_FC*1.000000
+  334   344      6   0.59817 RUBBER_FC*1.000000
+  334   346      6   0.81096 RUBBER_FC*1.000000
+  337   344      6   0.47564 RUBBER_FC*1.000000
+  337   346      6   0.60813 RUBBER_FC*1.000000
+  337   350      6   0.83043 RUBBER_FC*1.000000
+  337   425      6   0.75364 RUBBER_FC*1.000000
+  337   427      6   0.80730 RUBBER_FC*1.000000
+  340   346      6   0.48136 RUBBER_FC*1.000000
+  340   350      6   0.61891 RUBBER_FC*1.000000
+  340   352      6   0.81832 RUBBER_FC*1.000000
+  340   513      6   0.69721 RUBBER_FC*1.000000
+  340   516      6   0.76206 RUBBER_FC*1.000000
+  342   350      6   0.49530 RUBBER_FC*1.000000
+  342   352      6   0.61141 RUBBER_FC*1.000000
+  342   354      6   0.82138 RUBBER_FC*1.000000
+  344   352      6   0.49297 RUBBER_FC*1.000000
+  344   354      6   0.61857 RUBBER_FC*1.000000
+  344   356      6   0.82086 RUBBER_FC*1.000000
+  346   354      6   0.49388 RUBBER_FC*1.000000
+  346   356      6   0.60680 RUBBER_FC*1.000000
+  346   358      6   0.82502 RUBBER_FC*1.000000
+  346   513      6   0.87444 RUBBER_FC*1.000000
+  346   516      6   0.81316 RUBBER_FC*1.000000
+  350   356      6   0.48028 RUBBER_FC*1.000000
+  350   358      6   0.61020 RUBBER_FC*1.000000
+  350   361      6   0.81082 RUBBER_FC*1.000000
+  350   513      6   0.89461 RUBBER_FC*1.000000
+  352   358      6   0.48934 RUBBER_FC*1.000000
+  352   361      6   0.57098 RUBBER_FC*1.000000
+  352   363      6   0.74909 RUBBER_FC*1.000000
+  354   361      6   0.47704 RUBBER_FC*1.000000
+  354   363      6   0.53194 RUBBER_FC*1.000000
+  354   365      6   0.89268 RUBBER_FC*1.000000
+  354   388      6   0.87258 RUBBER_FC*1.000000
+  356   363      6   0.54702 RUBBER_FC*1.000000
+  356   365      6   0.89053 RUBBER_FC*1.000000
+  356   386      6   0.66833 RUBBER_FC*1.000000
+  356   388      6   0.64241 RUBBER_FC*1.000000
+  356   390      6   0.81259 RUBBER_FC*1.000000
+  358   365      6   0.80399 RUBBER_FC*1.000000
+  358   382      6   0.83176 RUBBER_FC*1.000000
+  358   386      6   0.69379 RUBBER_FC*1.000000
+  358   388      6   0.79223 RUBBER_FC*1.000000
+  361   367      6   0.80323 RUBBER_FC*1.000000
+  361   386      6   0.88972 RUBBER_FC*1.000000
+  363   369      6   0.88108 RUBBER_FC*1.000000
+  363   386      6   0.78615 RUBBER_FC*1.000000
+  363   388      6   0.74141 RUBBER_FC*1.000000
+  365   388      6   0.87876 RUBBER_FC*1.000000
+  367   372      6   0.86704 RUBBER_FC*1.000000
+  367   375      6   0.80169 RUBBER_FC*1.000000
+  367   377      6   0.87779 RUBBER_FC*1.000000
+  367   386      6   0.80102 RUBBER_FC*1.000000
+  367   388      6   0.70087 RUBBER_FC*1.000000
+  367   394      6   0.79591 RUBBER_FC*1.000000
+  369   375      6   0.61418 RUBBER_FC*1.000000
+  369   377      6   0.83635 RUBBER_FC*1.000000
+  369   394      6   0.80720 RUBBER_FC*1.000000
+  370   377      6   0.79497 RUBBER_FC*1.000000
+  370   394      6   0.74339 RUBBER_FC*1.000000
+  372   394      6   0.84363 RUBBER_FC*1.000000
+  375   382      6   0.80638 RUBBER_FC*1.000000
+  375   394      6   0.88337 RUBBER_FC*1.000000
+  377   382      6   0.47305 RUBBER_FC*1.000000
+  377   386      6   0.71270 RUBBER_FC*1.000000
+  377   394      6   0.82778 RUBBER_FC*1.000000
+  379   386      6   0.70031 RUBBER_FC*1.000000
+  382   390      6   0.76592 RUBBER_FC*1.000000
+  382   392      6   0.65079 RUBBER_FC*1.000000
+  382   394      6   0.74269 RUBBER_FC*1.000000
+  386   392      6   0.50124 RUBBER_FC*1.000000
+  386   394      6   0.62207 RUBBER_FC*1.000000
+  386   397      6   0.86866 RUBBER_FC*1.000000
+  388   394      6   0.53070 RUBBER_FC*1.000000
+  388   397      6   0.67724 RUBBER_FC*1.000000
+  388   407      6   0.80981 RUBBER_FC*1.000000
+  390   397      6   0.64648 RUBBER_FC*1.000000
+  390   401      6   0.86799 RUBBER_FC*1.000000
+  390   403      6   0.85750 RUBBER_FC*1.000000
+  390   407      6   0.75474 RUBBER_FC*1.000000
+  390   522      6   0.82003 RUBBER_FC*1.000000
+  390   642      6   0.70949 RUBBER_FC*1.000000
+  390   645      6   0.81438 RUBBER_FC*1.000000
+  392   401      6   0.73988 RUBBER_FC*1.000000
+  392   403      6   0.84810 RUBBER_FC*1.000000
+  392   407      6   0.89760 RUBBER_FC*1.000000
+  392   642      6   0.86675 RUBBER_FC*1.000000
+  392   645      6   0.84223 RUBBER_FC*1.000000
+  392   647      6   0.88543 RUBBER_FC*1.000000
+  394   403      6   0.74177 RUBBER_FC*1.000000
+  394   407      6   0.87557 RUBBER_FC*1.000000
+  397   407      6   0.65127 RUBBER_FC*1.000000
+  397   642      6   0.73237 RUBBER_FC*1.000000
+  397   645      6   0.70523 RUBBER_FC*1.000000
+  397   647      6   0.73655 RUBBER_FC*1.000000
+  401   642      6   0.65625 RUBBER_FC*1.000000
+  401   645      6   0.53956 RUBBER_FC*1.000000
+  401   647      6   0.52578 RUBBER_FC*1.000000
+  401   651      6   0.80068 RUBBER_FC*1.000000
+  401   655      6   0.86499 RUBBER_FC*1.000000
+  403   637      6   0.80095 RUBBER_FC*1.000000
+  403   642      6   0.53960 RUBBER_FC*1.000000
+  403   645      6   0.61446 RUBBER_FC*1.000000
+  403   647      6   0.74368 RUBBER_FC*1.000000
+  407   531      6   0.88583 RUBBER_FC*1.000000
+  407   635      6   0.67360 RUBBER_FC*1.000000
+  407   637      6   0.51560 RUBBER_FC*1.000000
+  407   642      6   0.37192 RUBBER_FC*1.000000
+  407   645      6   0.64997 RUBBER_FC*1.000000
+  407   647      6   0.89591 RUBBER_FC*1.000000
+  409   633      6   0.78895 RUBBER_FC*1.000000
+  409   635      6   0.53055 RUBBER_FC*1.000000
+  409   637      6   0.59671 RUBBER_FC*1.000000
+  409   642      6   0.65777 RUBBER_FC*1.000000
+  413   531      6   0.84384 RUBBER_FC*1.000000
+  413   630      6   0.66507 RUBBER_FC*1.000000
+  413   633      6   0.53975 RUBBER_FC*1.000000
+  413   635      6   0.36358 RUBBER_FC*1.000000
+  413   637      6   0.61420 RUBBER_FC*1.000000
+  413   642      6   0.83095 RUBBER_FC*1.000000
+  418   425      6   0.78622 RUBBER_FC*1.000000
+  418   628      6   0.80146 RUBBER_FC*1.000000
+  418   630      6   0.51538 RUBBER_FC*1.000000
+  418   633      6   0.61099 RUBBER_FC*1.000000
+  418   635      6   0.63665 RUBBER_FC*1.000000
+  422   427      6   0.84008 RUBBER_FC*1.000000
+  422   626      6   0.63777 RUBBER_FC*1.000000
+  422   628      6   0.51758 RUBBER_FC*1.000000
+  422   630      6   0.40024 RUBBER_FC*1.000000
+  422   633      6   0.70466 RUBBER_FC*1.000000
+  422   635      6   0.87935 RUBBER_FC*1.000000
+  422   702      6   0.84845 RUBBER_FC*1.000000
+  423   429      6   0.78935 RUBBER_FC*1.000000
+  423   621      6   0.87022 RUBBER_FC*1.000000
+  423   626      6   0.53416 RUBBER_FC*1.000000
+  423   628      6   0.60841 RUBBER_FC*1.000000
+  423   630      6   0.65891 RUBBER_FC*1.000000
+  425   433      6   0.88493 RUBBER_FC*1.000000
+  425   621      6   0.77142 RUBBER_FC*1.000000
+  425   626      6   0.50342 RUBBER_FC*1.000000
+  425   628      6   0.68344 RUBBER_FC*1.000000
+  425   630      6   0.72752 RUBBER_FC*1.000000
+  427   491      6   0.85576 RUBBER_FC*1.000000
+  427   493      6   0.89504 RUBBER_FC*1.000000
+  427   619      6   0.79968 RUBBER_FC*1.000000
+  427   621      6   0.65858 RUBBER_FC*1.000000
+  427   626      6   0.47434 RUBBER_FC*1.000000
+  427   628      6   0.77569 RUBBER_FC*1.000000
+  429   489      6   0.74041 RUBBER_FC*1.000000
+  429   491      6   0.60362 RUBBER_FC*1.000000
+  429   493      6   0.68597 RUBBER_FC*1.000000
+  429   617      6   0.89404 RUBBER_FC*1.000000
+  429   619      6   0.66289 RUBBER_FC*1.000000
+  429   621      6   0.50749 RUBBER_FC*1.000000
+  429   626      6   0.49201 RUBBER_FC*1.000000
+  429   628      6   0.78669 RUBBER_FC*1.000000
+  433   440      6   0.81257 RUBBER_FC*1.000000
+  433   487      6   0.67600 RUBBER_FC*1.000000
+  433   489      6   0.54951 RUBBER_FC*1.000000
+  433   491      6   0.51239 RUBBER_FC*1.000000
+  433   493      6   0.72728 RUBBER_FC*1.000000
+  433   615      6   0.75100 RUBBER_FC*1.000000
+  433   617      6   0.73314 RUBBER_FC*1.000000
+  433   619      6   0.63530 RUBBER_FC*1.000000
+  433   621      6   0.61490 RUBBER_FC*1.000000
+  433   626      6   0.76069 RUBBER_FC*1.000000
+  436   442      6   0.74962 RUBBER_FC*1.000000
+  436   480      6   0.76083 RUBBER_FC*1.000000
+  436   482      6   0.86347 RUBBER_FC*1.000000
+  436   484      6   0.89370 RUBBER_FC*1.000000
+  436   487      6   0.55515 RUBBER_FC*1.000000
+  436   489      6   0.59824 RUBBER_FC*1.000000
+  436   491      6   0.70269 RUBBER_FC*1.000000
+  436   611      6   0.89148 RUBBER_FC*1.000000
+  436   613      6   0.85289 RUBBER_FC*1.000000
+  436   615      6   0.62349 RUBBER_FC*1.000000
+  436   617      6   0.61977 RUBBER_FC*1.000000
+  436   619      6   0.69282 RUBBER_FC*1.000000
+  436   621      6   0.80323 RUBBER_FC*1.000000
+  438   480      6   0.76276 RUBBER_FC*1.000000
+  438   482      6   0.87897 RUBBER_FC*1.000000
+  438   484      6   0.78183 RUBBER_FC*1.000000
+  438   487      6   0.46543 RUBBER_FC*1.000000
+  438   489      6   0.65297 RUBBER_FC*1.000000
+  438   491      6   0.79011 RUBBER_FC*1.000000
+  438   615      6   0.89546 RUBBER_FC*1.000000
+  440   446      6   0.81070 RUBBER_FC*1.000000
+  440   448      6   0.73482 RUBBER_FC*1.000000
+  440   450      6   0.75294 RUBBER_FC*1.000000
+  440   480      6   0.85828 RUBBER_FC*1.000000
+  440   487      6   0.73579 RUBBER_FC*1.000000
+  440   608      6   0.82439 RUBBER_FC*1.000000
+  440   611      6   0.80474 RUBBER_FC*1.000000
+  440   615      6   0.73866 RUBBER_FC*1.000000
+  440   617      6   0.79833 RUBBER_FC*1.000000
+  442   448      6   0.52319 RUBBER_FC*1.000000
+  442   450      6   0.60024 RUBBER_FC*1.000000
+  442   452      6   0.83388 RUBBER_FC*1.000000
+  442   608      6   0.82073 RUBBER_FC*1.000000
+  442   611      6   0.77240 RUBBER_FC*1.000000
+  442   615      6   0.76902 RUBBER_FC*1.000000
+  442   617      6   0.84043 RUBBER_FC*1.000000
+  444   450      6   0.48960 RUBBER_FC*1.000000
+  444   452      6   0.60465 RUBBER_FC*1.000000
+  444   454      6   0.80652 RUBBER_FC*1.000000
+  444   611      6   0.78818 RUBBER_FC*1.000000
+  444   613      6   0.86163 RUBBER_FC*1.000000
+  444   615      6   0.74565 RUBBER_FC*1.000000
+  444   617      6   0.79857 RUBBER_FC*1.000000
+  446   452      6   0.51753 RUBBER_FC*1.000000
+  446   454      6   0.61600 RUBBER_FC*1.000000
+  446   456      6   0.83175 RUBBER_FC*1.000000
+  448   454      6   0.48815 RUBBER_FC*1.000000
+  448   456      6   0.61170 RUBBER_FC*1.000000
+  448   460      6   0.81969 RUBBER_FC*1.000000
+  450   456      6   0.49605 RUBBER_FC*1.000000
+  450   460      6   0.60370 RUBBER_FC*1.000000
+  450   462      6   0.81726 RUBBER_FC*1.000000
+  450   470      6   0.83412 RUBBER_FC*1.000000
+  450   478      6   0.88483 RUBBER_FC*1.000000
+  450   480      6   0.81291 RUBBER_FC*1.000000
+  450   615      6   0.87395 RUBBER_FC*1.000000
+  450   617      6   0.73779 RUBBER_FC*1.000000
+  452   460      6   0.48809 RUBBER_FC*1.000000
+  452   462      6   0.60153 RUBBER_FC*1.000000
+  452   464      6   0.82141 RUBBER_FC*1.000000
+  452   470      6   0.88374 RUBBER_FC*1.000000
+  452   617      6   0.89394 RUBBER_FC*1.000000
+  454   462      6   0.50791 RUBBER_FC*1.000000
+  454   464      6   0.63819 RUBBER_FC*1.000000
+  454   467      6   0.81597 RUBBER_FC*1.000000
+  454   470      6   0.75317 RUBBER_FC*1.000000
+  456   464      6   0.46906 RUBBER_FC*1.000000
+  456   467      6   0.55135 RUBBER_FC*1.000000
+  456   470      6   0.44582 RUBBER_FC*1.000000
+  456   472      6   0.69980 RUBBER_FC*1.000000
+  456   476      6   0.89239 RUBBER_FC*1.000000
+  456   478      6   0.81763 RUBBER_FC*1.000000
+  456   480      6   0.86452 RUBBER_FC*1.000000
+  460   467      6   0.47968 RUBBER_FC*1.000000
+  460   470      6   0.53497 RUBBER_FC*1.000000
+  460   472      6   0.75776 RUBBER_FC*1.000000
+  460   547      6   0.83348 RUBBER_FC*1.000000
+  460   549      6   0.89582 RUBBER_FC*1.000000
+  462   470      6   0.71063 RUBBER_FC*1.000000
+  464   472      6   0.83842 RUBBER_FC*1.000000
+  467   476      6   0.86911 RUBBER_FC*1.000000
+  467   541      6   0.85588 RUBBER_FC*1.000000
+  467   543      6   0.85248 RUBBER_FC*1.000000
+  470   478      6   0.65022 RUBBER_FC*1.000000
+  470   480      6   0.73848 RUBBER_FC*1.000000
+  470   543      6   0.89913 RUBBER_FC*1.000000
+  472   480      6   0.50063 RUBBER_FC*1.000000
+  472   482      6   0.61564 RUBBER_FC*1.000000
+  472   484      6   0.85302 RUBBER_FC*1.000000
+  472   539      6   0.74051 RUBBER_FC*1.000000
+  472   541      6   0.75745 RUBBER_FC*1.000000
+  472   543      6   0.75937 RUBBER_FC*1.000000
+  472   547      6   0.84832 RUBBER_FC*1.000000
+  476   482      6   0.48567 RUBBER_FC*1.000000
+  476   484      6   0.63621 RUBBER_FC*1.000000
+  476   487      6   0.85186 RUBBER_FC*1.000000
+  476   539      6   0.84152 RUBBER_FC*1.000000
+  478   484      6   0.52263 RUBBER_FC*1.000000
+  478   487      6   0.67554 RUBBER_FC*1.000000
+  478   489      6   0.87435 RUBBER_FC*1.000000
+  480   487      6   0.48503 RUBBER_FC*1.000000
+  480   489      6   0.63248 RUBBER_FC*1.000000
+  482   489      6   0.48725 RUBBER_FC*1.000000
+  482   491      6   0.81400 RUBBER_FC*1.000000
+  482   493      6   0.86946 RUBBER_FC*1.000000
+  482   495      6   0.74925 RUBBER_FC*1.000000
+  482   539      6   0.85556 RUBBER_FC*1.000000
+  484   491      6   0.79337 RUBBER_FC*1.000000
+  484   493      6   0.89653 RUBBER_FC*1.000000
+  484   495      6   0.72517 RUBBER_FC*1.000000
+  484   497      6   0.79040 RUBBER_FC*1.000000
+  487   493      6   0.78578 RUBBER_FC*1.000000
+  487   495      6   0.73627 RUBBER_FC*1.000000
+  487   497      6   0.76158 RUBBER_FC*1.000000
+  489   495      6   0.50585 RUBBER_FC*1.000000
+  489   497      6   0.59977 RUBBER_FC*1.000000
+  489   499      6   0.83263 RUBBER_FC*1.000000
+  489   621      6   0.80469 RUBBER_FC*1.000000
+  491   497      6   0.47785 RUBBER_FC*1.000000
+  491   499      6   0.60036 RUBBER_FC*1.000000
+  491   501      6   0.80605 RUBBER_FC*1.000000
+  491   621      6   0.86280 RUBBER_FC*1.000000
+  493   499      6   0.48582 RUBBER_FC*1.000000
+  493   501      6   0.60513 RUBBER_FC*1.000000
+  493   504      6   0.81489 RUBBER_FC*1.000000
+  493   516      6   0.78287 RUBBER_FC*1.000000
+  493   621      6   0.87960 RUBBER_FC*1.000000
+  495   501      6   0.48809 RUBBER_FC*1.000000
+  495   504      6   0.61450 RUBBER_FC*1.000000
+  495   506      6   0.83604 RUBBER_FC*1.000000
+  495   516      6   0.84656 RUBBER_FC*1.000000
+  497   504      6   0.48158 RUBBER_FC*1.000000
+  497   506      6   0.62646 RUBBER_FC*1.000000
+  497   509      6   0.82283 RUBBER_FC*1.000000
+  497   513      6   0.86872 RUBBER_FC*1.000000
+  497   516      6   0.84109 RUBBER_FC*1.000000
+  499   506      6   0.47163 RUBBER_FC*1.000000
+  499   509      6   0.57012 RUBBER_FC*1.000000
+  499   513      6   0.55592 RUBBER_FC*1.000000
+  499   516      6   0.55013 RUBBER_FC*1.000000
+  499   518      6   0.78769 RUBBER_FC*1.000000
+  501   509      6   0.48247 RUBBER_FC*1.000000
+  501   513      6   0.59249 RUBBER_FC*1.000000
+  501   516      6   0.48994 RUBBER_FC*1.000000
+  501   518      6   0.61792 RUBBER_FC*1.000000
+  501   522      6   0.76765 RUBBER_FC*1.000000
+  501   524      6   0.89285 RUBBER_FC*1.000000
+  501   527      6   0.87562 RUBBER_FC*1.000000
+  504   513      6   0.75769 RUBBER_FC*1.000000
+  504   516      6   0.75802 RUBBER_FC*1.000000
+  504   518      6   0.89176 RUBBER_FC*1.000000
+  506   516      6   0.69410 RUBBER_FC*1.000000
+  509   518      6   0.68487 RUBBER_FC*1.000000
+  509   522      6   0.71335 RUBBER_FC*1.000000
+  513   522      6   0.76203 RUBBER_FC*1.000000
+  516   524      6   0.82459 RUBBER_FC*1.000000
+  516   527      6   0.84533 RUBBER_FC*1.000000
+  518   527      6   0.54125 RUBBER_FC*1.000000
+  518   531      6   0.78498 RUBBER_FC*1.000000
+  518   637      6   0.83077 RUBBER_FC*1.000000
+  522   531      6   0.83910 RUBBER_FC*1.000000
+  522   637      6   0.86530 RUBBER_FC*1.000000
+  522   642      6   0.87648 RUBBER_FC*1.000000
+  524   637      6   0.72526 RUBBER_FC*1.000000
+  524   642      6   0.72850 RUBBER_FC*1.000000
+  524   645      6   0.80638 RUBBER_FC*1.000000
+  527   635      6   0.74338 RUBBER_FC*1.000000
+  527   637      6   0.51240 RUBBER_FC*1.000000
+  527   642      6   0.65587 RUBBER_FC*1.000000
+  527   645      6   0.82070 RUBBER_FC*1.000000
+  531   633      6   0.70653 RUBBER_FC*1.000000
+  531   635      6   0.51799 RUBBER_FC*1.000000
+  531   637      6   0.37139 RUBBER_FC*1.000000
+  531   642      6   0.67034 RUBBER_FC*1.000000
+  531   645      6   0.88280 RUBBER_FC*1.000000
+  533   539      6   0.86020 RUBBER_FC*1.000000
+  533   633      6   0.65446 RUBBER_FC*1.000000
+  533   635      6   0.66141 RUBBER_FC*1.000000
+  533   637      6   0.68136 RUBBER_FC*1.000000
+  535   633      6   0.69496 RUBBER_FC*1.000000
+  535   635      6   0.82802 RUBBER_FC*1.000000
+  535   665      6   0.82111 RUBBER_FC*1.000000
+  535   669      6   0.82225 RUBBER_FC*1.000000
+  535   671      6   0.70025 RUBBER_FC*1.000000
+  537   543      6   0.84015 RUBBER_FC*1.000000
+  537   669      6   0.87466 RUBBER_FC*1.000000
+  537   671      6   0.67389 RUBBER_FC*1.000000
+  539   547      6   0.81601 RUBBER_FC*1.000000
+  539   671      6   0.76084 RUBBER_FC*1.000000
+  539   675      6   0.86846 RUBBER_FC*1.000000
+  541   671      6   0.74388 RUBBER_FC*1.000000
+  541   675      6   0.77316 RUBBER_FC*1.000000
+  541   676      6   0.87052 RUBBER_FC*1.000000
+  543   551      6   0.86811 RUBBER_FC*1.000000
+  543   671      6   0.82737 RUBBER_FC*1.000000
+  543   675      6   0.71467 RUBBER_FC*1.000000
+  543   676      6   0.72940 RUBBER_FC*1.000000
+  547   553      6   0.77069 RUBBER_FC*1.000000
+  547   619      6   0.74504 RUBBER_FC*1.000000
+  547   621      6   0.80184 RUBBER_FC*1.000000
+  547   675      6   0.84545 RUBBER_FC*1.000000
+  547   676      6   0.75684 RUBBER_FC*1.000000
+  547   678      6   0.86986 RUBBER_FC*1.000000
+  547   698      6   0.89488 RUBBER_FC*1.000000
+  549   557      6   0.73602 RUBBER_FC*1.000000
+  549   617      6   0.64001 RUBBER_FC*1.000000
+  549   619      6   0.47594 RUBBER_FC*1.000000
+  549   621      6   0.62883 RUBBER_FC*1.000000
+  549   626      6   0.83772 RUBBER_FC*1.000000
+  549   628      6   0.84426 RUBBER_FC*1.000000
+  549   698      6   0.79597 RUBBER_FC*1.000000
+  551   560      6   0.73386 RUBBER_FC*1.000000
+  551   617      6   0.76238 RUBBER_FC*1.000000
+  551   619      6   0.52630 RUBBER_FC*1.000000
+  551   621      6   0.63272 RUBBER_FC*1.000000
+  551   626      6   0.67418 RUBBER_FC*1.000000
+  551   628      6   0.67951 RUBBER_FC*1.000000
+  551   676      6   0.87551 RUBBER_FC*1.000000
+  551   678      6   0.86763 RUBBER_FC*1.000000
+  551   692      6   0.67710 RUBBER_FC*1.000000
+  551   694      6   0.54873 RUBBER_FC*1.000000
+  551   698      6   0.48256 RUBBER_FC*1.000000
+  551   700      6   0.73249 RUBBER_FC*1.000000
+  553   579      6   0.79409 RUBBER_FC*1.000000
+  553   583      6   0.76638 RUBBER_FC*1.000000
+  553   613      6   0.83383 RUBBER_FC*1.000000
+  553   615      6   0.67974 RUBBER_FC*1.000000
+  553   617      6   0.51328 RUBBER_FC*1.000000
+  553   619      6   0.38927 RUBBER_FC*1.000000
+  553   621      6   0.65081 RUBBER_FC*1.000000
+  553   626      6   0.71944 RUBBER_FC*1.000000
+  553   628      6   0.85498 RUBBER_FC*1.000000
+  553   692      6   0.65684 RUBBER_FC*1.000000
+  553   694      6   0.67381 RUBBER_FC*1.000000
+  553   698      6   0.74442 RUBBER_FC*1.000000
+  557   577      6   0.69996 RUBBER_FC*1.000000
+  557   579      6   0.52350 RUBBER_FC*1.000000
+  557   583      6   0.43131 RUBBER_FC*1.000000
+  557   584      6   0.75124 RUBBER_FC*1.000000
+  557   613      6   0.73190 RUBBER_FC*1.000000
+  557   615      6   0.68863 RUBBER_FC*1.000000
+  557   617      6   0.63533 RUBBER_FC*1.000000
+  557   619      6   0.69170 RUBBER_FC*1.000000
+  557   690      6   0.88377 RUBBER_FC*1.000000
+  557   692      6   0.54791 RUBBER_FC*1.000000
+  557   694      6   0.71463 RUBBER_FC*1.000000
+  560   569      6   0.87124 RUBBER_FC*1.000000
+  560   570      6   0.70787 RUBBER_FC*1.000000
+  560   572      6   0.73944 RUBBER_FC*1.000000
+  560   575      6   0.84659 RUBBER_FC*1.000000
+  560   577      6   0.57896 RUBBER_FC*1.000000
+  560   579      6   0.54201 RUBBER_FC*1.000000
+  560   583      6   0.49645 RUBBER_FC*1.000000
+  560   584      6   0.86868 RUBBER_FC*1.000000
+  560   686      6   0.83836 RUBBER_FC*1.000000
+  560   688      6   0.87446 RUBBER_FC*1.000000
+  560   690      6   0.63003 RUBBER_FC*1.000000
+  560   692      6   0.38942 RUBBER_FC*1.000000
+  560   694      6   0.61475 RUBBER_FC*1.000000
+  560   698      6   0.86117 RUBBER_FC*1.000000
+  564   570      6   0.48632 RUBBER_FC*1.000000
+  564   572      6   0.64328 RUBBER_FC*1.000000
+  564   575      6   0.73737 RUBBER_FC*1.000000
+  564   577      6   0.50706 RUBBER_FC*1.000000
+  564   579      6   0.60378 RUBBER_FC*1.000000
+  564   583      6   0.63277 RUBBER_FC*1.000000
+  564   686      6   0.71767 RUBBER_FC*1.000000
+  564   688      6   0.79024 RUBBER_FC*1.000000
+  564   690      6   0.65186 RUBBER_FC*1.000000
+  564   692      6   0.58520 RUBBER_FC*1.000000
+  564   694      6   0.79444 RUBBER_FC*1.000000
+  566   572      6   0.78179 RUBBER_FC*1.000000
+  566   577      6   0.76849 RUBBER_FC*1.000000
+  566   686      6   0.56926 RUBBER_FC*1.000000
+  566   688      6   0.61064 RUBBER_FC*1.000000
+  566   690      6   0.61055 RUBBER_FC*1.000000
+  566   692      6   0.71854 RUBBER_FC*1.000000
+  569   575      6   0.88890 RUBBER_FC*1.000000
+  569   577      6   0.88247 RUBBER_FC*1.000000
+  569   682      6   0.86165 RUBBER_FC*1.000000
+  569   684      6   0.75965 RUBBER_FC*1.000000
+  569   686      6   0.46982 RUBBER_FC*1.000000
+  569   688      6   0.65851 RUBBER_FC*1.000000
+  569   690      6   0.76284 RUBBER_FC*1.000000
+  570   577      6   0.62634 RUBBER_FC*1.000000
+  570   579      6   0.89688 RUBBER_FC*1.000000
+  570   680      6   0.77962 RUBBER_FC*1.000000
+  570   682      6   0.78600 RUBBER_FC*1.000000
+  570   684      6   0.70001 RUBBER_FC*1.000000
+  570   686      6   0.52738 RUBBER_FC*1.000000
+  570   688      6   0.78115 RUBBER_FC*1.000000
+  570   690      6   0.76666 RUBBER_FC*1.000000
+  570   692      6   0.86247 RUBBER_FC*1.000000
+  572   579      6   0.76496 RUBBER_FC*1.000000
+  572   680      6   0.67501 RUBBER_FC*1.000000
+  572   682      6   0.85054 RUBBER_FC*1.000000
+  572   684      6   0.82350 RUBBER_FC*1.000000
+  572   686      6   0.80746 RUBBER_FC*1.000000
+  579   617      6   0.85655 RUBBER_FC*1.000000
+  583   613      6   0.69025 RUBBER_FC*1.000000
+  583   615      6   0.77072 RUBBER_FC*1.000000
+  583   617      6   0.83520 RUBBER_FC*1.000000
+  583   692      6   0.82226 RUBBER_FC*1.000000
+  584   596      6   0.86239 RUBBER_FC*1.000000
+  584   611      6   0.73931 RUBBER_FC*1.000000
+  584   613      6   0.58710 RUBBER_FC*1.000000
+  584   615      6   0.76534 RUBBER_FC*1.000000
+  589   598      6   0.68818 RUBBER_FC*1.000000
+  589   608      6   0.81140 RUBBER_FC*1.000000
+  589   611      6   0.60211 RUBBER_FC*1.000000
+  589   613      6   0.61262 RUBBER_FC*1.000000
+  589   615      6   0.85804 RUBBER_FC*1.000000
+  593   601      6   0.84334 RUBBER_FC*1.000000
+  593   611      6   0.82406 RUBBER_FC*1.000000
+  596   603      6   0.88434 RUBBER_FC*1.000000
+  596   606      6   0.85021 RUBBER_FC*1.000000
+  596   611      6   0.89615 RUBBER_FC*1.000000
+  598   605      6   0.74901 RUBBER_FC*1.000000
+  598   606      6   0.58013 RUBBER_FC*1.000000
+  598   608      6   0.72647 RUBBER_FC*1.000000
+  598   611      6   0.80195 RUBBER_FC*1.000000
+  601   606      6   0.46097 RUBBER_FC*1.000000
+  601   608      6   0.71577 RUBBER_FC*1.000000
+  603   608      6   0.81781 RUBBER_FC*1.000000
+  608   615      6   0.80440 RUBBER_FC*1.000000
+  611   617      6   0.83796 RUBBER_FC*1.000000
+  613   619      6   0.84621 RUBBER_FC*1.000000
+  619   628      6   0.76917 RUBBER_FC*1.000000
+  621   630      6   0.77475 RUBBER_FC*1.000000
+  626   698      6   0.89716 RUBBER_FC*1.000000
+  628   675      6   0.87742 RUBBER_FC*1.000000
+  628   698      6   0.76791 RUBBER_FC*1.000000
+  628   700      6   0.80447 RUBBER_FC*1.000000
+  628   702      6   0.71135 RUBBER_FC*1.000000
+  628   704      6   0.89801 RUBBER_FC*1.000000
+  630   702      6   0.73370 RUBBER_FC*1.000000
+  630   704      6   0.81365 RUBBER_FC*1.000000
+  633   671      6   0.88077 RUBBER_FC*1.000000
+  633   702      6   0.87817 RUBBER_FC*1.000000
+  633   704      6   0.79239 RUBBER_FC*1.000000
+  633   708      6   0.79422 RUBBER_FC*1.000000
+  645   653      6   0.82188 RUBBER_FC*1.000000
+  645   655      6   0.73871 RUBBER_FC*1.000000
+  645   657      6   0.88667 RUBBER_FC*1.000000
+  645   661      6   0.89265 RUBBER_FC*1.000000
+  647   655      6   0.57318 RUBBER_FC*1.000000
+  647   657      6   0.81272 RUBBER_FC*1.000000
+  651   657      6   0.85540 RUBBER_FC*1.000000
+  653   661      6   0.89814 RUBBER_FC*1.000000
+  655   717      6   0.86569 RUBBER_FC*1.000000
+  655   719      6   0.71793 RUBBER_FC*1.000000
+  657   715      6   0.64568 RUBBER_FC*1.000000
+  657   717      6   0.52686 RUBBER_FC*1.000000
+  657   719      6   0.46391 RUBBER_FC*1.000000
+  657   720      6   0.78627 RUBBER_FC*1.000000
+  661   711      6   0.74981 RUBBER_FC*1.000000
+  661   715      6   0.51207 RUBBER_FC*1.000000
+  661   717      6   0.61967 RUBBER_FC*1.000000
+  661   719      6   0.73258 RUBBER_FC*1.000000
+  663   669      6   0.81854 RUBBER_FC*1.000000
+  663   709      6   0.66476 RUBBER_FC*1.000000
+  663   711      6   0.50784 RUBBER_FC*1.000000
+  663   715      6   0.38204 RUBBER_FC*1.000000
+  663   717      6   0.68883 RUBBER_FC*1.000000
+  665   671      6   0.81293 RUBBER_FC*1.000000
+  665   708      6   0.82738 RUBBER_FC*1.000000
+  665   709      6   0.53332 RUBBER_FC*1.000000
+  665   711      6   0.59322 RUBBER_FC*1.000000
+  665   715      6   0.64413 RUBBER_FC*1.000000
+  667   708      6   0.72872 RUBBER_FC*1.000000
+  667   709      6   0.46222 RUBBER_FC*1.000000
+  667   711      6   0.64025 RUBBER_FC*1.000000
+  667   715      6   0.79198 RUBBER_FC*1.000000
+  669   704      6   0.61031 RUBBER_FC*1.000000
+  669   708      6   0.48400 RUBBER_FC*1.000000
+  669   709      6   0.39265 RUBBER_FC*1.000000
+  669   711      6   0.72764 RUBBER_FC*1.000000
+  671   702      6   0.79677 RUBBER_FC*1.000000
+  671   704      6   0.50844 RUBBER_FC*1.000000
+  671   708      6   0.61781 RUBBER_FC*1.000000
+  671   709      6   0.71526 RUBBER_FC*1.000000
+  675   698      6   0.88307 RUBBER_FC*1.000000
+  675   700      6   0.68200 RUBBER_FC*1.000000
+  675   702      6   0.51921 RUBBER_FC*1.000000
+  675   704      6   0.38008 RUBBER_FC*1.000000
+  675   708      6   0.68767 RUBBER_FC*1.000000
+  676   698      6   0.69788 RUBBER_FC*1.000000
+  676   700      6   0.53020 RUBBER_FC*1.000000
+  676   702      6   0.58182 RUBBER_FC*1.000000
+  676   704      6   0.61682 RUBBER_FC*1.000000
+  678   684      6   0.61607 RUBBER_FC*1.000000
+  678   694      6   0.87629 RUBBER_FC*1.000000
+  678   698      6   0.60028 RUBBER_FC*1.000000
+  678   700      6   0.48485 RUBBER_FC*1.000000
+  678   702      6   0.70587 RUBBER_FC*1.000000
+  678   704      6   0.84484 RUBBER_FC*1.000000
+  680   686      6   0.78760 RUBBER_FC*1.000000
+  680   698      6   0.80912 RUBBER_FC*1.000000
+  680   700      6   0.79788 RUBBER_FC*1.000000
+  682   700      6   0.88924 RUBBER_FC*1.000000
+  684   690      6   0.66950 RUBBER_FC*1.000000
+  684   692      6   0.89629 RUBBER_FC*1.000000
+  684   694      6   0.72952 RUBBER_FC*1.000000
+  684   698      6   0.68489 RUBBER_FC*1.000000
+  684   700      6   0.71141 RUBBER_FC*1.000000
+  686   692      6   0.73475 RUBBER_FC*1.000000
+  686   694      6   0.70472 RUBBER_FC*1.000000
+  686   698      6   0.83397 RUBBER_FC*1.000000
+  688   694      6   0.69593 RUBBER_FC*1.000000
+  690   698      6   0.68884 RUBBER_FC*1.000000
+#endif
+; Sidechain bonds
+    1     2      1   0.40000  5000 ; GLU
+    3     4      1   0.30000  7500 ; PRO
+    5     6      1   0.32000  7500 ; ASP
+    7     8      1   0.40000  2500 ; MET
+   11    12      1   0.25000  7500 ; SER
+   15    16      1   0.31000  7500 ; PHE
+   24    25      1   0.30000  5000 ; TRP
+   29    30      1   0.32000  5000 ; ASN
+   31    32      1   0.40000  2500 ; MET
+   34    35      1   0.25000  7500 ; SER
+   38    39      1   0.30000  7500 ; PRO
+   40    41      1   0.30000  7500 ; PRO
+   42    43      1   0.30000  7500 ; PRO
+   44    45      1   0.33000  5000 ; LYS
+   45    46      1   0.28000  5000 ; LYS
+   47    48      1   0.32000  5000 ; ASN
+   53    54      1   0.25000  7500 ; SER
+   55    56      1   0.30000  5000 ; TRP
+   60    61      1   0.31000  7500 ; PHE
+   66    67      1   0.25000  7500 ; SER
+   68    69      1   0.33000  5000 ; LYS
+   69    70      1   0.28000  5000 ; LYS
+   72    73      1   0.33000  7500 ; LEU
+   75    76      1   0.33000  5000 ; LYS
+   76    77      1   0.28000  5000 ; LYS
+   80    81      1   0.33000  7500 ; LEU
+   82    83      1   0.32000  7500 ; ASP
+   84    85      1   0.40000  5000 ; GLU
+   96    97      1   0.30000  7500 ; PRO
+   98    99      1   0.32000  7500 ; HIS
+  102   103      1   0.32000  7500 ; ASP
+  106   107      1   0.32000  5000 ; TYR
+  112   113      1   0.31000  7500 ; PHE
+  119   120      1   0.40000  5000 ; GLN
+  121   122      1   0.40000  5000 ; GLU
+  123   124      1   0.32000  5000 ; ASN
+  125   126      1   0.25000  7500 ; SER
+  130   131      1   0.32000  7500 ; ASP
+  132   133      1   0.33000  5000 ; ARG
+  133   134      1   0.34000  5000 ; ARG
+  135   136      1   0.40000  5000 ; GLU
+  137   138      1   0.30000  5000 ; TRP
+  142   143      1   0.33000  7500 ; LEU
+  144   145      1   0.32000  7500 ; ASP
+  146   147      1   0.33000  7500 ; LEU
+  148   149      1   0.33000  7500 ; LEU
+  150   151      1   0.33000  5000 ; ARG
+  151   152      1   0.34000  5000 ; ARG
+  155   156      1   0.33000  7500 ; LEU
+  157   158      1   0.33000  5000 ; LYS
+  158   159      1   0.28000  5000 ; LYS
+  160   161      1   0.40000  5000 ; GLU
+  162   163      1   0.33000  7500 ; LEU
+  166   167      1   0.32000  7500 ; ASP
+  168   169      1   0.33000  7500 ; LEU
+  170   171      1   0.32000  7500 ; ASP
+  172   173      1   0.32000  5000 ; TYR
+  176   177      1   0.33000  5000 ; ARG
+  177   178      1   0.34000  5000 ; ARG
+  179   180      1   0.30000  7500 ; PRO
+  184   185      1   0.40000  2500 ; MET
+  186   187      1   0.40000  5000 ; GLN
+  188   189      1   0.25000  7500 ; SER
+  190   191      1   0.33000  7500 ; LEU
+  192   193      1   0.30000  5000 ; TRP
+  197   198      1   0.32000  5000 ; ASN
+  201   202      1   0.33000  5000 ; LYS
+  202   203      1   0.28000  5000 ; LYS
+  209   210      1   0.33000  7500 ; LEU
+  213   214      1   0.33000  5000 ; LYS
+  214   215      1   0.28000  5000 ; LYS
+  216   217      1   0.30000  7500 ; PRO
+  218   219      1   0.40000  5000 ; GLU
+  220   221      1   0.32000  7500 ; HIS
+  224   225      1   0.40000  5000 ; GLU
+  226   227      1   0.32000  5000 ; ASN
+  228   229      1   0.33000  5000 ; ARG
+  229   230      1   0.34000  5000 ; ARG
+  233   234      1   0.25000  7500 ; SER
+  235   236      1   0.32000  7500 ; HIS
+  241   242      1   0.25000  7500 ; SER
+  245   246      1   0.25000  7500 ; SER
+  247   248      1   0.25000  7500 ; SER
+  251   252      1   0.33000  5000 ; LYS
+  252   253      1   0.28000  5000 ; LYS
+  260   261      1   0.32000  5000 ; ASN
+  264   265      1   0.33000  7500 ; LEU
+  267   268      1   0.32000  5000 ; ASN
+  269   270      1   0.33000  5000 ; LYS
+  270   271      1   0.28000  5000 ; LYS
+  279   280      1   0.25000  7500 ; SER
+  281   282      1   0.31000  7500 ; PHE
+  285   286      1   0.40000  2500 ; MET
+  287   288      1   0.31000  7500 ; PHE
+  291   292      1   0.32000  5000 ; ASN
+  296   297      1   0.25000  7500 ; SER
+  298   299      1   0.31000  7500 ; PHE
+  303   304      1   0.31000  7500 ; PHE
+  309   310      1   0.32000  5000 ; ASN
+  311   312      1   0.31000  7500 ; CYS
+  313   314      1   0.32000  7500 ; HIS
+  317   318      1   0.33000  7500 ; LEU
+  321   322      1   0.25000  7500 ; SER
+  324   325      1   0.32000  5000 ; ASN
+  326   327      1   0.40000  5000 ; GLU
+  328   329      1   0.33000  5000 ; LYS
+  329   330      1   0.28000  5000 ; LYS
+  334   335      1   0.33000  5000 ; ARG
+  335   336      1   0.34000  5000 ; ARG
+  337   338      1   0.33000  5000 ; ARG
+  338   339      1   0.34000  5000 ; ARG
+  340   341      1   0.32000  5000 ; ASN
+  342   343      1   0.40000  5000 ; GLN
+  344   345      1   0.32000  5000 ; ASN
+  346   347      1   0.32000  5000 ; TYR
+  350   351      1   0.33000  7500 ; LEU
+  352   353      1   0.32000  7500 ; ASP
+  356   357      1   0.33000  7500 ; LEU
+  358   359      1   0.33000  5000 ; ARG
+  359   360      1   0.34000  5000 ; ARG
+  361   362      1   0.33000  7500 ; LEU
+  363   364      1   0.33000  7500 ; LEU
+  365   366      1   0.25000  7500 ; SER
+  367   368      1   0.33000  7500 ; LEU
+  370   371      1   0.32000  7500 ; ASP
+  372   373      1   0.33000  5000 ; ARG
+  373   374      1   0.34000  5000 ; ARG
+  375   376      1   0.40000  5000 ; GLN
+  377   378      1   0.33000  7500 ; LEU
+  379   380      1   0.32000  5000 ; ASN
+  382   383      1   0.31000  7500 ; PHE
+  386   387      1   0.32000  7500 ; ASP
+  390   391      1   0.25000  7500 ; SER
+  392   393      1   0.33000  7500 ; LEU
+  394   395      1   0.33000  5000 ; ARG
+  395   396      1   0.34000  5000 ; ARG
+  397   398      1   0.31000  7500 ; PHE
+  403   404      1   0.32000  7500 ; HIS
+  407   408      1   0.33000  7500 ; LEU
+  409   410      1   0.31000  7500 ; PHE
+  413   414      1   0.30000  5000 ; TRP
+  418   419      1   0.31000  7500 ; PHE
+  423   424      1   0.32000  7500 ; ASP
+  425   426      1   0.33000  7500 ; LEU
+  427   428      1   0.32000  5000 ; ASN
+  429   430      1   0.32000  5000 ; TYR
+  433   434      1   0.33000  5000 ; ARG
+  434   435      1   0.34000  5000 ; ARG
+  436   437      1   0.33000  7500 ; LEU
+  438   439      1   0.32000  7500 ; ASP
+  440   441      1   0.40000  2500 ; MET
+  442   443      1   0.32000  7500 ; ASP
+  446   447      1   0.40000  5000 ; GLN
+  448   449      1   0.40000  5000 ; GLU
+  452   453      1   0.33000  7500 ; LEU
+  454   455      1   0.32000  5000 ; ASN
+  456   457      1   0.32000  5000 ; TYR
+  462   463      1   0.25000  7500 ; SER
+  464   465      1   0.33000  5000 ; ARG
+  465   466      1   0.34000  5000 ; ARG
+  467   468      1   0.33000  5000 ; LYS
+  468   469      1   0.28000  5000 ; LYS
+  470   471      1   0.40000  5000 ; GLU
+  472   473      1   0.31000  7500 ; PHE
+  476   477      1   0.40000  5000 ; GLU
+  478   479      1   0.30000  7500 ; PRO
+  480   481      1   0.33000  7500 ; LEU
+  482   483      1   0.33000  7500 ; LEU
+  484   485      1   0.33000  5000 ; ARG
+  485   486      1   0.34000  5000 ; ARG
+  489   490      1   0.32000  7500 ; ASP
+  491   492      1   0.40000  5000 ; GLN
+  493   494      1   0.33000  7500 ; LEU
+  495   496      1   0.32000  5000 ; ASN
+  497   498      1   0.33000  7500 ; LEU
+  499   500      1   0.40000  5000 ; GLU
+  501   502      1   0.33000  5000 ; ARG
+  502   503      1   0.34000  5000 ; ARG
+  504   505      1   0.40000  5000 ; GLU
+  506   507      1   0.33000  5000 ; LYS
+  507   508      1   0.28000  5000 ; LYS
+  509   510      1   0.32000  7500 ; HIS
+  513   514      1   0.33000  5000 ; LYS
+  514   515      1   0.28000  5000 ; LYS
+  518   519      1   0.31000  7500 ; PHE
+  522   523      1   0.33000  7500 ; LEU
+  524   525      1   0.33000  5000 ; ARG
+  525   526      1   0.34000  5000 ; ARG
+  527   528      1   0.31000  7500 ; PHE
+  531   532      1   0.25000  7500 ; SER
+  533   534      1   0.40000  5000 ; GLU
+  535   536      1   0.40000  5000 ; GLU
+  537   538      1   0.40000  5000 ; GLU
+  541   542      1   0.25000  7500 ; SER
+  543   544      1   0.31000  7500 ; PHE
+  547   548      1   0.30000  7500 ; PRO
+  549   550      1   0.30000  7500 ; PRO
+  553   554      1   0.32000  5000 ; TYR
+  557   558      1   0.33000  5000 ; ARG
+  558   559      1   0.34000  5000 ; ARG
+  560   561      1   0.32000  5000 ; TYR
+  564   565      1   0.40000  5000 ; GLU
+  566   567      1   0.33000  5000 ; ARG
+  567   568      1   0.34000  5000 ; ARG
+  570   571      1   0.25000  7500 ; SER
+  572   573      1   0.33000  5000 ; ARG
+  573   574      1   0.34000  5000 ; ARG
+  575   576      1   0.32000  7500 ; ASP
+  579   580      1   0.32000  5000 ; TYR
+  584   585      1   0.30000  5000 ; TRP
+  589   590      1   0.32000  7500 ; HIS
+  593   594      1   0.33000  5000 ; LYS
+  594   595      1   0.28000  5000 ; LYS
+  596   597      1   0.40000  5000 ; GLN
+  598   599      1   0.33000  5000 ; LYS
+  599   600      1   0.28000  5000 ; LYS
+  601   602      1   0.30000  7500 ; PRO
+  608   609      1   0.33000  5000 ; ARG
+  609   610      1   0.34000  5000 ; ARG
+  613   614      1   0.32000  5000 ; ASN
+  617   618      1   0.30000  7500 ; PRO
+  619   620      1   0.25000  7500 ; SER
+  621   622      1   0.30000  5000 ; TRP
+  626   627      1   0.31000  7500 ; CYS
+  628   629      1   0.32000  7500 ; ASP
+  630   631      1   0.33000  5000 ; ARG
+  631   632      1   0.34000  5000 ; ARG
+  635   636      1   0.33000  7500 ; LEU
+  637   638      1   0.30000  5000 ; TRP
+  642   643      1   0.33000  5000 ; LYS
+  643   644      1   0.28000  5000 ; LYS
+  645   646      1   0.25000  7500 ; SER
+  647   648      1   0.32000  5000 ; TYR
+  651   652      1   0.30000  7500 ; PRO
+  653   654      1   0.40000  5000 ; GLU
+  657   658      1   0.32000  7500 ; HIS
+  665   666      1   0.31000  7500 ; CYS
+  667   668      1   0.32000  5000 ; ASN
+  669   670      1   0.25000  7500 ; SER
+  671   672      1   0.32000  5000 ; TYR
+  676   677      1   0.31000  7500 ; CYS
+  680   681      1   0.32000  7500 ; ASP
+  682   683      1   0.32000  7500 ; ASP
+  690   691      1   0.25000  7500 ; SER
+  692   693      1   0.32000  7500 ; ASP
+  694   695      1   0.32000  7500 ; HIS
+  698   699      1   0.25000  7500 ; SER
+  700   701      1   0.30000  7500 ; PRO
+  704   705      1   0.31000  7500 ; PHE
+  711   712      1   0.31000  7500 ; PHE
+  715   716      1   0.40000  5000 ; GLU
+  724   725      1   0.25000  7500 ; SER
+; Short elastic bonds for extended regions
+    7    11      1   0.64000  2500 ; MET(7)-SER(11) 1-3
+    9    13      1   0.64000  2500 ; ILE(9)-VAL(13) 2-4
+   11    15      1   0.64000  2500 ; SER(11)-PHE(15) 2-4
+   13    19      1   0.64000  2500 ; VAL(13)-ILE(19) 2-4
+   15    21      1   0.64000  2500 ; PHE(15)-GLY(21) 2-4
+   19    22      1   0.64000  2500 ; ILE(19)-THR(22) 2-4
+   21    24      1   0.64000  2500 ; GLY(21)-TRP(24) 2-4
+   22    29      1   0.64000  2500 ; THR(22)-ASN(29) 2-4
+  104   110      1   0.64000  2500 ; ILE(104)-VAL(110) 1-3
+  106   112      1   0.64000  2500 ; TYR(106)-PHE(112) 2-4
+  110   116      1   0.64000  2500 ; VAL(110)-GLY(116) 2-4
+  112   117      1   0.64000  2500 ; PHE(112)-THR(117) 2-4
+  116   119      1   0.64000  2500 ; GLY(116)-GLN(119) 2-4
+  176   181      1   0.64000  2500 ; ARG(176)-ILE(181) 1-3
+  179   183      1   0.64000  2500 ; PRO(179)-ALA(183) 2-4
+  181   184      1   0.64000  2500 ; ILE(181)-MET(184) 2-4
+  183   186      1   0.64000  2500 ; ALA(183)-GLN(186) 2-4
+  184   188      1   0.64000  2500 ; MET(184)-SER(188) 2-4
+  186   190      1   0.64000  2500 ; GLN(186)-LEU(190) 2-4
+  199   204      1   0.64000  2500 ; ILE(199)-VAL(204) 1-3
+  201   206      1   0.64000  2500 ; LYS(201)-ALA(206) 2-4
+  204   207      1   0.64000  2500 ; VAL(204)-VAL(207) 2-4
+  206   209      1   0.64000  2500 ; ALA(206)-LEU(209) 2-4
+  207   211      1   0.64000  2500 ; VAL(207)-VAL(211) 2-4
+  231   235      1   0.64000  2500 ; ILE(231)-HIS(235) 1-3
+  233   239      1   0.64000  2500 ; SER(233)-VAL(239) 2-4
+  235   241      1   0.64000  2500 ; HIS(235)-SER(241) 2-4
+  239   243      1   0.64000  2500 ; VAL(239)-THR(243) 2-4
+  241   245      1   0.64000  2500 ; SER(241)-SER(245) 2-4
+  243   247      1   0.64000  2500 ; THR(243)-SER(247) 2-4
+  245   249      1   0.64000  2500 ; SER(245)-VAL(249) 2-4
+  247   251      1   0.64000  2500 ; SER(247)-LYS(251) 2-4
+  272   274      1   0.64000  2500 ; GLY(272)-VAL(274) 1-3
+  273   276      1   0.64000  2500 ; ALA(273)-GLY(276) 2-4
+  274   277      1   0.64000  2500 ; VAL(274)-VAL(277) 2-4
+  276   279      1   0.64000  2500 ; GLY(276)-SER(279) 2-4
+  277   281      1   0.64000  2500 ; VAL(277)-PHE(281) 2-4
+  279   285      1   0.64000  2500 ; SER(279)-MET(285) 2-4
+  281   287      1   0.64000  2500 ; PHE(281)-PHE(287) 2-4
+  294   298      1   0.64000  2500 ; THR(294)-PHE(298) 1-3
+  296   302      1   0.64000  2500 ; SER(296)-GLY(302) 2-4
+  298   303      1   0.64000  2500 ; PHE(298)-PHE(303) 2-4
+  302   307      1   0.64000  2500 ; GLY(302)-VAL(307) 2-4
+  303   309      1   0.64000  2500 ; PHE(303)-ASN(309) 2-4
+  307   311      1   0.64000  2500 ; VAL(307)-CYS(311) 2-4
+  309   313      1   0.64000  2500 ; ASN(309)-HIS(313) 2-4
+  403   409      1   0.64000  2500 ; HIS(403)-PHE(409) 1-3
+  407   413      1   0.64000  2500 ; LEU(407)-TRP(413) 2-4
+  409   418      1   0.64000  2500 ; PHE(409)-PHE(418) 2-4
+  413   422      1   0.64000  2500 ; TRP(413)-GLY(422) 2-4
+  418   423      1   0.64000  2500 ; PHE(418)-ASP(423) 2-4
+  628   633      1   0.64000  2500 ; ASP(628)-ILE(633) 1-3
+  630   635      1   0.64000  2500 ; ARG(630)-LEU(635) 2-4
+  633   637      1   0.64000  2500 ; ILE(633)-TRP(637) 2-4
+  635   642      1   0.64000  2500 ; LEU(635)-LYS(642) 2-4
+  637   645      1   0.64000  2500 ; TRP(637)-SER(645) 2-4
+  661   665      1   0.64000  2500 ; ILE(661)-CYS(665) 1-3
+  663   667      1   0.64000  2500 ; ILE(663)-ASN(667) 2-4
+  665   669      1   0.64000  2500 ; CYS(665)-SER(669) 2-4
+  667   671      1   0.64000  2500 ; ASN(667)-TYR(671) 2-4
+  669   675      1   0.64000  2500 ; SER(669)-GLY(675) 2-4
+  671   676      1   0.64000  2500 ; TYR(671)-CYS(676) 2-4
+  702   708      1   0.64000  2500 ; VAL(702)-GLY(708) 1-3
+  704   709      1   0.64000  2500 ; PHE(704)-THR(709) 2-4
+  708   711      1   0.64000  2500 ; GLY(708)-PHE(711) 2-4
+  709   715      1   0.64000  2500 ; THR(709)-GLU(715) 2-4
+  711   717      1   0.64000  2500 ; PHE(711)-VAL(717) 2-4
+  715   719      1   0.64000  2500 ; GLU(715)-GLY(719) 2-4
+; Long elastic bonds for extended regions
+    7    13      1   0.97000  2500 ; MET(7)-VAL(13) 1-4
+    9    15      1   0.97000  2500 ; ILE(9)-PHE(15) 1-4
+   11    19      1   0.97000  2500 ; SER(11)-ILE(19) 1-4
+   13    21      1   0.97000  2500 ; VAL(13)-GLY(21) 1-4
+   15    22      1   0.97000  2500 ; PHE(15)-THR(22) 1-4
+   19    24      1   0.97000  2500 ; ILE(19)-TRP(24) 1-4
+   21    29      1   0.97000  2500 ; GLY(21)-ASN(29) 1-4
+  104   112      1   0.97000  2500 ; ILE(104)-PHE(112) 1-4
+  106   116      1   0.97000  2500 ; TYR(106)-GLY(116) 1-4
+  110   117      1   0.97000  2500 ; VAL(110)-THR(117) 1-4
+  112   119      1   0.97000  2500 ; PHE(112)-GLN(119) 1-4
+  176   183      1   0.97000  2500 ; ARG(176)-ALA(183) 1-4
+  179   184      1   0.97000  2500 ; PRO(179)-MET(184) 1-4
+  181   186      1   0.97000  2500 ; ILE(181)-GLN(186) 1-4
+  183   188      1   0.97000  2500 ; ALA(183)-SER(188) 1-4
+  184   190      1   0.97000  2500 ; MET(184)-LEU(190) 1-4
+  199   206      1   0.97000  2500 ; ILE(199)-ALA(206) 1-4
+  201   207      1   0.97000  2500 ; LYS(201)-VAL(207) 1-4
+  204   209      1   0.97000  2500 ; VAL(204)-LEU(209) 1-4
+  206   211      1   0.97000  2500 ; ALA(206)-VAL(211) 1-4
+  231   239      1   0.97000  2500 ; ILE(231)-VAL(239) 1-4
+  233   241      1   0.97000  2500 ; SER(233)-SER(241) 1-4
+  235   243      1   0.97000  2500 ; HIS(235)-THR(243) 1-4
+  239   245      1   0.97000  2500 ; VAL(239)-SER(245) 1-4
+  241   247      1   0.97000  2500 ; SER(241)-SER(247) 1-4
+  243   249      1   0.97000  2500 ; THR(243)-VAL(249) 1-4
+  245   251      1   0.97000  2500 ; SER(245)-LYS(251) 1-4
+  272   276      1   0.97000  2500 ; GLY(272)-GLY(276) 1-4
+  273   277      1   0.97000  2500 ; ALA(273)-VAL(277) 1-4
+  274   279      1   0.97000  2500 ; VAL(274)-SER(279) 1-4
+  276   281      1   0.97000  2500 ; GLY(276)-PHE(281) 1-4
+  277   285      1   0.97000  2500 ; VAL(277)-MET(285) 1-4
+  279   287      1   0.97000  2500 ; SER(279)-PHE(287) 1-4
+  294   302      1   0.97000  2500 ; THR(294)-GLY(302) 1-4
+  296   303      1   0.97000  2500 ; SER(296)-PHE(303) 1-4
+  298   307      1   0.97000  2500 ; PHE(298)-VAL(307) 1-4
+  302   309      1   0.97000  2500 ; GLY(302)-ASN(309) 1-4
+  303   311      1   0.97000  2500 ; PHE(303)-CYS(311) 1-4
+  307   313      1   0.97000  2500 ; VAL(307)-HIS(313) 1-4
+  403   413      1   0.97000  2500 ; HIS(403)-TRP(413) 1-4
+  407   418      1   0.97000  2500 ; LEU(407)-PHE(418) 1-4
+  409   422      1   0.97000  2500 ; PHE(409)-GLY(422) 1-4
+  413   423      1   0.97000  2500 ; TRP(413)-ASP(423) 1-4
+  628   635      1   0.97000  2500 ; ASP(628)-LEU(635) 1-4
+  630   637      1   0.97000  2500 ; ARG(630)-TRP(637) 1-4
+  633   642      1   0.97000  2500 ; ILE(633)-LYS(642) 1-4
+  635   645      1   0.97000  2500 ; LEU(635)-SER(645) 1-4
+  661   667      1   0.97000  2500 ; ILE(661)-ASN(667) 1-4
+  663   669      1   0.97000  2500 ; ILE(663)-SER(669) 1-4
+  665   671      1   0.97000  2500 ; CYS(665)-TYR(671) 1-4
+  667   675      1   0.97000  2500 ; ASN(667)-GLY(675) 1-4
+  669   676      1   0.97000  2500 ; SER(669)-CYS(676) 1-4
+  702   709      1   0.97000  2500 ; VAL(702)-THR(709) 1-4
+  704   711      1   0.97000  2500 ; PHE(704)-PHE(711) 1-4
+  708   715      1   0.97000  2500 ; GLY(708)-GLU(715) 1-4
+  709   717      1   0.97000  2500 ; THR(709)-VAL(717) 1-4
+  711   719      1   0.97000  2500 ; PHE(711)-GLY(719) 1-4
+
+[ constraints ]
+   49    51      1   0.33000 ; VAL(C)-THR(3)
+   51    53      1   0.31000 ; THR(3)-SER(3)
+   53    55      1   0.31000 ; SER(3)-TRP(3)
+   55    60      1   0.31000 ; TRP(3)-PHE(3)
+   60    64      1   0.33000 ; PHE(3)-THR(T)
+  129   130      1   0.33000 ; GLY(C)-ASP(1)
+  130   132      1   0.31000 ; ASP(1)-ARG(1)
+  132   135      1   0.31000 ; ARG(1)-GLU(1)
+  135   137      1   0.31000 ; GLU(1)-TRP(1)
+  137   142      1   0.31000 ; TRP(1)-LEU(H)
+  142   144      1   0.31000 ; LEU(H)-ASP(H)
+  144   146      1   0.31000 ; ASP(H)-LEU(H)
+  146   148      1   0.31000 ; LEU(H)-LEU(H)
+  148   150      1   0.31000 ; LEU(H)-ARG(H)
+  150   153      1   0.31000 ; ARG(H)-GLY(H)
+  153   154      1   0.31000 ; GLY(H)-GLY(H)
+  154   155      1   0.31000 ; GLY(H)-LEU(H)
+  155   157      1   0.31000 ; LEU(H)-LYS(2)
+  157   160      1   0.31000 ; LYS(2)-GLU(2)
+  160   162      1   0.31000 ; GLU(2)-LEU(2)
+  162   164      1   0.31000 ; LEU(2)-THR(2)
+  164   166      1   0.33000 ; THR(2)-ASP(S)
+  328   331      1   0.33000 ; LYS(C)-THR(1)
+  331   333      1   0.31000 ; THR(1)-ALA(1)
+  333   334      1   0.31000 ; ALA(1)-ARG(1)
+  334   337      1   0.31000 ; ARG(1)-ARG(1)
+  337   340      1   0.31000 ; ARG(1)-ASN(H)
+  340   342      1   0.31000 ; ASN(H)-GLN(H)
+  342   344      1   0.31000 ; GLN(H)-ASN(H)
+  344   346      1   0.31000 ; ASN(H)-TYR(H)
+  346   350      1   0.31000 ; TYR(H)-LEU(H)
+  350   352      1   0.31000 ; LEU(H)-ASP(H)
+  352   354      1   0.31000 ; ASP(H)-ILE(2)
+  354   356      1   0.31000 ; ILE(2)-LEU(2)
+  356   358      1   0.31000 ; LEU(2)-ARG(2)
+  358   361      1   0.31000 ; ARG(2)-LEU(2)
+  361   363      1   0.33000 ; LEU(2)-LEU(C)
+  386   388      1   0.33000 ; ASP(C)-ILE(3)
+  388   390      1   0.31000 ; ILE(3)-SER(3)
+  390   392      1   0.31000 ; SER(3)-LEU(3)
+  392   394      1   0.31000 ; LEU(3)-ARG(3)
+  394   397      1   0.33000 ; ARG(3)-PHE(S)
+  442   444      1   0.33000 ; ASP(C)-ILE(1)
+  444   446      1   0.31000 ; ILE(1)-GLN(1)
+  446   448      1   0.31000 ; GLN(1)-GLU(1)
+  448   450      1   0.31000 ; GLU(1)-ILE(1)
+  450   452      1   0.31000 ; ILE(1)-LEU(H)
+  452   454      1   0.31000 ; LEU(H)-ASN(2)
+  454   456      1   0.31000 ; ASN(2)-TYR(2)
+  456   460      1   0.31000 ; TYR(2)-ILE(2)
+  460   462      1   0.31000 ; ILE(2)-SER(2)
+  462   464      1   0.33000 ; SER(2)-ARG(T)
+  472   476      1   0.33000 ; PHE(C)-GLU(3)
+  476   478      1   0.31000 ; GLU(3)-PRO(3)
+  478   480      1   0.31000 ; PRO(3)-LEU(3)
+  480   482      1   0.31000 ; LEU(3)-LEU(3)
+  482   484      1   0.33000 ; LEU(3)-ARG(T)
+  489   491      1   0.33000 ; ASP(C)-GLN(1)
+  491   493      1   0.31000 ; GLN(1)-LEU(1)
+  493   495      1   0.31000 ; LEU(1)-ASN(1)
+  495   497      1   0.31000 ; ASN(1)-LEU(3)
+  497   499      1   0.31000 ; LEU(3)-GLU(2)
+  499   501      1   0.31000 ; GLU(2)-ARG(2)
+  501   504      1   0.31000 ; ARG(2)-GLU(2)
+  504   506      1   0.33000 ; GLU(2)-LYS(T)
+    9    10      1   0.31000 ; ILE
+   13    14      1   0.26500 ; VAL
+   16    17      1   0.27000 ; PHE
+   16    18      1   0.27000 ; PHE
+   17    18      1   0.27000 ; PHE
+   19    20      1   0.31000 ; ILE
+   22    23      1   0.26000 ; THR
+   25    26      1   0.27000 ; TRP
+   25    27      1   0.27000 ; TRP
+   26    27      1   0.27000 ; TRP
+   26    28      1   0.27000 ; TRP
+   27    28      1   0.27000 ; TRP
+   36    37      1   0.26500 ; VAL
+   49    50      1   0.26500 ; VAL
+   51    52      1   0.26000 ; THR
+   56    57      1   0.27000 ; TRP
+   56    58      1   0.27000 ; TRP
+   57    58      1   0.27000 ; TRP
+   57    59      1   0.27000 ; TRP
+   58    59      1   0.27000 ; TRP
+   61    62      1   0.27000 ; PHE
+   61    63      1   0.27000 ; PHE
+   62    63      1   0.27000 ; PHE
+   64    65      1   0.26000 ; THR
+   78    79      1   0.26000 ; THR
+   86    87      1   0.26500 ; VAL
+   88    89      1   0.26000 ; THR
+   90    91      1   0.26500 ; VAL
+   92    93      1   0.26000 ; THR
+   94    95      1   0.31000 ; ILE
+   99   100      1   0.27000 ; HIS
+   99   101      1   0.27000 ; HIS
+  100   101      1   0.27000 ; HIS
+  104   105      1   0.31000 ; ILE
+  107   108      1   0.27000 ; TYR
+  107   109      1   0.27000 ; TYR
+  108   109      1   0.27000 ; TYR
+  110   111      1   0.26500 ; VAL
+  113   114      1   0.27000 ; PHE
+  113   115      1   0.27000 ; PHE
+  114   115      1   0.27000 ; PHE
+  117   118      1   0.26000 ; THR
+  127   128      1   0.26500 ; VAL
+  138   139      1   0.27000 ; TRP
+  138   140      1   0.27000 ; TRP
+  139   140      1   0.27000 ; TRP
+  139   141      1   0.27000 ; TRP
+  140   141      1   0.27000 ; TRP
+  164   165      1   0.26000 ; THR
+  173   174      1   0.27000 ; TYR
+  173   175      1   0.27000 ; TYR
+  174   175      1   0.27000 ; TYR
+  181   182      1   0.31000 ; ILE
+  193   194      1   0.27000 ; TRP
+  193   195      1   0.27000 ; TRP
+  194   195      1   0.27000 ; TRP
+  194   196      1   0.27000 ; TRP
+  195   196      1   0.27000 ; TRP
+  199   200      1   0.31000 ; ILE
+  204   205      1   0.26500 ; VAL
+  207   208      1   0.26500 ; VAL
+  211   212      1   0.26500 ; VAL
+  221   222      1   0.27000 ; HIS
+  221   223      1   0.27000 ; HIS
+  222   223      1   0.27000 ; HIS
+  231   232      1   0.31000 ; ILE
+  236   237      1   0.27000 ; HIS
+  236   238      1   0.27000 ; HIS
+  237   238      1   0.27000 ; HIS
+  239   240      1   0.26500 ; VAL
+  243   244      1   0.26000 ; THR
+  249   250      1   0.26500 ; VAL
+  254   255      1   0.26000 ; THR
+  257   258      1   0.31000 ; ILE
+  262   263      1   0.26000 ; THR
+  274   275      1   0.26500 ; VAL
+  277   278      1   0.26500 ; VAL
+  282   283      1   0.27000 ; PHE
+  282   284      1   0.27000 ; PHE
+  283   284      1   0.27000 ; PHE
+  288   289      1   0.27000 ; PHE
+  288   290      1   0.27000 ; PHE
+  289   290      1   0.27000 ; PHE
+  294   295      1   0.26000 ; THR
+  299   300      1   0.27000 ; PHE
+  299   301      1   0.27000 ; PHE
+  300   301      1   0.27000 ; PHE
+  304   305      1   0.27000 ; PHE
+  304   306      1   0.27000 ; PHE
+  305   306      1   0.27000 ; PHE
+  307   308      1   0.26500 ; VAL
+  314   315      1   0.27000 ; HIS
+  314   316      1   0.27000 ; HIS
+  315   316      1   0.27000 ; HIS
+  319   320      1   0.26000 ; THR
+  331   332      1   0.26000 ; THR
+  347   348      1   0.27000 ; TYR
+  347   349      1   0.27000 ; TYR
+  348   349      1   0.27000 ; TYR
+  354   355      1   0.31000 ; ILE
+  383   384      1   0.27000 ; PHE
+  383   385      1   0.27000 ; PHE
+  384   385      1   0.27000 ; PHE
+  388   389      1   0.31000 ; ILE
+  398   399      1   0.27000 ; PHE
+  398   400      1   0.27000 ; PHE
+  399   400      1   0.27000 ; PHE
+  401   402      1   0.26000 ; THR
+  404   405      1   0.27000 ; HIS
+  404   406      1   0.27000 ; HIS
+  405   406      1   0.27000 ; HIS
+  410   411      1   0.27000 ; PHE
+  410   412      1   0.27000 ; PHE
+  411   412      1   0.27000 ; PHE
+  414   415      1   0.27000 ; TRP
+  414   416      1   0.27000 ; TRP
+  415   416      1   0.27000 ; TRP
+  415   417      1   0.27000 ; TRP
+  416   417      1   0.27000 ; TRP
+  419   420      1   0.27000 ; PHE
+  419   421      1   0.27000 ; PHE
+  420   421      1   0.27000 ; PHE
+  430   431      1   0.27000 ; TYR
+  430   432      1   0.27000 ; TYR
+  431   432      1   0.27000 ; TYR
+  444   445      1   0.31000 ; ILE
+  450   451      1   0.31000 ; ILE
+  457   458      1   0.27000 ; TYR
+  457   459      1   0.27000 ; TYR
+  458   459      1   0.27000 ; TYR
+  460   461      1   0.31000 ; ILE
+  473   474      1   0.27000 ; PHE
+  473   475      1   0.27000 ; PHE
+  474   475      1   0.27000 ; PHE
+  487   488      1   0.26500 ; VAL
+  510   511      1   0.27000 ; HIS
+  510   512      1   0.27000 ; HIS
+  511   512      1   0.27000 ; HIS
+  516   517      1   0.26500 ; VAL
+  519   520      1   0.27000 ; PHE
+  519   521      1   0.27000 ; PHE
+  520   521      1   0.27000 ; PHE
+  528   529      1   0.27000 ; PHE
+  528   530      1   0.27000 ; PHE
+  529   530      1   0.27000 ; PHE
+  539   540      1   0.31000 ; ILE
+  544   545      1   0.27000 ; PHE
+  544   546      1   0.27000 ; PHE
+  545   546      1   0.27000 ; PHE
+  551   552      1   0.26000 ; THR
+  554   555      1   0.27000 ; TYR
+  554   556      1   0.27000 ; TYR
+  555   556      1   0.27000 ; TYR
+  561   562      1   0.27000 ; TYR
+  561   563      1   0.27000 ; TYR
+  562   563      1   0.27000 ; TYR
+  577   578      1   0.26000 ; THR
+  580   581      1   0.27000 ; TYR
+  580   582      1   0.27000 ; TYR
+  581   582      1   0.27000 ; TYR
+  585   586      1   0.27000 ; TRP
+  585   587      1   0.27000 ; TRP
+  586   587      1   0.27000 ; TRP
+  586   588      1   0.27000 ; TRP
+  587   588      1   0.27000 ; TRP
+  590   591      1   0.27000 ; HIS
+  590   592      1   0.27000 ; HIS
+  591   592      1   0.27000 ; HIS
+  603   604      1   0.26000 ; THR
+  606   607      1   0.26500 ; VAL
+  611   612      1   0.26000 ; THR
+  615   616      1   0.26500 ; VAL
+  622   623      1   0.27000 ; TRP
+  622   624      1   0.27000 ; TRP
+  623   624      1   0.27000 ; TRP
+  623   625      1   0.27000 ; TRP
+  624   625      1   0.27000 ; TRP
+  633   634      1   0.31000 ; ILE
+  638   639      1   0.27000 ; TRP
+  638   640      1   0.27000 ; TRP
+  639   640      1   0.27000 ; TRP
+  639   641      1   0.27000 ; TRP
+  640   641      1   0.27000 ; TRP
+  648   649      1   0.27000 ; TYR
+  648   650      1   0.27000 ; TYR
+  649   650      1   0.27000 ; TYR
+  655   656      1   0.26000 ; THR
+  658   659      1   0.27000 ; HIS
+  658   660      1   0.27000 ; HIS
+  659   660      1   0.27000 ; HIS
+  661   662      1   0.31000 ; ILE
+  663   664      1   0.31000 ; ILE
+  672   673      1   0.27000 ; TYR
+  672   674      1   0.27000 ; TYR
+  673   674      1   0.27000 ; TYR
+  678   679      1   0.26000 ; THR
+  684   685      1   0.31000 ; ILE
+  686   687      1   0.26500 ; VAL
+  688   689      1   0.26000 ; THR
+  695   696      1   0.27000 ; HIS
+  695   697      1   0.27000 ; HIS
+  696   697      1   0.27000 ; HIS
+  702   703      1   0.26500 ; VAL
+  705   706      1   0.27000 ; PHE
+  705   707      1   0.27000 ; PHE
+  706   707      1   0.27000 ; PHE
+  709   710      1   0.26000 ; THR
+  712   713      1   0.27000 ; PHE
+  712   714      1   0.27000 ; PHE
+  713   714      1   0.27000 ; PHE
+  717   718      1   0.26500 ; VAL
+  720   721      1   0.26500 ; VAL
+  722   723      1   0.26000 ; THR
+
+[ angles ]
+; Backbone angles
+    1     3     5      2    127    20 ; GLU(C)-PRO(C)-ASP(S)
+    3     5     7      2    130    20 ; PRO(C)-ASP(S)-MET(E)
+    5     7     9      2    130    20 ; ASP(S)-MET(E)-ILE(E)
+    7     9    11      2    134    25 ; MET(E)-ILE(E)-SER(E)
+    9    11    13      2    134    25 ; ILE(E)-SER(E)-VAL(E)
+   11    13    15      2    134    25 ; SER(E)-VAL(E)-PHE(E)
+   13    15    19      2    134    25 ; VAL(E)-PHE(E)-ILE(E)
+   15    19    21      2    134    25 ; PHE(E)-ILE(E)-GLY(E)
+   19    21    22      2    134    25 ; ILE(E)-GLY(E)-THR(E)
+   21    22    24      2    134    25 ; GLY(E)-THR(E)-TRP(E)
+   22    24    29      2    134    25 ; THR(E)-TRP(E)-ASN(E)
+   24    29    31      2    127    20 ; TRP(E)-ASN(E)-MET(C)
+   29    31    33      2    100    20 ; ASN(E)-MET(C)-GLY(T)
+   31    33    34      2    100    20 ; MET(C)-GLY(T)-SER(T)
+   33    34    36      2    100    20 ; GLY(T)-SER(T)-VAL(S)
+   34    36    38      2    100    20 ; SER(T)-VAL(S)-PRO(C)
+   36    38    40      2    130    20 ; VAL(S)-PRO(C)-PRO(C)
+   38    40    42      2    127    25 ; PRO(C)-PRO(C)-PRO(C)
+   40    42    44      2    130    20 ; PRO(C)-PRO(C)-LYS(S)
+   42    44    47      2    127    20 ; PRO(C)-LYS(S)-ASN(C)
+   44    47    49      2    127    20 ; LYS(S)-ASN(C)-VAL(C)
+   47    49    51      2    127    20 ; ASN(C)-VAL(C)-THR(3)
+   49    51    53      2    127    20 ; VAL(C)-THR(3)-SER(3)
+   51    53    55      2     96   700 ; THR(3)-SER(3)-TRP(3)
+   53    55    60      2     96   700 ; SER(3)-TRP(3)-PHE(3)
+   55    60    64      2    100    20 ; TRP(3)-PHE(3)-THR(T)
+   60    64    66      2    100    20 ; PHE(3)-THR(T)-SER(T)
+   64    66    68      2    100    20 ; THR(T)-SER(T)-LYS(C)
+   66    68    71      2    100    20 ; SER(T)-LYS(C)-GLY(S)
+   68    71    72      2    127    20 ; LYS(C)-GLY(S)-LEU(E)
+   71    72    74      2    130    20 ; GLY(S)-LEU(E)-GLY(E)
+   72    74    75      2    134    25 ; LEU(E)-GLY(E)-LYS(E)
+   74    75    78      2    127    20 ; GLY(E)-LYS(E)-THR(C)
+   75    78    80      2    127    20 ; LYS(E)-THR(C)-LEU(C)
+   78    80    82      2    100    20 ; THR(C)-LEU(C)-ASP(T)
+   80    82    84      2    100    20 ; LEU(C)-ASP(T)-GLU(T)
+   82    84    86      2    100    20 ; ASP(T)-GLU(T)-VAL(C)
+   84    86    88      2    100    20 ; GLU(T)-VAL(C)-THR(S)
+   86    88    90      2    127    20 ; VAL(C)-THR(S)-VAL(S)
+   88    90    92      2    127    20 ; THR(S)-VAL(S)-THR(C)
+   90    92    94      2    127    20 ; VAL(S)-THR(C)-ILE(C)
+   92    94    96      2    127    20 ; THR(C)-ILE(C)-PRO(C)
+   94    96    98      2    127    20 ; ILE(C)-PRO(C)-HIS(C)
+   96    98   102      2    127    20 ; PRO(C)-HIS(C)-ASP(S)
+   98   102   104      2    127    20 ; HIS(C)-ASP(S)-ILE(E)
+  102   104   106      2    130    20 ; ASP(S)-ILE(E)-TYR(E)
+  104   106   110      2    134    25 ; ILE(E)-TYR(E)-VAL(E)
+  106   110   112      2    134    25 ; TYR(E)-VAL(E)-PHE(E)
+  110   112   116      2    134    25 ; VAL(E)-PHE(E)-GLY(E)
+  112   116   117      2    134    25 ; PHE(E)-GLY(E)-THR(E)
+  116   117   119      2    134    25 ; GLY(E)-THR(E)-GLN(E)
+  117   119   121      2    130    20 ; THR(E)-GLN(E)-GLU(S)
+  119   121   123      2    127    20 ; GLN(E)-GLU(S)-ASN(C)
+  121   123   125      2    127    20 ; GLU(S)-ASN(C)-SER(C)
+  123   125   127      2    127    20 ; ASN(C)-SER(C)-VAL(S)
+  125   127   129      2    127    20 ; SER(C)-VAL(S)-GLY(C)
+  127   129   130      2    127    20 ; VAL(S)-GLY(C)-ASP(1)
+  129   130   132      2    127    20 ; GLY(C)-ASP(1)-ARG(1)
+  130   132   135      2     96   700 ; ASP(1)-ARG(1)-GLU(1)
+  132   135   137      2     96   700 ; ARG(1)-GLU(1)-TRP(1)
+  135   137   142      2     96   700 ; GLU(1)-TRP(1)-LEU(H)
+  137   142   144      2     96   700 ; TRP(1)-LEU(H)-ASP(H)
+  142   144   146      2     96   700 ; LEU(H)-ASP(H)-LEU(H)
+  144   146   148      2     96   700 ; ASP(H)-LEU(H)-LEU(H)
+  146   148   150      2     96   700 ; LEU(H)-LEU(H)-ARG(H)
+  148   150   153      2     96   700 ; LEU(H)-ARG(H)-GLY(H)
+  150   153   154      2     96   700 ; ARG(H)-GLY(H)-GLY(H)
+  153   154   155      2     96   700 ; GLY(H)-GLY(H)-LEU(H)
+  154   155   157      2     96   700 ; GLY(H)-LEU(H)-LYS(2)
+  155   157   160      2     96   700 ; LEU(H)-LYS(2)-GLU(2)
+  157   160   162      2     96   700 ; LYS(2)-GLU(2)-LEU(2)
+  160   162   164      2     96   700 ; GLU(2)-LEU(2)-THR(2)
+  162   164   166      2    130    20 ; LEU(2)-THR(2)-ASP(S)
+  164   166   168      2    130    20 ; THR(2)-ASP(S)-LEU(S)
+  166   168   170      2    127    20 ; ASP(S)-LEU(S)-ASP(C)
+  168   170   172      2    127    20 ; LEU(S)-ASP(C)-TYR(C)
+  170   172   176      2    127    20 ; ASP(C)-TYR(C)-ARG(E)
+  172   176   179      2    127    20 ; TYR(C)-ARG(E)-PRO(E)
+  176   179   181      2    134    25 ; ARG(E)-PRO(E)-ILE(E)
+  179   181   183      2    134    25 ; PRO(E)-ILE(E)-ALA(E)
+  181   183   184      2    134    25 ; ILE(E)-ALA(E)-MET(E)
+  183   184   186      2    134    25 ; ALA(E)-MET(E)-GLN(E)
+  184   186   188      2    134    25 ; MET(E)-GLN(E)-SER(E)
+  186   188   190      2    134    25 ; GLN(E)-SER(E)-LEU(E)
+  188   190   192      2    100    20 ; SER(E)-LEU(E)-TRP(T)
+  190   192   197      2    100    20 ; LEU(E)-TRP(T)-ASN(T)
+  192   197   199      2    100    20 ; TRP(T)-ASN(T)-ILE(E)
+  197   199   201      2    100    20 ; ASN(T)-ILE(E)-LYS(E)
+  199   201   204      2    134    25 ; ILE(E)-LYS(E)-VAL(E)
+  201   204   206      2    134    25 ; LYS(E)-VAL(E)-ALA(E)
+  204   206   207      2    134    25 ; VAL(E)-ALA(E)-VAL(E)
+  206   207   209      2    134    25 ; ALA(E)-VAL(E)-LEU(E)
+  207   209   211      2    134    25 ; VAL(E)-LEU(E)-VAL(E)
+  209   211   213      2    127    20 ; LEU(E)-VAL(E)-LYS(C)
+  211   213   216      2    127    20 ; VAL(E)-LYS(C)-PRO(C)
+  213   216   218      2    127    20 ; LYS(C)-PRO(C)-GLU(C)
+  216   218   220      2    127    20 ; PRO(C)-GLU(C)-HIS(C)
+  218   220   224      2    127    20 ; GLU(C)-HIS(C)-GLU(C)
+  220   224   226      2    127    20 ; HIS(C)-GLU(C)-ASN(C)
+  224   226   228      2    127    20 ; GLU(C)-ASN(C)-ARG(C)
+  226   228   231      2    127    20 ; ASN(C)-ARG(C)-ILE(E)
+  228   231   233      2    127    20 ; ARG(C)-ILE(E)-SER(E)
+  231   233   235      2    134    25 ; ILE(E)-SER(E)-HIS(E)
+  233   235   239      2    134    25 ; SER(E)-HIS(E)-VAL(E)
+  235   239   241      2    134    25 ; HIS(E)-VAL(E)-SER(E)
+  239   241   243      2    134    25 ; VAL(E)-SER(E)-THR(E)
+  241   243   245      2    134    25 ; SER(E)-THR(E)-SER(E)
+  243   245   247      2    134    25 ; THR(E)-SER(E)-SER(E)
+  245   247   249      2    134    25 ; SER(E)-SER(E)-VAL(E)
+  247   249   251      2    134    25 ; SER(E)-VAL(E)-LYS(E)
+  249   251   254      2    127    20 ; VAL(E)-LYS(E)-THR(C)
+  251   254   256      2    127    20 ; LYS(E)-THR(C)-GLY(C)
+  254   256   257      2    127    20 ; THR(C)-GLY(C)-ILE(S)
+  256   257   259      2    127    20 ; GLY(C)-ILE(S)-ALA(S)
+  257   259   260      2    100    20 ; ILE(S)-ALA(S)-ASN(T)
+  259   260   262      2    100    20 ; ALA(S)-ASN(T)-THR(T)
+  260   262   264      2    100    20 ; ASN(T)-THR(T)-LEU(C)
+  262   264   266      2    100    20 ; THR(T)-LEU(C)-GLY(C)
+  264   266   267      2    127    20 ; LEU(C)-GLY(C)-ASN(S)
+  266   267   269      2    127    20 ; GLY(C)-ASN(S)-LYS(C)
+  267   269   272      2    127    20 ; ASN(S)-LYS(C)-GLY(E)
+  269   272   273      2    127    20 ; LYS(C)-GLY(E)-ALA(E)
+  272   273   274      2    134    25 ; GLY(E)-ALA(E)-VAL(E)
+  273   274   276      2    134    25 ; ALA(E)-VAL(E)-GLY(E)
+  274   276   277      2    134    25 ; VAL(E)-GLY(E)-VAL(E)
+  276   277   279      2    134    25 ; GLY(E)-VAL(E)-SER(E)
+  277   279   281      2    134    25 ; VAL(E)-SER(E)-PHE(E)
+  279   281   285      2    134    25 ; SER(E)-PHE(E)-MET(E)
+  281   285   287      2    134    25 ; PHE(E)-MET(E)-PHE(E)
+  285   287   291      2    100    20 ; MET(E)-PHE(E)-ASN(T)
+  287   291   293      2    100    20 ; PHE(E)-ASN(T)-GLY(T)
+  291   293   294      2    100    20 ; ASN(T)-GLY(T)-THR(E)
+  293   294   296      2    100    20 ; GLY(T)-THR(E)-SER(E)
+  294   296   298      2    134    25 ; THR(E)-SER(E)-PHE(E)
+  296   298   302      2    134    25 ; SER(E)-PHE(E)-GLY(E)
+  298   302   303      2    134    25 ; PHE(E)-GLY(E)-PHE(E)
+  302   303   307      2    134    25 ; GLY(E)-PHE(E)-VAL(E)
+  303   307   309      2    134    25 ; PHE(E)-VAL(E)-ASN(E)
+  307   309   311      2    134    25 ; VAL(E)-ASN(E)-CYS(E)
+  309   311   313      2    134    25 ; ASN(E)-CYS(E)-HIS(E)
+  311   313   317      2    127    20 ; CYS(E)-HIS(E)-LEU(C)
+  313   317   319      2    127    20 ; HIS(E)-LEU(C)-THR(C)
+  317   319   321      2    127    20 ; LEU(C)-THR(C)-SER(C)
+  319   321   323      2    127    20 ; THR(C)-SER(C)-GLY(S)
+  321   323   324      2    100    20 ; SER(C)-GLY(S)-ASN(T)
+  323   324   326      2    100    20 ; GLY(S)-ASN(T)-GLU(T)
+  324   326   328      2    100    20 ; ASN(T)-GLU(T)-LYS(C)
+  326   328   331      2    100    20 ; GLU(T)-LYS(C)-THR(1)
+  328   331   333      2    127    20 ; LYS(C)-THR(1)-ALA(1)
+  331   333   334      2     96   700 ; THR(1)-ALA(1)-ARG(1)
+  333   334   337      2     96   700 ; ALA(1)-ARG(1)-ARG(1)
+  334   337   340      2     96   700 ; ARG(1)-ARG(1)-ASN(H)
+  337   340   342      2     96   700 ; ARG(1)-ASN(H)-GLN(H)
+  340   342   344      2     96   700 ; ASN(H)-GLN(H)-ASN(H)
+  342   344   346      2     96   700 ; GLN(H)-ASN(H)-TYR(H)
+  344   346   350      2     96   700 ; ASN(H)-TYR(H)-LEU(H)
+  346   350   352      2     96   700 ; TYR(H)-LEU(H)-ASP(H)
+  350   352   354      2     96   700 ; LEU(H)-ASP(H)-ILE(2)
+  352   354   356      2     96   700 ; ASP(H)-ILE(2)-LEU(2)
+  354   356   358      2     96   700 ; ILE(2)-LEU(2)-ARG(2)
+  356   358   361      2     96   700 ; LEU(2)-ARG(2)-LEU(2)
+  358   361   363      2    127    20 ; ARG(2)-LEU(2)-LEU(C)
+  361   363   365      2    127    20 ; LEU(2)-LEU(C)-SER(C)
+  363   365   367      2    127    20 ; LEU(C)-SER(C)-LEU(C)
+  365   367   369      2    127    20 ; SER(C)-LEU(C)-GLY(C)
+  367   369   370      2    127    20 ; LEU(C)-GLY(C)-ASP(S)
+  369   370   372      2    127    20 ; GLY(C)-ASP(S)-ARG(S)
+  370   372   375      2    127    20 ; ASP(S)-ARG(S)-GLN(C)
+  372   375   377      2    127    20 ; ARG(S)-GLN(C)-LEU(C)
+  375   377   379      2    100    20 ; GLN(C)-LEU(C)-ASN(T)
+  377   379   381      2    100    20 ; LEU(C)-ASN(T)-ALA(T)
+  379   381   382      2    100    20 ; ASN(T)-ALA(T)-PHE(C)
+  381   382   386      2    100    20 ; ALA(T)-PHE(C)-ASP(C)
+  382   386   388      2    127    20 ; PHE(C)-ASP(C)-ILE(3)
+  386   388   390      2    127    20 ; ASP(C)-ILE(3)-SER(3)
+  388   390   392      2     96   700 ; ILE(3)-SER(3)-LEU(3)
+  390   392   394      2     96   700 ; SER(3)-LEU(3)-ARG(3)
+  392   394   397      2    130    20 ; LEU(3)-ARG(3)-PHE(S)
+  394   397   401      2    130    20 ; ARG(3)-PHE(S)-THR(S)
+  397   401   403      2    130    20 ; PHE(S)-THR(S)-HIS(E)
+  401   403   407      2    130    20 ; THR(S)-HIS(E)-LEU(E)
+  403   407   409      2    134    25 ; HIS(E)-LEU(E)-PHE(E)
+  407   409   413      2    134    25 ; LEU(E)-PHE(E)-TRP(E)
+  409   413   418      2    134    25 ; PHE(E)-TRP(E)-PHE(E)
+  413   418   422      2    134    25 ; TRP(E)-PHE(E)-GLY(E)
+  418   422   423      2    134    25 ; PHE(E)-GLY(E)-ASP(E)
+  422   423   425      2    127    20 ; GLY(E)-ASP(E)-LEU(C)
+  423   425   427      2    127    20 ; ASP(E)-LEU(C)-ASN(C)
+  425   427   429      2    127    20 ; LEU(C)-ASN(C)-TYR(C)
+  427   429   433      2    127    20 ; ASN(C)-TYR(C)-ARG(C)
+  429   433   436      2    127    20 ; TYR(C)-ARG(C)-LEU(C)
+  433   436   438      2    127    20 ; ARG(C)-LEU(C)-ASP(S)
+  436   438   440      2    127    20 ; LEU(C)-ASP(S)-MET(S)
+  438   440   442      2    127    20 ; ASP(S)-MET(S)-ASP(C)
+  440   442   444      2    127    20 ; MET(S)-ASP(C)-ILE(1)
+  442   444   446      2    127    20 ; ASP(C)-ILE(1)-GLN(1)
+  444   446   448      2     96   700 ; ILE(1)-GLN(1)-GLU(1)
+  446   448   450      2     96   700 ; GLN(1)-GLU(1)-ILE(1)
+  448   450   452      2     96   700 ; GLU(1)-ILE(1)-LEU(H)
+  450   452   454      2     96   700 ; ILE(1)-LEU(H)-ASN(2)
+  452   454   456      2     96   700 ; LEU(H)-ASN(2)-TYR(2)
+  454   456   460      2     96   700 ; ASN(2)-TYR(2)-ILE(2)
+  456   460   462      2     96   700 ; TYR(2)-ILE(2)-SER(2)
+  460   462   464      2    100    20 ; ILE(2)-SER(2)-ARG(T)
+  462   464   467      2    100    20 ; SER(2)-ARG(T)-LYS(T)
+  464   467   470      2    100    20 ; ARG(T)-LYS(T)-GLU(C)
+  467   470   472      2    100    20 ; LYS(T)-GLU(C)-PHE(C)
+  470   472   476      2    127    20 ; GLU(C)-PHE(C)-GLU(3)
+  472   476   478      2    127    20 ; PHE(C)-GLU(3)-PRO(3)
+  476   478   480      2     98   100 ; GLU(3)-PRO(3)-LEU(3)
+  478   480   482      2     98   100 ; PRO(3)-LEU(3)-LEU(3)
+  480   482   484      2    100    20 ; LEU(3)-LEU(3)-ARG(T)
+  482   484   487      2    100    20 ; LEU(3)-ARG(T)-VAL(T)
+  484   487   489      2    100    20 ; ARG(T)-VAL(T)-ASP(C)
+  487   489   491      2    100    20 ; VAL(T)-ASP(C)-GLN(1)
+  489   491   493      2    127    20 ; ASP(C)-GLN(1)-LEU(1)
+  491   493   495      2     96   700 ; GLN(1)-LEU(1)-ASN(1)
+  493   495   497      2     96   700 ; LEU(1)-ASN(1)-LEU(3)
+  495   497   499      2     96   700 ; ASN(1)-LEU(3)-GLU(2)
+  497   499   501      2     96   700 ; LEU(3)-GLU(2)-ARG(2)
+  499   501   504      2     96   700 ; GLU(2)-ARG(2)-GLU(2)
+  501   504   506      2    100    20 ; ARG(2)-GLU(2)-LYS(T)
+  504   506   509      2    100    20 ; GLU(2)-LYS(T)-HIS(T)
+  506   509   513      2    100    20 ; LYS(T)-HIS(T)-LYS(S)
+  509   513   516      2    100    20 ; HIS(T)-LYS(S)-VAL(S)
+  513   516   518      2    130    20 ; LYS(S)-VAL(S)-PHE(S)
+  516   518   522      2    100    20 ; VAL(S)-PHE(S)-LEU(T)
+  518   522   524      2    100    20 ; PHE(S)-LEU(T)-ARG(T)
+  522   524   527      2    100    20 ; LEU(T)-ARG(T)-PHE(C)
+  524   527   531      2    100    20 ; ARG(T)-PHE(C)-SER(C)
+  527   531   533      2    127    20 ; PHE(C)-SER(C)-GLU(C)
+  531   533   535      2    127    20 ; SER(C)-GLU(C)-GLU(C)
+  533   535   537      2    127    20 ; GLU(C)-GLU(C)-GLU(C)
+  535   537   539      2    127    20 ; GLU(C)-GLU(C)-ILE(C)
+  537   539   541      2    127    20 ; GLU(C)-ILE(C)-SER(C)
+  539   541   543      2    127    20 ; ILE(C)-SER(C)-PHE(S)
+  541   543   547      2    127    20 ; SER(C)-PHE(S)-PRO(C)
+  543   547   549      2    130    20 ; PHE(S)-PRO(C)-PRO(C)
+  547   549   551      2    127    20 ; PRO(C)-PRO(C)-THR(C)
+  549   551   553      2    127    20 ; PRO(C)-THR(C)-TYR(C)
+  551   553   557      2    127    20 ; THR(C)-TYR(C)-ARG(C)
+  553   557   560      2    127    20 ; TYR(C)-ARG(C)-TYR(C)
+  557   560   564      2    127    20 ; ARG(C)-TYR(C)-GLU(C)
+  560   564   566      2    100    20 ; TYR(C)-GLU(C)-ARG(T)
+  564   566   569      2    100    20 ; GLU(C)-ARG(T)-GLY(T)
+  566   569   570      2    100    20 ; ARG(T)-GLY(T)-SER(C)
+  569   570   572      2    100    20 ; GLY(T)-SER(C)-ARG(S)
+  570   572   575      2    127    20 ; SER(C)-ARG(S)-ASP(S)
+  572   575   577      2    127    20 ; ARG(S)-ASP(S)-THR(C)
+  575   577   579      2    127    20 ; ASP(S)-THR(C)-TYR(C)
+  577   579   583      2    127    20 ; THR(C)-TYR(C)-ALA(C)
+  579   583   584      2    127    20 ; TYR(C)-ALA(C)-TRP(C)
+  583   584   589      2    127    20 ; ALA(C)-TRP(C)-HIS(C)
+  584   589   593      2    127    20 ; TRP(C)-HIS(C)-LYS(S)
+  589   593   596      2    127    20 ; HIS(C)-LYS(S)-GLN(C)
+  593   596   598      2    127    20 ; LYS(S)-GLN(C)-LYS(C)
+  596   598   601      2    127    20 ; GLN(C)-LYS(C)-PRO(C)
+  598   601   603      2    100    20 ; LYS(C)-PRO(C)-THR(T)
+  601   603   605      2    100    20 ; PRO(C)-THR(T)-GLY(T)
+  603   605   606      2    100    20 ; THR(T)-GLY(T)-VAL(C)
+  605   606   608      2    100    20 ; GLY(T)-VAL(C)-ARG(C)
+  606   608   611      2    127    20 ; VAL(C)-ARG(C)-THR(C)
+  608   611   613      2    127    20 ; ARG(C)-THR(C)-ASN(C)
+  611   613   615      2    127    20 ; THR(C)-ASN(C)-VAL(C)
+  613   615   617      2    127    20 ; ASN(C)-VAL(C)-PRO(C)
+  615   617   619      2    127    20 ; VAL(C)-PRO(C)-SER(C)
+  617   619   621      2    127    20 ; PRO(C)-SER(C)-TRP(C)
+  619   621   626      2    127    20 ; SER(C)-TRP(C)-CYS(C)
+  621   626   628      2    127    20 ; TRP(C)-CYS(C)-ASP(E)
+  626   628   630      2    127    20 ; CYS(C)-ASP(E)-ARG(E)
+  628   630   633      2    134    25 ; ASP(E)-ARG(E)-ILE(E)
+  630   633   635      2    134    25 ; ARG(E)-ILE(E)-LEU(E)
+  633   635   637      2    134    25 ; ILE(E)-LEU(E)-TRP(E)
+  635   637   642      2    134    25 ; LEU(E)-TRP(E)-LYS(E)
+  637   642   645      2    134    25 ; TRP(E)-LYS(E)-SER(E)
+  642   645   647      2    127    20 ; LYS(E)-SER(E)-TYR(C)
+  645   647   651      2    127    20 ; SER(E)-TYR(C)-PRO(T)
+  647   651   653      2    100    20 ; TYR(C)-PRO(T)-GLU(T)
+  651   653   655      2    100    20 ; PRO(T)-GLU(T)-THR(C)
+  653   655   657      2    100    20 ; GLU(T)-THR(C)-HIS(C)
+  655   657   661      2    127    20 ; THR(C)-HIS(C)-ILE(E)
+  657   661   663      2    127    20 ; HIS(C)-ILE(E)-ILE(E)
+  661   663   665      2    134    25 ; ILE(E)-ILE(E)-CYS(E)
+  663   665   667      2    134    25 ; ILE(E)-CYS(E)-ASN(E)
+  665   667   669      2    134    25 ; CYS(E)-ASN(E)-SER(E)
+  667   669   671      2    134    25 ; ASN(E)-SER(E)-TYR(E)
+  669   671   675      2    134    25 ; SER(E)-TYR(E)-GLY(E)
+  671   675   676      2    134    25 ; TYR(E)-GLY(E)-CYS(E)
+  675   676   678      2    127    20 ; GLY(E)-CYS(E)-THR(C)
+  676   678   680      2    127    20 ; CYS(E)-THR(C)-ASP(S)
+  678   680   682      2    127    20 ; THR(C)-ASP(S)-ASP(S)
+  680   682   684      2    127    20 ; ASP(S)-ASP(S)-ILE(C)
+  682   684   686      2    127    20 ; ASP(S)-ILE(C)-VAL(C)
+  684   686   688      2    127    20 ; ILE(C)-VAL(C)-THR(S)
+  686   688   690      2    127    20 ; VAL(C)-THR(S)-SER(S)
+  688   690   692      2    130    20 ; THR(S)-SER(S)-ASP(S)
+  690   692   694      2    130    20 ; SER(S)-ASP(S)-HIS(S)
+  692   694   698      2    127    20 ; ASP(S)-HIS(S)-SER(C)
+  694   698   700      2    127    20 ; HIS(S)-SER(C)-PRO(C)
+  698   700   702      2    127    20 ; SER(C)-PRO(C)-VAL(E)
+  700   702   704      2    127    25 ; PRO(C)-VAL(E)-PHE(E)
+  702   704   708      2    134    25 ; VAL(E)-PHE(E)-GLY(E)
+  704   708   709      2    134    25 ; PHE(E)-GLY(E)-THR(E)
+  708   709   711      2    134    25 ; GLY(E)-THR(E)-PHE(E)
+  709   711   715      2    134    25 ; THR(E)-PHE(E)-GLU(E)
+  711   715   717      2    134    25 ; PHE(E)-GLU(E)-VAL(E)
+  715   717   719      2    134    25 ; GLU(E)-VAL(E)-GLY(E)
+  717   719   720      2    127    20 ; VAL(E)-GLY(E)-VAL(C)
+  719   720   722      2    127    20 ; GLY(E)-VAL(C)-THR(C)
+  720   722   724      2    127    20 ; VAL(C)-THR(C)-SER(C)
+; Backbone-sidechain angles
+    2     1     3      2    100    25 ; GLU(C)-PRO(C) SBB
+    1     3     4      2    100    25 ; GLU(C)-PRO(C) SBB
+    3     5     6      2    100    25 ; PRO(C)-ASP(S) SBB
+    5     7     8      2    100    25 ; ASP(S)-MET(E) SBB
+    7     9    10      2    100    25 ; MET(E)-ILE(E) SBB
+    9    11    12      2    100    25 ; ILE(E)-SER(E) SBB
+   11    13    14      2    100    25 ; SER(E)-VAL(E) SBB
+   13    15    16      2    100    25 ; VAL(E)-PHE(E) SBB
+   15    19    20      2    100    25 ; PHE(E)-ILE(E) SBB
+   21    22    23      2    100    25 ; GLY(E)-THR(E) SBB
+   22    24    25      2    100    25 ; THR(E)-TRP(E) SBB
+   24    29    30      2    100    25 ; TRP(E)-ASN(E) SBB
+   29    31    32      2    100    25 ; ASN(E)-MET(C) SBB
+   33    34    35      2    100    25 ; GLY(T)-SER(T) SBB
+   34    36    37      2    100    25 ; SER(T)-VAL(S) SBB
+   36    38    39      2    100    25 ; VAL(S)-PRO(C) SBB
+   38    40    41      2    100    25 ; PRO(C)-PRO(C) SBB
+   40    42    43      2    100    25 ; PRO(C)-PRO(C) SBB
+   42    44    45      2    100    25 ; PRO(C)-LYS(S) SBB
+   44    47    48      2    100    25 ; LYS(S)-ASN(C) SBB
+   47    49    50      2    100    25 ; ASN(C)-VAL(C) SBB
+   49    51    52      2    100    25 ; VAL(C)-THR(3) SBB
+   51    53    54      2    100    25 ; THR(3)-SER(3) SBB
+   53    55    56      2    100    25 ; SER(3)-TRP(3) SBB
+   55    60    61      2    100    25 ; TRP(3)-PHE(3) SBB
+   60    64    65      2    100    25 ; PHE(3)-THR(T) SBB
+   64    66    67      2    100    25 ; THR(T)-SER(T) SBB
+   66    68    69      2    100    25 ; SER(T)-LYS(C) SBB
+   71    72    73      2    100    25 ; GLY(S)-LEU(E) SBB
+   74    75    76      2    100    25 ; GLY(E)-LYS(E) SBB
+   75    78    79      2    100    25 ; LYS(E)-THR(C) SBB
+   78    80    81      2    100    25 ; THR(C)-LEU(C) SBB
+   80    82    83      2    100    25 ; LEU(C)-ASP(T) SBB
+   82    84    85      2    100    25 ; ASP(T)-GLU(T) SBB
+   84    86    87      2    100    25 ; GLU(T)-VAL(C) SBB
+   86    88    89      2    100    25 ; VAL(C)-THR(S) SBB
+   88    90    91      2    100    25 ; THR(S)-VAL(S) SBB
+   90    92    93      2    100    25 ; VAL(S)-THR(C) SBB
+   92    94    95      2    100    25 ; THR(C)-ILE(C) SBB
+   94    96    97      2    100    25 ; ILE(C)-PRO(C) SBB
+   96    98    99      2    100    25 ; PRO(C)-HIS(C) SBB
+   98   102   103      2    100    25 ; HIS(C)-ASP(S) SBB
+  102   104   105      2    100    25 ; ASP(S)-ILE(E) SBB
+  104   106   107      2    100    25 ; ILE(E)-TYR(E) SBB
+  106   110   111      2    100    25 ; TYR(E)-VAL(E) SBB
+  110   112   113      2    100    25 ; VAL(E)-PHE(E) SBB
+  116   117   118      2    100    25 ; GLY(E)-THR(E) SBB
+  117   119   120      2    100    25 ; THR(E)-GLN(E) SBB
+  119   121   122      2    100    25 ; GLN(E)-GLU(S) SBB
+  121   123   124      2    100    25 ; GLU(S)-ASN(C) SBB
+  123   125   126      2    100    25 ; ASN(C)-SER(C) SBB
+  125   127   128      2    100    25 ; SER(C)-VAL(S) SBB
+  129   130   131      2    100    25 ; GLY(C)-ASP(1) SBB
+  130   132   133      2    100    25 ; ASP(1)-ARG(1) SBB
+  132   135   136      2    100    25 ; ARG(1)-GLU(1) SBB
+  135   137   138      2    100    25 ; GLU(1)-TRP(1) SBB
+  137   142   143      2    100    25 ; TRP(1)-LEU(H) SBB
+  142   144   145      2    100    25 ; LEU(H)-ASP(H) SBB
+  144   146   147      2    100    25 ; ASP(H)-LEU(H) SBB
+  146   148   149      2    100    25 ; LEU(H)-LEU(H) SBB
+  148   150   151      2    100    25 ; LEU(H)-ARG(H) SBB
+  154   155   156      2    100    25 ; GLY(H)-LEU(H) SBB
+  155   157   158      2    100    25 ; LEU(H)-LYS(2) SBB
+  157   160   161      2    100    25 ; LYS(2)-GLU(2) SBB
+  160   162   163      2    100    25 ; GLU(2)-LEU(2) SBB
+  162   164   165      2    100    25 ; LEU(2)-THR(2) SBB
+  164   166   167      2    100    25 ; THR(2)-ASP(S) SBB
+  166   168   169      2    100    25 ; ASP(S)-LEU(S) SBB
+  168   170   171      2    100    25 ; LEU(S)-ASP(C) SBB
+  170   172   173      2    100    25 ; ASP(C)-TYR(C) SBB
+  172   176   177      2    100    25 ; TYR(C)-ARG(E) SBB
+  176   179   180      2    100    25 ; ARG(E)-PRO(E) SBB
+  179   181   182      2    100    25 ; PRO(E)-ILE(E) SBB
+  183   184   185      2    100    25 ; ALA(E)-MET(E) SBB
+  184   186   187      2    100    25 ; MET(E)-GLN(E) SBB
+  186   188   189      2    100    25 ; GLN(E)-SER(E) SBB
+  188   190   191      2    100    25 ; SER(E)-LEU(E) SBB
+  190   192   193      2    100    25 ; LEU(E)-TRP(T) SBB
+  192   197   198      2    100    25 ; TRP(T)-ASN(T) SBB
+  197   199   200      2    100    25 ; ASN(T)-ILE(E) SBB
+  199   201   202      2    100    25 ; ILE(E)-LYS(E) SBB
+  201   204   205      2    100    25 ; LYS(E)-VAL(E) SBB
+  206   207   208      2    100    25 ; ALA(E)-VAL(E) SBB
+  207   209   210      2    100    25 ; VAL(E)-LEU(E) SBB
+  209   211   212      2    100    25 ; LEU(E)-VAL(E) SBB
+  211   213   214      2    100    25 ; VAL(E)-LYS(C) SBB
+  213   216   217      2    100    25 ; LYS(C)-PRO(C) SBB
+  216   218   219      2    100    25 ; PRO(C)-GLU(C) SBB
+  218   220   221      2    100    25 ; GLU(C)-HIS(C) SBB
+  220   224   225      2    100    25 ; HIS(C)-GLU(C) SBB
+  224   226   227      2    100    25 ; GLU(C)-ASN(C) SBB
+  226   228   229      2    100    25 ; ASN(C)-ARG(C) SBB
+  228   231   232      2    100    25 ; ARG(C)-ILE(E) SBB
+  231   233   234      2    100    25 ; ILE(E)-SER(E) SBB
+  233   235   236      2    100    25 ; SER(E)-HIS(E) SBB
+  235   239   240      2    100    25 ; HIS(E)-VAL(E) SBB
+  239   241   242      2    100    25 ; VAL(E)-SER(E) SBB
+  241   243   244      2    100    25 ; SER(E)-THR(E) SBB
+  243   245   246      2    100    25 ; THR(E)-SER(E) SBB
+  245   247   248      2    100    25 ; SER(E)-SER(E) SBB
+  247   249   250      2    100    25 ; SER(E)-VAL(E) SBB
+  249   251   252      2    100    25 ; VAL(E)-LYS(E) SBB
+  251   254   255      2    100    25 ; LYS(E)-THR(C) SBB
+  256   257   258      2    100    25 ; GLY(C)-ILE(S) SBB
+  259   260   261      2    100    25 ; ALA(S)-ASN(T) SBB
+  260   262   263      2    100    25 ; ASN(T)-THR(T) SBB
+  262   264   265      2    100    25 ; THR(T)-LEU(C) SBB
+  266   267   268      2    100    25 ; GLY(C)-ASN(S) SBB
+  267   269   270      2    100    25 ; ASN(S)-LYS(C) SBB
+  273   274   275      2    100    25 ; ALA(E)-VAL(E) SBB
+  276   277   278      2    100    25 ; GLY(E)-VAL(E) SBB
+  277   279   280      2    100    25 ; VAL(E)-SER(E) SBB
+  279   281   282      2    100    25 ; SER(E)-PHE(E) SBB
+  281   285   286      2    100    25 ; PHE(E)-MET(E) SBB
+  285   287   288      2    100    25 ; MET(E)-PHE(E) SBB
+  287   291   292      2    100    25 ; PHE(E)-ASN(T) SBB
+  293   294   295      2    100    25 ; GLY(T)-THR(E) SBB
+  294   296   297      2    100    25 ; THR(E)-SER(E) SBB
+  296   298   299      2    100    25 ; SER(E)-PHE(E) SBB
+  302   303   304      2    100    25 ; GLY(E)-PHE(E) SBB
+  303   307   308      2    100    25 ; PHE(E)-VAL(E) SBB
+  307   309   310      2    100    25 ; VAL(E)-ASN(E) SBB
+  309   311   312      2    100    25 ; ASN(E)-CYS(E) SBB
+  311   313   314      2    100    25 ; CYS(E)-HIS(E) SBB
+  313   317   318      2    100    25 ; HIS(E)-LEU(C) SBB
+  317   319   320      2    100    25 ; LEU(C)-THR(C) SBB
+  319   321   322      2    100    25 ; THR(C)-SER(C) SBB
+  323   324   325      2    100    25 ; GLY(S)-ASN(T) SBB
+  324   326   327      2    100    25 ; ASN(T)-GLU(T) SBB
+  326   328   329      2    100    25 ; GLU(T)-LYS(C) SBB
+  328   331   332      2    100    25 ; LYS(C)-THR(1) SBB
+  333   334   335      2    100    25 ; ALA(1)-ARG(1) SBB
+  334   337   338      2    100    25 ; ARG(1)-ARG(1) SBB
+  337   340   341      2    100    25 ; ARG(1)-ASN(H) SBB
+  340   342   343      2    100    25 ; ASN(H)-GLN(H) SBB
+  342   344   345      2    100    25 ; GLN(H)-ASN(H) SBB
+  344   346   347      2    100    25 ; ASN(H)-TYR(H) SBB
+  346   350   351      2    100    25 ; TYR(H)-LEU(H) SBB
+  350   352   353      2    100    25 ; LEU(H)-ASP(H) SBB
+  352   354   355      2    100    25 ; ASP(H)-ILE(2) SBB
+  354   356   357      2    100    25 ; ILE(2)-LEU(2) SBB
+  356   358   359      2    100    25 ; LEU(2)-ARG(2) SBB
+  358   361   362      2    100    25 ; ARG(2)-LEU(2) SBB
+  361   363   364      2    100    25 ; LEU(2)-LEU(C) SBB
+  363   365   366      2    100    25 ; LEU(C)-SER(C) SBB
+  365   367   368      2    100    25 ; SER(C)-LEU(C) SBB
+  369   370   371      2    100    25 ; GLY(C)-ASP(S) SBB
+  370   372   373      2    100    25 ; ASP(S)-ARG(S) SBB
+  372   375   376      2    100    25 ; ARG(S)-GLN(C) SBB
+  375   377   378      2    100    25 ; GLN(C)-LEU(C) SBB
+  377   379   380      2    100    25 ; LEU(C)-ASN(T) SBB
+  381   382   383      2    100    25 ; ALA(T)-PHE(C) SBB
+  382   386   387      2    100    25 ; PHE(C)-ASP(C) SBB
+  386   388   389      2    100    25 ; ASP(C)-ILE(3) SBB
+  388   390   391      2    100    25 ; ILE(3)-SER(3) SBB
+  390   392   393      2    100    25 ; SER(3)-LEU(3) SBB
+  392   394   395      2    100    25 ; LEU(3)-ARG(3) SBB
+  394   397   398      2    100    25 ; ARG(3)-PHE(S) SBB
+  397   401   402      2    100    25 ; PHE(S)-THR(S) SBB
+  401   403   404      2    100    25 ; THR(S)-HIS(E) SBB
+  403   407   408      2    100    25 ; HIS(E)-LEU(E) SBB
+  407   409   410      2    100    25 ; LEU(E)-PHE(E) SBB
+  409   413   414      2    100    25 ; PHE(E)-TRP(E) SBB
+  413   418   419      2    100    25 ; TRP(E)-PHE(E) SBB
+  422   423   424      2    100    25 ; GLY(E)-ASP(E) SBB
+  423   425   426      2    100    25 ; ASP(E)-LEU(C) SBB
+  425   427   428      2    100    25 ; LEU(C)-ASN(C) SBB
+  427   429   430      2    100    25 ; ASN(C)-TYR(C) SBB
+  429   433   434      2    100    25 ; TYR(C)-ARG(C) SBB
+  433   436   437      2    100    25 ; ARG(C)-LEU(C) SBB
+  436   438   439      2    100    25 ; LEU(C)-ASP(S) SBB
+  438   440   441      2    100    25 ; ASP(S)-MET(S) SBB
+  440   442   443      2    100    25 ; MET(S)-ASP(C) SBB
+  442   444   445      2    100    25 ; ASP(C)-ILE(1) SBB
+  444   446   447      2    100    25 ; ILE(1)-GLN(1) SBB
+  446   448   449      2    100    25 ; GLN(1)-GLU(1) SBB
+  448   450   451      2    100    25 ; GLU(1)-ILE(1) SBB
+  450   452   453      2    100    25 ; ILE(1)-LEU(H) SBB
+  452   454   455      2    100    25 ; LEU(H)-ASN(2) SBB
+  454   456   457      2    100    25 ; ASN(2)-TYR(2) SBB
+  456   460   461      2    100    25 ; TYR(2)-ILE(2) SBB
+  460   462   463      2    100    25 ; ILE(2)-SER(2) SBB
+  462   464   465      2    100    25 ; SER(2)-ARG(T) SBB
+  464   467   468      2    100    25 ; ARG(T)-LYS(T) SBB
+  467   470   471      2    100    25 ; LYS(T)-GLU(C) SBB
+  470   472   473      2    100    25 ; GLU(C)-PHE(C) SBB
+  472   476   477      2    100    25 ; PHE(C)-GLU(3) SBB
+  476   478   479      2    100    25 ; GLU(3)-PRO(3) SBB
+  478   480   481      2    100    25 ; PRO(3)-LEU(3) SBB
+  480   482   483      2    100    25 ; LEU(3)-LEU(3) SBB
+  482   484   485      2    100    25 ; LEU(3)-ARG(T) SBB
+  484   487   488      2    100    25 ; ARG(T)-VAL(T) SBB
+  487   489   490      2    100    25 ; VAL(T)-ASP(C) SBB
+  489   491   492      2    100    25 ; ASP(C)-GLN(1) SBB
+  491   493   494      2    100    25 ; GLN(1)-LEU(1) SBB
+  493   495   496      2    100    25 ; LEU(1)-ASN(1) SBB
+  495   497   498      2    100    25 ; ASN(1)-LEU(3) SBB
+  497   499   500      2    100    25 ; LEU(3)-GLU(2) SBB
+  499   501   502      2    100    25 ; GLU(2)-ARG(2) SBB
+  501   504   505      2    100    25 ; ARG(2)-GLU(2) SBB
+  504   506   507      2    100    25 ; GLU(2)-LYS(T) SBB
+  506   509   510      2    100    25 ; LYS(T)-HIS(T) SBB
+  509   513   514      2    100    25 ; HIS(T)-LYS(S) SBB
+  513   516   517      2    100    25 ; LYS(S)-VAL(S) SBB
+  516   518   519      2    100    25 ; VAL(S)-PHE(S) SBB
+  518   522   523      2    100    25 ; PHE(S)-LEU(T) SBB
+  522   524   525      2    100    25 ; LEU(T)-ARG(T) SBB
+  524   527   528      2    100    25 ; ARG(T)-PHE(C) SBB
+  527   531   532      2    100    25 ; PHE(C)-SER(C) SBB
+  531   533   534      2    100    25 ; SER(C)-GLU(C) SBB
+  533   535   536      2    100    25 ; GLU(C)-GLU(C) SBB
+  535   537   538      2    100    25 ; GLU(C)-GLU(C) SBB
+  537   539   540      2    100    25 ; GLU(C)-ILE(C) SBB
+  539   541   542      2    100    25 ; ILE(C)-SER(C) SBB
+  541   543   544      2    100    25 ; SER(C)-PHE(S) SBB
+  543   547   548      2    100    25 ; PHE(S)-PRO(C) SBB
+  547   549   550      2    100    25 ; PRO(C)-PRO(C) SBB
+  549   551   552      2    100    25 ; PRO(C)-THR(C) SBB
+  551   553   554      2    100    25 ; THR(C)-TYR(C) SBB
+  553   557   558      2    100    25 ; TYR(C)-ARG(C) SBB
+  557   560   561      2    100    25 ; ARG(C)-TYR(C) SBB
+  560   564   565      2    100    25 ; TYR(C)-GLU(C) SBB
+  564   566   567      2    100    25 ; GLU(C)-ARG(T) SBB
+  569   570   571      2    100    25 ; GLY(T)-SER(C) SBB
+  570   572   573      2    100    25 ; SER(C)-ARG(S) SBB
+  572   575   576      2    100    25 ; ARG(S)-ASP(S) SBB
+  575   577   578      2    100    25 ; ASP(S)-THR(C) SBB
+  577   579   580      2    100    25 ; THR(C)-TYR(C) SBB
+  583   584   585      2    100    25 ; ALA(C)-TRP(C) SBB
+  584   589   590      2    100    25 ; TRP(C)-HIS(C) SBB
+  589   593   594      2    100    25 ; HIS(C)-LYS(S) SBB
+  593   596   597      2    100    25 ; LYS(S)-GLN(C) SBB
+  596   598   599      2    100    25 ; GLN(C)-LYS(C) SBB
+  598   601   602      2    100    25 ; LYS(C)-PRO(C) SBB
+  601   603   604      2    100    25 ; PRO(C)-THR(T) SBB
+  605   606   607      2    100    25 ; GLY(T)-VAL(C) SBB
+  606   608   609      2    100    25 ; VAL(C)-ARG(C) SBB
+  608   611   612      2    100    25 ; ARG(C)-THR(C) SBB
+  611   613   614      2    100    25 ; THR(C)-ASN(C) SBB
+  613   615   616      2    100    25 ; ASN(C)-VAL(C) SBB
+  615   617   618      2    100    25 ; VAL(C)-PRO(C) SBB
+  617   619   620      2    100    25 ; PRO(C)-SER(C) SBB
+  619   621   622      2    100    25 ; SER(C)-TRP(C) SBB
+  621   626   627      2    100    25 ; TRP(C)-CYS(C) SBB
+  626   628   629      2    100    25 ; CYS(C)-ASP(E) SBB
+  628   630   631      2    100    25 ; ASP(E)-ARG(E) SBB
+  630   633   634      2    100    25 ; ARG(E)-ILE(E) SBB
+  633   635   636      2    100    25 ; ILE(E)-LEU(E) SBB
+  635   637   638      2    100    25 ; LEU(E)-TRP(E) SBB
+  637   642   643      2    100    25 ; TRP(E)-LYS(E) SBB
+  642   645   646      2    100    25 ; LYS(E)-SER(E) SBB
+  645   647   648      2    100    25 ; SER(E)-TYR(C) SBB
+  647   651   652      2    100    25 ; TYR(C)-PRO(T) SBB
+  651   653   654      2    100    25 ; PRO(T)-GLU(T) SBB
+  653   655   656      2    100    25 ; GLU(T)-THR(C) SBB
+  655   657   658      2    100    25 ; THR(C)-HIS(C) SBB
+  657   661   662      2    100    25 ; HIS(C)-ILE(E) SBB
+  661   663   664      2    100    25 ; ILE(E)-ILE(E) SBB
+  663   665   666      2    100    25 ; ILE(E)-CYS(E) SBB
+  665   667   668      2    100    25 ; CYS(E)-ASN(E) SBB
+  667   669   670      2    100    25 ; ASN(E)-SER(E) SBB
+  669   671   672      2    100    25 ; SER(E)-TYR(E) SBB
+  675   676   677      2    100    25 ; GLY(E)-CYS(E) SBB
+  676   678   679      2    100    25 ; CYS(E)-THR(C) SBB
+  678   680   681      2    100    25 ; THR(C)-ASP(S) SBB
+  680   682   683      2    100    25 ; ASP(S)-ASP(S) SBB
+  682   684   685      2    100    25 ; ASP(S)-ILE(C) SBB
+  684   686   687      2    100    25 ; ILE(C)-VAL(C) SBB
+  686   688   689      2    100    25 ; VAL(C)-THR(S) SBB
+  688   690   691      2    100    25 ; THR(S)-SER(S) SBB
+  690   692   693      2    100    25 ; SER(S)-ASP(S) SBB
+  692   694   695      2    100    25 ; ASP(S)-HIS(S) SBB
+  694   698   699      2    100    25 ; HIS(S)-SER(C) SBB
+  698   700   701      2    100    25 ; SER(C)-PRO(C) SBB
+  700   702   703      2    100    25 ; PRO(C)-VAL(E) SBB
+  702   704   705      2    100    25 ; VAL(E)-PHE(E) SBB
+  708   709   710      2    100    25 ; GLY(E)-THR(E) SBB
+  709   711   712      2    100    25 ; THR(E)-PHE(E) SBB
+  711   715   716      2    100    25 ; PHE(E)-GLU(E) SBB
+  715   717   718      2    100    25 ; GLU(E)-VAL(E) SBB
+  719   720   721      2    100    25 ; GLY(E)-VAL(C) SBB
+  720   722   723      2    100    25 ; VAL(C)-THR(C) SBB
+  722   724   725      2    100    25 ; THR(C)-SER(C) SBB
+; Sidechain angles
+   15    16    17      2    150    50 ; PHE
+   15    16    18      2    150    50 ; PHE
+   24    25    26      2    210    50 ; TRP
+   24    25    27      2     90    50 ; TRP
+   44    45    46      2    180    25 ; LYS
+   55    56    57      2    210    50 ; TRP
+   55    56    58      2     90    50 ; TRP
+   60    61    62      2    150    50 ; PHE
+   60    61    63      2    150    50 ; PHE
+   68    69    70      2    180    25 ; LYS
+   75    76    77      2    180    25 ; LYS
+   98    99   100      2    150    50 ; HIS
+   98    99   101      2    150    50 ; HIS
+  106   107   108      2    150    50 ; TYR
+  106   107   109      2    150    50 ; TYR
+  112   113   114      2    150    50 ; PHE
+  112   113   115      2    150    50 ; PHE
+  132   133   134      2    180    25 ; ARG
+  137   138   139      2    210    50 ; TRP
+  137   138   140      2     90    50 ; TRP
+  150   151   152      2    180    25 ; ARG
+  157   158   159      2    180    25 ; LYS
+  172   173   174      2    150    50 ; TYR
+  172   173   175      2    150    50 ; TYR
+  176   177   178      2    180    25 ; ARG
+  192   193   194      2    210    50 ; TRP
+  192   193   195      2     90    50 ; TRP
+  201   202   203      2    180    25 ; LYS
+  213   214   215      2    180    25 ; LYS
+  220   221   222      2    150    50 ; HIS
+  220   221   223      2    150    50 ; HIS
+  228   229   230      2    180    25 ; ARG
+  235   236   237      2    150    50 ; HIS
+  235   236   238      2    150    50 ; HIS
+  251   252   253      2    180    25 ; LYS
+  269   270   271      2    180    25 ; LYS
+  281   282   283      2    150    50 ; PHE
+  281   282   284      2    150    50 ; PHE
+  287   288   289      2    150    50 ; PHE
+  287   288   290      2    150    50 ; PHE
+  298   299   300      2    150    50 ; PHE
+  298   299   301      2    150    50 ; PHE
+  303   304   305      2    150    50 ; PHE
+  303   304   306      2    150    50 ; PHE
+  313   314   315      2    150    50 ; HIS
+  313   314   316      2    150    50 ; HIS
+  328   329   330      2    180    25 ; LYS
+  334   335   336      2    180    25 ; ARG
+  337   338   339      2    180    25 ; ARG
+  346   347   348      2    150    50 ; TYR
+  346   347   349      2    150    50 ; TYR
+  358   359   360      2    180    25 ; ARG
+  372   373   374      2    180    25 ; ARG
+  382   383   384      2    150    50 ; PHE
+  382   383   385      2    150    50 ; PHE
+  394   395   396      2    180    25 ; ARG
+  397   398   399      2    150    50 ; PHE
+  397   398   400      2    150    50 ; PHE
+  403   404   405      2    150    50 ; HIS
+  403   404   406      2    150    50 ; HIS
+  409   410   411      2    150    50 ; PHE
+  409   410   412      2    150    50 ; PHE
+  413   414   415      2    210    50 ; TRP
+  413   414   416      2     90    50 ; TRP
+  418   419   420      2    150    50 ; PHE
+  418   419   421      2    150    50 ; PHE
+  429   430   431      2    150    50 ; TYR
+  429   430   432      2    150    50 ; TYR
+  433   434   435      2    180    25 ; ARG
+  456   457   458      2    150    50 ; TYR
+  456   457   459      2    150    50 ; TYR
+  464   465   466      2    180    25 ; ARG
+  467   468   469      2    180    25 ; LYS
+  472   473   474      2    150    50 ; PHE
+  472   473   475      2    150    50 ; PHE
+  484   485   486      2    180    25 ; ARG
+  501   502   503      2    180    25 ; ARG
+  506   507   508      2    180    25 ; LYS
+  509   510   511      2    150    50 ; HIS
+  509   510   512      2    150    50 ; HIS
+  513   514   515      2    180    25 ; LYS
+  518   519   520      2    150    50 ; PHE
+  518   519   521      2    150    50 ; PHE
+  524   525   526      2    180    25 ; ARG
+  527   528   529      2    150    50 ; PHE
+  527   528   530      2    150    50 ; PHE
+  543   544   545      2    150    50 ; PHE
+  543   544   546      2    150    50 ; PHE
+  553   554   555      2    150    50 ; TYR
+  553   554   556      2    150    50 ; TYR
+  557   558   559      2    180    25 ; ARG
+  560   561   562      2    150    50 ; TYR
+  560   561   563      2    150    50 ; TYR
+  566   567   568      2    180    25 ; ARG
+  572   573   574      2    180    25 ; ARG
+  579   580   581      2    150    50 ; TYR
+  579   580   582      2    150    50 ; TYR
+  584   585   586      2    210    50 ; TRP
+  584   585   587      2     90    50 ; TRP
+  589   590   591      2    150    50 ; HIS
+  589   590   592      2    150    50 ; HIS
+  593   594   595      2    180    25 ; LYS
+  598   599   600      2    180    25 ; LYS
+  608   609   610      2    180    25 ; ARG
+  621   622   623      2    210    50 ; TRP
+  621   622   624      2     90    50 ; TRP
+  630   631   632      2    180    25 ; ARG
+  637   638   639      2    210    50 ; TRP
+  637   638   640      2     90    50 ; TRP
+  642   643   644      2    180    25 ; LYS
+  647   648   649      2    150    50 ; TYR
+  647   648   650      2    150    50 ; TYR
+  657   658   659      2    150    50 ; HIS
+  657   658   660      2    150    50 ; HIS
+  671   672   673      2    150    50 ; TYR
+  671   672   674      2    150    50 ; TYR
+  694   695   696      2    150    50 ; HIS
+  694   695   697      2    150    50 ; HIS
+  704   705   706      2    150    50 ; PHE
+  704   705   707      2    150    50 ; PHE
+  711   712   713      2    150    50 ; PHE
+  711   712   714      2    150    50 ; PHE
+
+[ dihedrals ]
+; Backbone dihedrals
+   51    53    55    60      1   -120   400     1 ; THR(3)-SER(3)-TRP(3)-PHE(3)
+  130   132   135   137      1   -120   400     1 ; ASP(1)-ARG(1)-GLU(1)-TRP(1)
+  132   135   137   142      1   -120   400     1 ; ARG(1)-GLU(1)-TRP(1)-LEU(H)
+  135   137   142   144      1   -120   400     1 ; GLU(1)-TRP(1)-LEU(H)-ASP(H)
+  137   142   144   146      1   -120   400     1 ; TRP(1)-LEU(H)-ASP(H)-LEU(H)
+  142   144   146   148      1   -120   400     1 ; LEU(H)-ASP(H)-LEU(H)-LEU(H)
+  144   146   148   150      1   -120   400     1 ; ASP(H)-LEU(H)-LEU(H)-ARG(H)
+  146   148   150   153      1   -120   400     1 ; LEU(H)-LEU(H)-ARG(H)-GLY(H)
+  148   150   153   154      1   -120   400     1 ; LEU(H)-ARG(H)-GLY(H)-GLY(H)
+  150   153   154   155      1   -120   400     1 ; ARG(H)-GLY(H)-GLY(H)-LEU(H)
+  153   154   155   157      1   -120   400     1 ; GLY(H)-GLY(H)-LEU(H)-LYS(2)
+  154   155   157   160      1   -120   400     1 ; GLY(H)-LEU(H)-LYS(2)-GLU(2)
+  155   157   160   162      1   -120   400     1 ; LEU(H)-LYS(2)-GLU(2)-LEU(2)
+  157   160   162   164      1   -120   400     1 ; LYS(2)-GLU(2)-LEU(2)-THR(2)
+  331   333   334   337      1   -120   400     1 ; THR(1)-ALA(1)-ARG(1)-ARG(1)
+  333   334   337   340      1   -120   400     1 ; ALA(1)-ARG(1)-ARG(1)-ASN(H)
+  334   337   340   342      1   -120   400     1 ; ARG(1)-ARG(1)-ASN(H)-GLN(H)
+  337   340   342   344      1   -120   400     1 ; ARG(1)-ASN(H)-GLN(H)-ASN(H)
+  340   342   344   346      1   -120   400     1 ; ASN(H)-GLN(H)-ASN(H)-TYR(H)
+  342   344   346   350      1   -120   400     1 ; GLN(H)-ASN(H)-TYR(H)-LEU(H)
+  344   346   350   352      1   -120   400     1 ; ASN(H)-TYR(H)-LEU(H)-ASP(H)
+  346   350   352   354      1   -120   400     1 ; TYR(H)-LEU(H)-ASP(H)-ILE(2)
+  350   352   354   356      1   -120   400     1 ; LEU(H)-ASP(H)-ILE(2)-LEU(2)
+  352   354   356   358      1   -120   400     1 ; ASP(H)-ILE(2)-LEU(2)-ARG(2)
+  354   356   358   361      1   -120   400     1 ; ILE(2)-LEU(2)-ARG(2)-LEU(2)
+  388   390   392   394      1   -120   400     1 ; ILE(3)-SER(3)-LEU(3)-ARG(3)
+  444   446   448   450      1   -120   400     1 ; ILE(1)-GLN(1)-GLU(1)-ILE(1)
+  446   448   450   452      1   -120   400     1 ; GLN(1)-GLU(1)-ILE(1)-LEU(H)
+  448   450   452   454      1   -120   400     1 ; GLU(1)-ILE(1)-LEU(H)-ASN(2)
+  450   452   454   456      1   -120   400     1 ; ILE(1)-LEU(H)-ASN(2)-TYR(2)
+  452   454   456   460      1   -120   400     1 ; LEU(H)-ASN(2)-TYR(2)-ILE(2)
+  454   456   460   462      1   -120   400     1 ; ASN(2)-TYR(2)-ILE(2)-SER(2)
+  476   478   480   482      1   -120   400     1 ; GLU(3)-PRO(3)-LEU(3)-LEU(3)
+  491   493   495   497      1   -120   400     1 ; GLN(1)-LEU(1)-ASN(1)-LEU(3)
+  493   495   497   499      1   -120   400     1 ; LEU(1)-ASN(1)-LEU(3)-GLU(2)
+  495   497   499   501      1   -120   400     1 ; ASN(1)-LEU(3)-GLU(2)-ARG(2)
+  497   499   501   504      1   -120   400     1 ; LEU(3)-GLU(2)-ARG(2)-GLU(2)
+; Sidechain improper dihedrals
+   15    17    18    16      2      0    50 ; PHE
+   24    26    27    25      2      0    50 ; TRP
+   25    26    28    27      2      0   200 ; TRP
+   55    57    58    56      2      0    50 ; TRP
+   56    57    59    58      2      0   200 ; TRP
+   60    62    63    61      2      0    50 ; PHE
+   98   100   101    99      2      0    50 ; HIS
+  106   108   109   107      2      0    50 ; TYR
+  112   114   115   113      2      0    50 ; PHE
+  137   139   140   138      2      0    50 ; TRP
+  138   139   141   140      2      0   200 ; TRP
+  172   174   175   173      2      0    50 ; TYR
+  192   194   195   193      2      0    50 ; TRP
+  193   194   196   195      2      0   200 ; TRP
+  220   222   223   221      2      0    50 ; HIS
+  235   237   238   236      2      0    50 ; HIS
+  281   283   284   282      2      0    50 ; PHE
+  287   289   290   288      2      0    50 ; PHE
+  298   300   301   299      2      0    50 ; PHE
+  303   305   306   304      2      0    50 ; PHE
+  313   315   316   314      2      0    50 ; HIS
+  346   348   349   347      2      0    50 ; TYR
+  382   384   385   383      2      0    50 ; PHE
+  397   399   400   398      2      0    50 ; PHE
+  403   405   406   404      2      0    50 ; HIS
+  409   411   412   410      2      0    50 ; PHE
+  413   415   416   414      2      0    50 ; TRP
+  414   415   417   416      2      0   200 ; TRP
+  418   420   421   419      2      0    50 ; PHE
+  429   431   432   430      2      0    50 ; TYR
+  456   458   459   457      2      0    50 ; TYR
+  472   474   475   473      2      0    50 ; PHE
+  509   511   512   510      2      0    50 ; HIS
+  518   520   521   519      2      0    50 ; PHE
+  527   529   530   528      2      0    50 ; PHE
+  543   545   546   544      2      0    50 ; PHE
+  553   555   556   554      2      0    50 ; TYR
+  560   562   563   561      2      0    50 ; TYR
+  579   581   582   580      2      0    50 ; TYR
+  584   586   587   585      2      0    50 ; TRP
+  585   586   588   587      2      0   200 ; TRP
+  589   591   592   590      2      0    50 ; HIS
+  621   623   624   622      2      0    50 ; TRP
+  622   623   625   624      2      0   200 ; TRP
+  637   639   640   638      2      0    50 ; TRP
+  638   639   641   640      2      0   200 ; TRP
+  647   649   650   648      2      0    50 ; TYR
+  657   659   660   658      2      0    50 ; HIS
+  671   673   674   672      2      0    50 ; TYR
+  694   696   697   695      2      0    50 ; HIS
+  704   706   707   705      2      0    50 ; PHE
+  711   713   714   712      2      0    50 ; PHE

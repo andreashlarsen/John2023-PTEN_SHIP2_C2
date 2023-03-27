@@ -1,0 +1,32 @@
+# Restart command if you wish to append to existing file
+#RESTART
+
+# define units, default: nm, kj/mol, ps
+UNITS LENGTH=nm ENERGY=kj/mol TIME=ns
+
+# define protein group
+protein: GROUP ATOMS=1-299
+
+# get COM of protein
+com_prot: COM ATOMS=protein
+
+# define lipid group
+bilayer: GROUP ATOMS=300-2299
+
+# get COM of bilayer 
+com_lip: COM ATOMS=bilayer
+
+# get distance from bilayer to protein
+dist_prot_lip: DISTANCE ATOMS=com_lip,com_prot COMPONENTS
+
+# define bias potential: "the roof"
+roof: UPPER_WALLS ARG=dist_prot_lip.z AT=7.00 KAPPA=50 EXP=2 EPS=1 OFFSET=0
+
+# def angle to be restraint, 69Q and 148T = bead 121 and 252 
+theta: ZANGLES ATOMS1=54,186 MEAN
+
+# define bias potential: "angular walls" (1.57 rad = 90 deg)
+ang_wall: LOWER_WALLS ARG=theta.mean AT=1.57 KAPPA=0 EXP=2 OFFSET=0
+
+# print to file every 10k step
+PRINT STRIDE=10000 ARG=dist_prot_lip.z,roof.bias,theta.mean,ang_wall.bias FILE=COLVAR
