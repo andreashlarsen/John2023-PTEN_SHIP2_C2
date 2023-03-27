@@ -1,4 +1,4 @@
-# John2023
+# John2023-PTEN_SHIP2
 All scripts for John et al (2023) Membranes
 
 preprint: https://www.preprints.org/manuscript/202302.0282/v1
